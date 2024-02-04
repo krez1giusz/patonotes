@@ -40,7 +40,7 @@ const questions = [
             {
                 "text": "D) 20 - 380 bitów",
                 "correct": 0
-            },
+            }
         ]
     },
     {
