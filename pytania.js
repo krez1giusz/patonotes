@@ -1,7 +1,7 @@
 const questions = [
     {
         "pytanie": "Do jakich układów należy przerzutnik?",
-        "index": 1,
+        "alreadyGenerated": false,
         "answers": [
             {
                 "text": "A) Pamięciowych",
@@ -23,7 +23,7 @@ const questions = [
     },
     {
         "pytanie": "Podaj szerokość magistralii danych, obecnie produkowanych procesorów.",
-        "index": 2,
+        "alreadyGenerated": false,
         "answers": [
             {
                 "text": "A) 32 - 512 bitów ",
@@ -45,7 +45,7 @@ const questions = [
     },
     {
         "pytanie": "Jaką przestrzeń adresową posiada mikroprocesor z 32 bitową magistralą adresową?",
-        "index": 3,
+        "alreadyGenerated": false,
         "answers": [
             {
                 "text": "A) 2^32",
@@ -65,9 +65,9 @@ const questions = [
             }
         ]
     },
-{
+    {
     "pytanie": "Częstotliwość przebiegu zegarowego wynosi 200MHz. Okres tego przebiegu wynosi: ",
-    "index": 4,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) 10 nanosekund",
@@ -89,7 +89,7 @@ const questions = [
 },
 {
     "pytanie": "Co oznacza znajdujący się w dokumentacji technicznej płyty głównej parametr LGA 1366 albo AM3?",
-    "index": 5,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Gniazdo procesora",
@@ -111,7 +111,7 @@ const questions = [
 },
 {
     "pytanie": "Rejestr mikroprocesora zwany licznikiem rozkazów zawiera: ",
-    "index": 6,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Status aktualnie wykonanej operacji",
@@ -133,7 +133,7 @@ const questions = [
 },
 {
     "pytanie": "Pojedyncze złącze PCI Express 1.0 posiada przepustowość: ",
-    "index": 7,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) 210Mb\s",
@@ -155,7 +155,7 @@ const questions = [
 },
 {
     "pytanie": "Do porównywania liczb binarnych służą?",
-    "index": 8,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Komparatory",
@@ -177,7 +177,7 @@ const questions = [
 },
 {
     "pytanie": "Jak nazywa się najmniejsza planeta w Układzie Słonecznym?",
-    "index": 9,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Merkury",
@@ -199,7 +199,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można pić wodę z kranu w Polsce?",
-    "index": 10,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Tak, ale tylko po przegotowaniu",
@@ -221,7 +221,7 @@ const questions = [
 },
 {
     "pytanie": "Jak nazywa się najwyższa góra w Polsce?",
-    "index": 11,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Rysy",
@@ -243,7 +243,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można jeździć na rowerze bez kasku?",
-    "index": 12,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Tak, ale tylko na chodniku",
@@ -265,7 +265,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można zrobić tort z ogórków?",
-    "index": 13,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Tak, ale tylko z kiszonych",
@@ -287,7 +287,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można pływać w Wiśle?",
-    "index": 14,
+    "alreadyGenerated": false,
     "answers": [
         {
             "text": "A) Tak, ale tylko w kajaku",
