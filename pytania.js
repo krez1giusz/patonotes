@@ -126,51 +126,51 @@ const questions = [
             "correct": 0
         },
         {
-            "text": "D) Barbie",
+            "text": "D) Adres wcześniej wykonywanego rozkazu",
             "correct": 0
         }
     ]
 },
 {
-    "pytanie": "Czy można zjeść żabę?",
+    "pytanie": "Pojedyncze złącze PCI Express 1.0 posiada przepustowość: ",
     "index": 7,
     "answers": [
         {
-            "text": "A) Tak, ale tylko nogi",
+            "text": "A) 210Mb\s",
             "correct": 0
         },
         {
-            "text": "B) Nie, bo to obrzydliwe",
+            "text": "B) 180Mb\s",
             "correct": 0
         },
         {
-            "text": "C) Tak, ale tylko żywą",
+            "text": "C) 120Mb\s",
             "correct": 0
         },
         {
-            "text": "D) Nie, bo to zwierzę chronione",
+            "text": "D) 250Mb\s",
             "correct": 1
         }
     ]
 },
 {
-    "pytanie": "Co oznacza skrót LOL?",
+    "pytanie": "Do porównywania liczb binarnych służą?",
     "index": 8,
     "answers": [
         {
-            "text": "A) Laughing Out Loud",
+            "text": "A) Komparatory",
             "correct": 1
         },
         {
-            "text": "B) League Of Legends",
+            "text": "B) Kondensatory",
             "correct": 0
         },
         {
-            "text": "C) Lots Of Love",
+            "text": "C) Tranzystory",
             "correct": 0
         },
         {
-            "text": "D) Lekko Obrzydliwy Lubczyk",
+            "text": "D) Rezystory",
             "correct": 0
         }
     ]
@@ -307,7 +307,5 @@ const questions = [
         }
     ]
 },
-
-]
 
 ]
