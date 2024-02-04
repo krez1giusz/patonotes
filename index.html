@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PRAISE THE MARCIN</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="controlPanel">
+            <span>Ilość pytań: <input type="number" placeholder="1" value="1" id = "questionamount"></span>
+            <button class = 'controlBtn' onclick ='startExam()'>WYGENERUJ PYTANIA</button>
+        </div>
+        <div class="mainBox">
+            <div class="singleQuestion">
+                <span class='question'>
+                    1. Marcin zajebał fikołka. Ile zębów wybił?
+                </span>
+                <br><br><br>
+                <div class="questions">
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = true><span>A) Odpowiedz 1</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>B) Odpowiedz 2</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>C) Odpowiedz 3</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>D) Odpowiedz 4</span>
+                    </div>
+                    
+                </div>
+
+            </div> 
+            <div class="singleQuestion">
+                <span class='question'>
+                    1. Marcin zajebał fikołka. Ile zębów wybił?
+                </span>
+                <br><br><br>
+                <div class="questions">
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = true><span>A) Odpowiedz 1</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>B) Odpowiedz 2</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>C) Odpowiedz 3</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>D) Odpowiedz 4</span>
+                    </div>
+                    
+                </div>
+
+            </div> 
+            <div class="singleQuestion">
+                <span class='question'>
+                    1. Marcin zajebał fikołka. Ile zębów wybił?
+                </span>
+                <br><br><br>
+                <div class="questions">
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = true><span>A) Odpowiedz 1</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>B) Odpowiedz 2</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>C) Odpowiedz 3</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>D) Odpowiedz 4</span>
+                    </div>
+                    
+                </div>
+
+            </div> 
+            <div class="singleQuestion">
+                <span class='question'>
+                    1. Marcin zajebał fikołka. Ile zębów wybił?
+                </span>
+                <br><br><br>
+                <div class="questions">
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = true><span>A) Odpowiedz 1</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>B) Odpowiedz 2</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>C) Odpowiedz 3</span>
+                    </div>
+                    <div class="odpowiedz">
+                        <input type="checkbox" data-correct = false><span>D) Odpowiedz 4</span>
+                    </div>
+                    
+                </div>
+
+            </div> 
+            <button class = 'controlBtn' onclick = "checkQuestions()">SPRAWDŹ TEST</button>
+
+        </div> 
+        <script src="app.js" async defer></script>
+        <script src="pytania.js" async defer></script>
+
+    </body>
+</html>

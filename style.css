@@ -1,0 +1,59 @@
+body{
+    background-color:rgba(0,0,0,0.75);
+    color: white;
+    font-weight: bold;
+}
+
+.mainBox{
+    display:flex;
+    margin:0 auto;
+    height: fit-content;
+    width: 680px;    
+    background: rgba(0,0,0,0.6);
+    flex-direction: column;
+    border-radius: 8px;
+    gap:25px;
+    padding:35px 15px;
+    overflow: auto;
+    align-items: center;
+}
+
+
+
+.singleQuestion{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.question{
+    font-size: 32px;
+}
+
+
+
+.questions{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size:22px;
+    color:gray;
+    float:left;
+}
+
+.controlPanel{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    position: absolute;
+}
+
+.controlBtn{
+    width: fit-content;
+}
+
+.checkBtn{
+}
+
