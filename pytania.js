@@ -1,124 +1,128 @@
 const questions = [
     {
-        "pytanie": "Marcin zrobił fikołka, ile zębów stracił?",
-        "alreadyGenerated": false,
+        "pytanie": "Do jakich układów należy przerzutnik?",
+        "index": 1,
         "answers": [
             {
-                "text": "A) Cztery zęby",
+                "text": "A) Pamięciowych",
                 "correct": 1
             },
             {
-                "text": "B) Trzy zęby",
+                "text": "B) Operacyjnych",
                 "correct": 0
             },
             {
-                "text": "C) Jeden ząb",
-                "correct": 0
+                "text": "C) Sekwencyjnych",
+                "correct": 1
             },
             {
-                "text": "D) Dwa zęby",
+                "text": "D) Elektronicznych",
                 "correct": 0
             }
         ]
     },
     {
-        "pytanie": "Czy Wieś Żuków, leżąca nieopodal Gminy Sochaczew posiada dostęp do ciepłej wody i prądu?",
-        "alreadyGenerated": false,
+        "pytanie": "Podaj szerokość magistralii danych, obecnie produkowanych procesorów.",
+        "index": 2,
         "answers": [
             {
-                "text": "A) Tak",
-                "correct": 1
-            },
-            {
-                "text": "B) Nie",
+                "text": "A) 32 - 512 bitów ",
                 "correct": 0
             },
             {
-                "text": "C) To zbyt skomplikowane",
+                "text": "B) 64 - 512 bitów",
+                "correct": 1
+            },
+            {
+                "text": "C) 20 - 380 bajtów",
+                "correct": 0
+            },
+            {
+                "text": "D) 20 - 380 bitów",
                 "correct": 0
             },
         ]
     },
     {
-        "pytanie": "Jak nazywa się największy pies na świecie?",
-        "alreadyGenerated": false,
+        "pytanie": "Jaką przestrzeń adresową posiada mikroprocesor z 32 bitową magistralą adresową?",
+        "index": 3,
         "answers": [
             {
-                "text": "A) Clifford",
-                "correct": 0
-            },
-            {
-                "text": "B) Beethoven",
-                "correct": 0
-            },
-            {
-                "text": "C) Fido",
-                "correct": 0
-            },
-            {
-                "text": "D) Bigos",
+                "text": "A) 2^32",
                 "correct": 1
+            },
+            {
+                "text": "B) 3^66",
+                "correct": 0
+            },
+            {
+                "text": "C) 2^64",
+                "correct": 0
+            },
+            {
+                "text": "D) 4^20",
+                "correct": 0
             }
         ]
     },
 {
-    "pytanie": "Co zrobił Janek, gdy dowiedział się, że jego żona go zdradza?",
-    "alreadyGenerated": false,
+    "pytanie": "Częstotliwość przebiegu zegarowego wynosi 200MHz. Okres tego przebiegu wynosi: ",
+    "index": 4,
     "answers": [
         {
-            "text": "A) Zabił ją",
+            "text": "A) 10 nanosekund",
             "correct": 0
         },
         {
-            "text": "B) Zdradził ją z jej siostrą",
+            "text": "B) 15 nanosekund",
             "correct": 0
         },
         {
-            "text": "C) Zmienił hasło do Netflix",
+            "text": "C) 5 nanosekund",
             "correct": 1
         },
         {
-            "text": "D) Nic nie zrobił",
+            "text": "D) 20 nanosekund",
             "correct": 0
         }
     ]
 },
 {
-    "pytanie": "Czy można jeździć na nartach w Warszawie?",
-    "alreadyGenerated": false,
+    "pytanie": "Co oznacza znajdujący się w dokumentacji technicznej płyty głównej parametr LGA 1366 albo AM3?",
+    "index": 5,
     "answers": [
         {
-            "text": "A) Tak, na Kopcu Powstania Warszawskiego",
-            "correct": 0
-        },
-        {
-            "text": "B) Nie, bo nie ma tam śniegu",
-            "correct": 0
-        },
-        {
-            "text": "C) Tak, na lodowisku Torwar",
-            "correct": 0
-        },
-        {
-            "text": "D) Nie, bo to niebezpieczne",
+            "text": "A) Gniazdo procesora",
             "correct": 1
+        },
+        {
+            "text": "B) Zasilanie procesora",
+            "correct": 0
+        },
+        {
+            "text": "C) Gniazdo RAM",
+            "correct": 0
+        },
+        {
+            "text": "D) Gniazdo ATX",
+            "correct": 0
         }
     ]
 },
 {
-    "pytanie": "Kto jest autorem słynnej powieści „Lalka”?",
-    "alreadyGenerated": false,
+    "pytanie": "Rejestr mikroprocesora zwany licznikiem rozkazów zawiera: ",
+    "index": 6,
     "answers": [
         {
-            "text": "A) Bolesław Prus",
-            "correct": 1
-        },
-        {
-            "text": "B) Henryk Sienkiewicz",
+            "text": "A) Status aktualnie wykonanej operacji",
             "correct": 0
         },
         {
-            "text": "C) Adam Mickiewicz",
+            "text": "B) Adres kolejnego rozkazu",
+            "correct": 1
+        },
+        {
+            "text": "C) Adres stosu utworzonego w pamięci",
             "correct": 0
         },
         {
@@ -129,7 +133,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można zjeść żabę?",
-    "alreadyGenerated": false,
+    "index": 7,
     "answers": [
         {
             "text": "A) Tak, ale tylko nogi",
@@ -151,7 +155,7 @@ const questions = [
 },
 {
     "pytanie": "Co oznacza skrót LOL?",
-    "alreadyGenerated": false,
+    "index": 8,
     "answers": [
         {
             "text": "A) Laughing Out Loud",
@@ -173,7 +177,7 @@ const questions = [
 },
 {
     "pytanie": "Jak nazywa się najmniejsza planeta w Układzie Słonecznym?",
-    "alreadyGenerated": false,
+    "index": 9,
     "answers": [
         {
             "text": "A) Merkury",
@@ -195,7 +199,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można pić wodę z kranu w Polsce?",
-    "alreadyGenerated": false,
+    "index": 10,
     "answers": [
         {
             "text": "A) Tak, ale tylko po przegotowaniu",
@@ -217,7 +221,7 @@ const questions = [
 },
 {
     "pytanie": "Jak nazywa się najwyższa góra w Polsce?",
-    "alreadyGenerated": false,
+    "index": 11,
     "answers": [
         {
             "text": "A) Rysy",
@@ -239,7 +243,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można jeździć na rowerze bez kasku?",
-    "alreadyGenerated": false,
+    "index": 12,
     "answers": [
         {
             "text": "A) Tak, ale tylko na chodniku",
@@ -261,7 +265,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można zrobić tort z ogórków?",
-    "alreadyGenerated": false,
+    "index": 13,
     "answers": [
         {
             "text": "A) Tak, ale tylko z kiszonych",
@@ -283,7 +287,7 @@ const questions = [
 },
 {
     "pytanie": "Czy można pływać w Wiśle?",
-    "alreadyGenerated": false,
+    "index": 14,
     "answers": [
         {
             "text": "A) Tak, ale tylko w kajaku",
@@ -303,5 +307,7 @@ const questions = [
         }
     ]
 },
+
+]
 
 ]
