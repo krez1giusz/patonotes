@@ -175,137 +175,399 @@ const questions = [
         }
     ]
 },
+// WYKLAD 1
 {
-    "pytanie": "Jak nazywa się najmniejsza planeta w Układzie Słonecznym?",
+        "pytanie": "Czym jest Prawo Moore’a?",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Prawo empiryczne mówiące o podwajaniu się liczby tranzystorów w układach scalonych w określonych odcinkach czasu.",
+                "correct": 1
+            },
+            {
+                "text": "B) Prawo fizyczne opisujące zależność między temperaturą a wydzielaniem ciepła przez elementy elektroniczne.",
+                "correct": 0
+            },
+            {
+                "text": "C) Prawo dotyczące minimalnego wydatku energetycznego potrzebnego do wymazania jednego bitu informacji.",
+                "correct": 0
+            },
+            {
+                "text": "D) Prawo regulujące produkcję ciepła w procesorach na bazie krzemu.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest Zasada Landauera?",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Zasada mówiąca, że wymazanie jednego bitu informacji wiąże się z generowaniem ciepła.",
+                "correct": 0
+            },
+            {
+                "text": "B) Zasada opisująca minimalny koszt energetyczny wymazania jednego bitu informacji.",
+                "correct": 1
+            },
+            {
+                "text": "C) Zasada dotycząca maksymalnego napięcia, jakie można przyłożyć do tranzystora.",
+                "correct": 0
+            },
+            {
+                "text": "D) Zasada regulująca zagęszczenie elementów w procesorach.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie właściwości ma grafen?",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Jest elastyczny, przewodzi prąd lepiej niż miedź i ma właściwości bakteriobójcze.",
+                "correct": 0
+            },
+            {
+                "text": "B) Jest przezroczysty, ma grubość jednego atomu i jest 100 razy mocniejszy niż stal.",
+                "correct": 0
+            },
+            {
+                "text": "C) Przewodzi ciepło i jest świetnym przewodnikiem elektrycznym.",
+                "correct": 1
+            },
+            {
+                "text": "D) Wszystkie powyższe.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "W jakich dziedzinach może znaleźć zastosowanie grafen?",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Elektronika, przemysł kosmiczny, przemysł lotniczy i budowlany.",
+                "correct": 0
+            },
+            {
+                "text": "B) Produkcja energii odnawialnej, medycyna i ochrona środowiska.",
+                "correct": 0
+            },
+            {
+                "text": "C) Ekranów dotykowych, paneli baterii słonecznych i komputerów.",
+                "correct": 1
+            },
+            {
+                "text": "D) Wszystkie powyższe.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "W jakiej architekturze urządzenie traktuje się jako elementy składowe Schematu i podaje sie ich opis funkcjonalny?",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Exo-Architektura",
+                "correct": 1
+            },
+            {
+                "text": "B) Endo-architektura",
+                "correct": 0
+            },
+            {
+                "text": "C) Architektura mieszana",
+                "correct": 0
+            },
+            {
+                "text": "D) Architektura von Neumanna",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Urządzenia opisuje się na niższym poziomie abstrakcji, opisane zostają nie tylko schemat i własności ale również działanie elementów tego schematu",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Exo-Architektura",
+                "correct": 0
+            },
+            {
+                "text": "B) Endo-architektura",
+                "correct": 1
+            },
+            {
+                "text": "C) Architektura mieszana",
+                "correct": 0
+            },
+            {
+                "text": "D) Architektura von Neumanna",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Na jakie instrukcje można klasyfikować komputery?",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) CISC",
+                "correct": 1
+            },
+            {
+                "text": "B) RISC",
+                "correct": 1
+            },
+            {
+                "text": "C) CCR",
+                "correct": 1
+            },
+            {
+                "text": "D) MISC",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Która architektura pasuje do opisu? Wspólna pamięc na dane jak i kod programu, umożliwia automodyfikacje programu, oraz ma jedna wspolna szyne danych",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Harvardzka",
+                "correct": 0
+            },
+            {
+                "text": "B) von Neumanna",
+                "correct": 1
+            },
+            {
+                "text": "C) MIESZANA",
+                "correct": 0
+            },
+            {
+                "text": "D) Exo-Architektura",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Ktora architektura pasuje do opisu? Rozdzielona pamiec, pozwala na jednoczesne pobranie instrukcji i wykonywanie operacji, wystepuje w sterownikach ( Przy wzorcowej reprezentacji )",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Harvardzka",
+                "correct": 1
+            },
+            {
+                "text": "B) von Neumanna",
+                "correct": 0
+            },
+            {
+                "text": "C) MIESZANA",
+                "correct": 0
+            },
+            {
+                "text": "D) Exo-Architektura",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Ktora architektura pasuje do opisu? Rozdzielona pamięc programu i danych na poziomie cache, dla CPu jest to pamiec dzielona na pamiec programu i danych, obszary danych wykorzystuje wspolne magistrale. Jednoczesne pobranie instrukcji i wykonywanie operacji, stosowana w większosci wspolczesnych procesorow",
+        "alreadyGenerated": false,
+        "answers": [
+            {
+                "text": "A) Harvardzka",
+                "correct": 0
+            },
+            {
+                "text": "B) von Neumanna",
+                "correct": 0
+            },
+            {
+                "text": "C) MIESZANA",
+                "correct": 1
+            },
+            {
+                "text": "D) Exo-Architektura",
+                "correct": 0
+            }
+        ]
+    },
+    ///WYKLAD 2
+    {
+    "pytanie": "Jaką informację zagospodarowywuje ósmy bit rozszerzenia ISO-8859 dla ciągu ASCII?",
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Merkury",
+            "text": "A) Znaki specjalne",
+            "correct": 0
+        },
+        {
+            "text": "B) Charakterystyczne litery dla danego alfabetu ",
+            "correct":1
+        },
+        {
+            "text": "C) Polski alfabet",
+            "correct": 0
+        },
+	{
+            "text": "D) Osiem bitów to zbyt dużo, nie ma takiego bitu",
+            "correct": 0
+	}
+
+    ]
+},
+{
+    "pytanie": "Jaki jest niski stan napięcia dla ukladu CMOS?",
+    "alreadyGenerated": false,
+    "answers": [
+        {
+            "text": "A) 0.0 V - 0.8 V",
             "correct": 1
         },
         {
-            "text": "B) Pluton",
+            "text": "2 V - 3.3 V",
             "correct": 0
         },
         {
-            "text": "C) Ziemia",
+            "text": "2 V - 5 V",
             "correct": 0
         },
         {
-            "text": "D) Saturn",
+            "text": "1.5 V - 2.5 V",
             "correct": 0
         }
     ]
 },
 {
-    "pytanie": "Czy można pić wodę z kranu w Polsce?",
+    "pytanie": "Czym jest strefa buforowa pomiędzy niskim a wysokim stanem napięcia",
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Tak, ale tylko po przegotowaniu",
-            "correct": 0
-        },
-        {
-            "text": "B) Nie, bo jest skażona",
-            "correct": 0
-        },
-        {
-            "text": "C) Tak, ale tylko w niektórych miastach",
-            "correct": 0
-        },
-        {
-            "text": "D) Nie, bo to niezdrowe",
-            "correct": 1
-        }
-    ]
-},
-{
-    "pytanie": "Jak nazywa się najwyższa góra w Polsce?",
-    "alreadyGenerated": false,
-    "answers": [
-        {
-            "text": "A) Rysy",
+            "text": "A) Strefa w której napięcie nie będzie rozpoznawane jako 0 bądź 1 ",
             "correct": 1
         },
         {
-            "text": "B) Śnieżka",
+            "text": "B. Strefa, w której napięcie jest dokładnie 1 V",
             "correct": 0
         },
         {
-            "text": "C) Babia Góra",
+            "text": "C. Strefa, w której napięcie jest zawsze 0 V",
             "correct": 0
         },
         {
-            "text": "D) Kasprowy Wierch",
+            "text": "D. Strefa, w której napięcie jest zawsze 5 V",
             "correct": 0
         }
     ]
 },
 {
-    "pytanie": "Czy można jeździć na rowerze bez kasku?",
+    "pytanie": "Informacj przedstawiona za pomoca ciuagu zmiennych binarych nazywa sie informacja dyskretną",
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Tak, ale tylko na chodniku",
-            "correct": 0
-        },
-        {
-            "text": "B) Nie, bo to nielegalne",
-            "correct": 0
-        },
-        {
-            "text": "C) Tak, ale tylko w dzień",
-            "correct": 0
-        },
-        {
-            "text": "D) Nie, bo to niebezpieczne",
+            "text": "A) PRAWDA",
             "correct": 1
+        },
+        {
+            "text": "B. FAŁSZ",
+            "correct": 0
+        },
+        {
+            "text": "C. To zależy od długości ciągu",
+            "correct": 0
+	}
+    ]
+},
+{
+    "pytanie": "Istnieja urzedzenia ktore dzialaja na wiekszej ilosci sygnalow wysoki lub niski",
+    "alreadyGenerated": false,
+    "answers": [
+        {
+            "text": "A) Strefa w której napięcie nie będzie rozpoznawane jako 0 bądź 1 ",
+            "correct": 1
+        },
+        {
+            "text": "B. Strefa, w której napięcie jest dokładnie 1 V",
+            "correct": 0
+        },
+        {
+            "text": "C. Strefa, w której napięcie jest zawsze 0 V",
+            "correct": 0
+        },
+        {
+            "text": "D. Strefa, w której napięcie jest zawsze 5 V",
+            "correct": 0
         }
     ]
 },
 {
-    "pytanie": "Czy można zrobić tort z ogórków?",
+    "pytanie": "Najmniejsza jednostka informacji jest jeden BIT",
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Tak, ale tylko z kiszonych",
-            "correct": 0
-        },
-        {
-            "text": "B) Nie, bo to niemożliwe",
-            "correct": 0
-        },
-        {
-            "text": "C) Tak, ale tylko z cukrem",
-            "correct": 0
-        },
-        {
-            "text": "D) Nie, bo to obrzydliwe",
-            "correct": 1
-        }
-    ]
-},
-{
-    "pytanie": "Czy można pływać w Wiśle?",
-    "alreadyGenerated": false,
-    "answers": [
-        {
-            "text": "A) Tak, ale tylko w kajaku",
-            "correct": 0
-        },
-        {
-            "text": "B) Nie, bo jest zanieczyszczona",
+            "text": "A) PRAWDA",
             "correct": 1
         },
         {
-            "text": "C) Tak, ale tylko w zimie",
+            "text": "B) FAŁSZ",
             "correct": 0
         },
         {
-            "text": "D) Nie, bo jest za głęboka",
+            "text": "Najmniejsza jednostka to bajt",
             "correct": 0
-        }
+        },
+
     ]
 },
 
+{
+    "pytanie": "Najmniejsza jednostka informacji jest jeden BIT",
+    "alreadyGenerated": false,
+    "answers": [
+        {
+            "text": "A) Most Significant Bit ( na początku ciągu )",
+            "correct": 1
+        },
+        {
+            "text": "B) Least Significant Bit ( na końcu ciągu )",
+            "correct": 0
+        },
+        {
+            "text": "C) Medium-Sized Bit (w środku ciągu)",
+            "correct": 0
+        },
+	{
+            "text": "D. Myśliwy Szuka Bitów",
+            "correct": 0
+	}
+
+    ]
+},
+{
+    "pytanie": "Jakie są istniejące ciągi binarne?",
+    "alreadyGenerated": false,
+    "answers": [
+        {
+            "text": "A) ASCII",
+            "correct": 1
+        },
+        {
+            "text": "B) UNICODE ",
+            "correct":1
+        },
+        {
+            "text": "C) EBCDIC ",
+            "correct": 1
+        },
+	{
+            "text": "D) UTF-8",
+            "correct": 0
+	}
+
+    ]
+}
 ]
