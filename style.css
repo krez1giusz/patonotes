@@ -10,36 +10,30 @@ body{
 .mainBox{
     display:flex;
     margin:0 auto;
-    height: fit-content;
-    width: 680px;    
+    max-height: 800px;
+    width: 100%;    
     background: rgba(0,0,0,0.6);
     flex-direction: column;
     border-radius: 8px;
     gap:25px;
     padding:35px 15px;
-    overflow: auto;
+    overflow:auto;
     align-items: center;
 }
 
-
-
 .singleQuestion{
-    width: 600px;;
+    width: 100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
-
 .question{
-    width:600px;
+    width:100%;
     font-size: 32px;
     border: 2px dashed #03A062;
     padding: 15px;
 }
-
-
 
 .questions{
     margin-top:2%;
@@ -96,36 +90,32 @@ body{
     width: 85px;
     height: fit-content;
 }
+
 img{
-    width:220px;
-    height: 120px;
+    width:100%;
+    height: auto;
     padding:10px;
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 600px) {
-    .mainBox{
-        width: 100%;    
-    }
+::-webkit-scrollbar {
+    width: 10px;
+}
 
-    .singleQuestion{
-        width: 100%;
-    }
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,1);
+}
 
-    .question{
-        width:100%;
-        font-size: 24px;
-    }
+::-webkit-scrollbar-thumb {
+    background: #03A062;
+}
 
-    .questions{
-        width:100%;
-    }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
-    .mantysa{
-        width: 60px;
-    }
-    img{
-        width:150px;
-        height: 80px;
-    }
+/* Dla przeglądarki Internet Explorer */
+body {
+    scrollbar-face-color: #03A062;
+    scrollbar-track-color: #f1f1f1;
 }

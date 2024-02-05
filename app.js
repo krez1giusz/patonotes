@@ -52,8 +52,11 @@ function startExam(){
             image.src = generatedQuestion.imgPath;
             singleQuestion.appendChild(image)
         }
-    
-        for (const odpowiedz of generatedQuestion.answers) {
+
+
+        
+
+        for (const odpowiedz of shuffleArray(generatedQuestion.answers)) {
             const answer = createAnswer(odpowiedz.text, odpowiedz.correct)
             answersContainer.appendChild(answer)
         }
@@ -70,6 +73,14 @@ function startExam(){
     document.body.appendChild(mainBox);
 }
 
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
 
 function clearObjects(){
 
@@ -166,7 +177,7 @@ function checkQuestions(){
 
             if(input.checked){
                 if(input.dataset.correct == "1"){
-                    console.log('DOBRZE')
+                    span.style.color = "#03A062"
                 } else{
                     span.style.color = "red";
                     

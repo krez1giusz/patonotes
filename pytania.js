@@ -4,19 +4,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Pamięciowych",
+                "text": "Pamięciowych",
                 "correct": 1
             },
             {
-                "text": "B) Operacyjnych",
+                "text": " Operacyjnych",
                 "correct": 0
             },
             {
-                "text": "C) Sekwencyjnych",
+                "text": " Sekwencyjnych",
                 "correct": 1
             },
             {
-                "text": "D) Elektronicznych",
+                "text": " Elektronicznych",
                 "correct": 0
             }
         ]
@@ -26,19 +26,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) 32 - 512 bitów ",
+                "text": "32 - 512 bitów ",
                 "correct": 0
             },
             {
-                "text": "B) 64 - 512 bitów",
+                "text": " 64 - 512 bitów",
                 "correct": 1
             },
             {
-                "text": "C) 20 - 380 bajtów",
+                "text": " 20 - 380 bajtów",
                 "correct": 0
             },
             {
-                "text": "D) 20 - 380 bitów",
+                "text": " 20 - 380 bitów",
                 "correct": 0
             }
         ]
@@ -48,19 +48,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) 2^32",
+                "text": "2^32",
                 "correct": 1
             },
             {
-                "text": "B) 3^66",
+                "text": " 3^66",
                 "correct": 0
             },
             {
-                "text": "C) 2^64",
+                "text": " 2^64",
                 "correct": 0
             },
             {
-                "text": "D) 4^20",
+                "text": " 4^20",
                 "correct": 0
             }
         ]
@@ -70,19 +70,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) 10 nanosekund",
+            "text": "10 nanosekund",
             "correct": 0
         },
         {
-            "text": "B) 15 nanosekund",
+            "text": " 15 nanosekund",
             "correct": 0
         },
         {
-            "text": "C) 5 nanosekund",
+            "text": " 5 nanosekund",
             "correct": 1
         },
         {
-            "text": "D) 20 nanosekund",
+            "text": " 20 nanosekund",
             "correct": 0
         }
     ]
@@ -92,19 +92,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Gniazdo procesora",
+            "text": "Gniazdo procesora",
             "correct": 1
         },
         {
-            "text": "B) Zasilanie procesora",
+            "text": " Zasilanie procesora",
             "correct": 0
         },
         {
-            "text": "C) Gniazdo RAM",
+            "text": " Gniazdo RAM",
             "correct": 0
         },
         {
-            "text": "D) Gniazdo ATX",
+            "text": " Gniazdo ATX",
             "correct": 0
         }
     ]
@@ -114,19 +114,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Status aktualnie wykonanej operacji",
+            "text": "Status aktualnie wykonanej operacji",
             "correct": 0
         },
         {
-            "text": "B) Adres kolejnego rozkazu",
+            "text": " Adres kolejnego rozkazu",
             "correct": 1
         },
         {
-            "text": "C) Adres stosu utworzonego w pamięci",
+            "text": " Adres stosu utworzonego w pamięci",
             "correct": 0
         },
         {
-            "text": "D) Adres wcześniej wykonywanego rozkazu",
+            "text": " Adres wcześniej wykonywanego rozkazu",
             "correct": 0
         }
     ]
@@ -136,19 +136,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) 210Mb\s",
+            "text": "210Mb\s",
             "correct": 0
         },
         {
-            "text": "B) 180Mb\s",
+            "text": " 180Mb\s",
             "correct": 0
         },
         {
-            "text": "C) 120Mb\s",
+            "text": " 120Mb\s",
             "correct": 0
         },
         {
-            "text": "D) 250Mb\s",
+            "text": " 250Mb\s",
             "correct": 1
         }
     ]
@@ -158,19 +158,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Komparatory",
+            "text": "Komparatory",
             "correct": 1
         },
         {
-            "text": "B) Kondensatory",
+            "text": " Kondensatory",
             "correct": 0
         },
         {
-            "text": "C) Tranzystory",
+            "text": " Tranzystory",
             "correct": 0
         },
         {
-            "text": "D) Rezystory",
+            "text": " Rezystory",
             "correct": 0
         }
     ]
@@ -181,19 +181,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Prawo empiryczne mówiące o podwajaniu się liczby tranzystorów w układach scalonych w określonych odcinkach czasu.",
+                "text": "Prawo empiryczne mówiące o podwajaniu się liczby tranzystorów w układach scalonych w określonych odcinkach czasu.",
                 "correct": 1
             },
             {
-                "text": "B) Prawo fizyczne opisujące zależność między temperaturą a wydzielaniem ciepła przez elementy elektroniczne.",
+                "text": " Prawo fizyczne opisujące zależność między temperaturą a wydzielaniem ciepła przez elementy elektroniczne.",
                 "correct": 0
             },
             {
-                "text": "C) Prawo dotyczące minimalnego wydatku energetycznego potrzebnego do wymazania jednego bitu informacji.",
+                "text": " Prawo dotyczące minimalnego wydatku energetycznego potrzebnego do wymazania jednego bitu informacji.",
                 "correct": 0
             },
             {
-                "text": "D) Prawo regulujące produkcję ciepła w procesorach na bazie krzemu.",
+                "text": " Prawo regulujące produkcję ciepła w procesorach na bazie krzemu.",
                 "correct": 0
             }
         ]
@@ -203,19 +203,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Zasada mówiąca, że wymazanie jednego bitu informacji wiąże się z generowaniem ciepła.",
+                "text": "Zasada mówiąca, że wymazanie jednego bitu informacji wiąże się z generowaniem ciepła.",
                 "correct": 0
             },
             {
-                "text": "B) Zasada opisująca minimalny koszt energetyczny wymazania jednego bitu informacji.",
+                "text": " Zasada opisująca minimalny koszt energetyczny wymazania jednego bitu informacji.",
                 "correct": 1
             },
             {
-                "text": "C) Zasada dotycząca maksymalnego napięcia, jakie można przyłożyć do tranzystora.",
+                "text": " Zasada dotycząca maksymalnego napięcia, jakie można przyłożyć do tranzystora.",
                 "correct": 0
             },
             {
-                "text": "D) Zasada regulująca zagęszczenie elementów w procesorach.",
+                "text": " Zasada regulująca zagęszczenie elementów w procesorach.",
                 "correct": 0
             }
         ]
@@ -225,19 +225,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Jest elastyczny, przewodzi prąd lepiej niż miedź i ma właściwości bakteriobójcze.",
+                "text": "Jest elastyczny, przewodzi prąd lepiej niż miedź i ma właściwości bakteriobójcze.",
                 "correct": 0
             },
             {
-                "text": "B) Jest przezroczysty, ma grubość jednego atomu i jest 100 razy mocniejszy niż stal.",
+                "text": " Jest przezroczysty, ma grubość jednego atomu i jest 100 razy mocniejszy niż stal.",
                 "correct": 0
             },
             {
-                "text": "C) Przewodzi ciepło i jest świetnym przewodnikiem elektrycznym.",
+                "text": " Przewodzi ciepło i jest świetnym przewodnikiem elektrycznym.",
                 "correct": 1
             },
             {
-                "text": "D) Wszystkie powyższe.",
+                "text": " Wszystkie powyższe.",
                 "correct": 0
             }
         ]
@@ -247,19 +247,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Elektronika, przemysł kosmiczny, przemysł lotniczy i budowlany.",
+                "text": "Elektronika, przemysł kosmiczny, przemysł lotniczy i budowlany.",
                 "correct": 0
             },
             {
-                "text": "B) Produkcja energii odnawialnej, medycyna i ochrona środowiska.",
+                "text": " Produkcja energii odnawialnej, medycyna i ochrona środowiska.",
                 "correct": 0
             },
             {
-                "text": "C) Ekranów dotykowych, paneli baterii słonecznych i komputerów.",
+                "text": " Ekranów dotykowych, paneli baterii słonecznych i komputerów.",
                 "correct": 1
             },
             {
-                "text": "D) Wszystkie powyższe.",
+                "text": " Wszystkie powyższe.",
                 "correct": 0
             }
         ]
@@ -269,19 +269,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Exo-Architektura",
+                "text": "Exo-Architektura",
                 "correct": 1
             },
             {
-                "text": "B) Endo-architektura",
+                "text": " Endo-architektura",
                 "correct": 0
             },
             {
-                "text": "C) Architektura mieszana",
+                "text": " Architektura mieszana",
                 "correct": 0
             },
             {
-                "text": "D) Architektura von Neumanna",
+                "text": " Architektura von Neumanna",
                 "correct": 0
             }
         ]
@@ -291,19 +291,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Exo-Architektura",
+                "text": "Exo-Architektura",
                 "correct": 0
             },
             {
-                "text": "B) Endo-architektura",
+                "text": " Endo-architektura",
                 "correct": 1
             },
             {
-                "text": "C) Architektura mieszana",
+                "text": " Architektura mieszana",
                 "correct": 0
             },
             {
-                "text": "D) Architektura von Neumanna",
+                "text": " Architektura von Neumanna",
                 "correct": 0
             }
         ]
@@ -313,19 +313,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) CISC",
+                "text": "CISC",
                 "correct": 1
             },
             {
-                "text": "B) RISC",
+                "text": " RISC",
                 "correct": 1
             },
             {
-                "text": "C) CCR",
+                "text": " CCR",
                 "correct": 1
             },
             {
-                "text": "D) MISC",
+                "text": " MISC",
                 "correct": 0
             }
         ]
@@ -335,19 +335,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Harvardzka",
+                "text": "Harvardzka",
                 "correct": 0
             },
             {
-                "text": "B) von Neumanna",
+                "text": " von Neumanna",
                 "correct": 1
             },
             {
-                "text": "C) MIESZANA",
+                "text": " MIESZANA",
                 "correct": 0
             },
             {
-                "text": "D) Exo-Architektura",
+                "text": " Exo-Architektura",
                 "correct": 0
             }
         ]
@@ -357,19 +357,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Harvardzka",
+                "text": "Harvardzka",
                 "correct": 1
             },
             {
-                "text": "B) von Neumanna",
+                "text": " von Neumanna",
                 "correct": 0
             },
             {
-                "text": "C) MIESZANA",
+                "text": " MIESZANA",
                 "correct": 0
             },
             {
-                "text": "D) Exo-Architektura",
+                "text": " Exo-Architektura",
                 "correct": 0
             }
         ]
@@ -379,19 +379,19 @@ const questions = [
         "alreadyGenerated": false,
         "answers": [
             {
-                "text": "A) Harvardzka",
+                "text": "Harvardzka",
                 "correct": 0
             },
             {
-                "text": "B) von Neumanna",
+                "text": " von Neumanna",
                 "correct": 0
             },
             {
-                "text": "C) MIESZANA",
+                "text": " MIESZANA",
                 "correct": 1
             },
             {
-                "text": "D) Exo-Architektura",
+                "text": " Exo-Architektura",
                 "correct": 0
             }
         ]
@@ -402,19 +402,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Znaki specjalne",
+            "text": "Znaki specjalne",
             "correct": 0
         },
         {
-            "text": "B) Charakterystyczne litery dla danego alfabetu ",
+            "text": " Charakterystyczne litery dla danego alfabetu ",
             "correct":1
         },
         {
-            "text": "C) Polski alfabet",
+            "text": " Polski alfabet",
             "correct": 0
         },
 	{
-            "text": "D) Osiem bitów to zbyt dużo, nie ma takiego bitu",
+            "text": " Osiem bitów to zbyt dużo, nie ma takiego bitu",
             "correct": 0
 	}
 
@@ -425,7 +425,7 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) 0.0 V - 0.8 V",
+            "text": "0.0 V - 0.8 V",
             "correct": 1
         },
         {
@@ -447,19 +447,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Strefa w której napięcie nie będzie rozpoznawane jako 0 bądź 1 ",
+            "text": "Strefa w której napięcie nie będzie rozpoznawane jako 0 bądź 1 ",
             "correct": 1
         },
         {
-            "text": "B. Strefa, w której napięcie jest dokładnie 1 V",
+            "text": "Strefa, w której napięcie jest dokładnie 1 V",
             "correct": 0
         },
         {
-            "text": "C. Strefa, w której napięcie jest zawsze 0 V",
+            "text": " Strefa, w której napięcie jest zawsze 0 V",
             "correct": 0
         },
         {
-            "text": "D. Strefa, w której napięcie jest zawsze 5 V",
+            "text": " Strefa, w której napięcie jest zawsze 5 V",
             "correct": 0
         }
     ]
@@ -469,15 +469,15 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) PRAWDA",
+            "text": "PRAWDA",
             "correct": 1
         },
         {
-            "text": "B. FAŁSZ",
+            "text": " FAŁSZ",
             "correct": 0
         },
         {
-            "text": "C. To zależy od długości ciągu",
+            "text": " To zależy od długości ciągu",
             "correct": 0
 	}
     ]
@@ -487,19 +487,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Strefa w której napięcie nie będzie rozpoznawane jako 0 bądź 1 ",
+            "text": "Strefa w której napięcie nie będzie rozpoznawane jako 0 bądź 1 ",
             "correct": 1
         },
         {
-            "text": "B. Strefa, w której napięcie jest dokładnie 1 V",
+            "text": " Strefa, w której napięcie jest dokładnie 1 V",
             "correct": 0
         },
         {
-            "text": "C. Strefa, w której napięcie jest zawsze 0 V",
+            "text": " Strefa, w której napięcie jest zawsze 0 V",
             "correct": 0
         },
         {
-            "text": "D. Strefa, w której napięcie jest zawsze 5 V",
+            "text": " Strefa, w której napięcie jest zawsze 5 V",
             "correct": 0
         }
     ]
@@ -509,11 +509,11 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) PRAWDA",
+            "text": "PRAWDA",
             "correct": 1
         },
         {
-            "text": "B) FAŁSZ",
+            "text": " FAŁSZ",
             "correct": 0
         },
         {
@@ -529,19 +529,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) Most Significant Bit ( na początku ciągu )",
+            "text": "Most Significant Bit ( na początku ciągu )",
             "correct": 1
         },
         {
-            "text": "B) Least Significant Bit ( na końcu ciągu )",
+            "text": " Least Significant Bit ( na końcu ciągu )",
             "correct": 0
         },
         {
-            "text": "C) Medium-Sized Bit (w środku ciągu)",
+            "text": " Medium-Sized Bit (w środku ciągu)",
             "correct": 0
         },
 	{
-            "text": "D. Myśliwy Szuka Bitów",
+            "text": " Myśliwy Szuka Bitów",
             "correct": 0
 	}
 
@@ -552,19 +552,19 @@ const questions = [
     "alreadyGenerated": false,
     "answers": [
         {
-            "text": "A) ASCII",
+            "text": "ASCII",
             "correct": 1
         },
         {
-            "text": "B) UNICODE ",
+            "text": " UNICODE ",
             "correct":1
         },
         {
-            "text": "C) EBCDIC ",
+            "text": " EBCDIC ",
             "correct": 1
         },
 	{
-            "text": "D) UTF-8",
+            "text": " UTF-8",
             "correct": 0
 	}
 
@@ -577,19 +577,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Tranzystor",
+            "text": "Tranzystor",
             "correct": 0
         },
         {
-            "text": "B) Potencjometr",
+            "text": " Potencjometr",
             "correct": 0
         },
         {
-            "text": "C) Rezystor ",
+            "text": " Rezystor ",
             "correct": 1
         },
         {
-            "text": "D) Dioda",
+            "text": " Dioda",
             "correct": 0
         }
     ]
@@ -600,19 +600,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Warystor",
+            "text": "Warystor",
             "correct": 0
         },
         {
-            "text": "B) Fotorezystor",
+            "text": " Fotorezystor",
             "correct": 0
         },
         {
-            "text": "C) Rezystor ",
+            "text": " Rezystor ",
             "correct": 0
         },
         {
-            "text": "D) Potencjometr ",
+            "text": " Potencjometr ",
             "correct":1
         }
     ]
@@ -623,19 +623,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Warystor",
+            "text": "Warystor",
             "correct": 1
         },
         {
-            "text": "B) Kondensator",
+            "text": " Kondensator",
             "correct": 0
         },
         {
-            "text": "C) Rezystor ",
+            "text": " Rezystor ",
             "correct": 0
         },
         {
-            "text": "D)  Dioda tunelowa",
+            "text": "  Dioda tunelowa",
             "correct":0
         }
     ]
@@ -646,19 +646,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Warystor",
+            "text": "Warystor",
             "correct": 0
         },
         {
-            "text": "B) Fotorezystor",
+            "text": " Fotorezystor",
             "correct": 1
         },
         {
-            "text": "C) Rezystor ",
+            "text": " Rezystor ",
             "correct": 0
         },
         {
-            "text": "D)  Potencjometr",
+            "text": "  Potencjometr",
             "correct":0
         }
     ]
@@ -669,19 +669,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Kondensator ",
+            "text": "Kondensator ",
             "correct": 1
         },
         {
-            "text": "B) Tranzystor",
+            "text": " Tranzystor",
             "correct": 0
         },
         {
-            "text": "C) Rezystor ",
+            "text": " Rezystor ",
             "correct": 0
         },
         {
-            "text": "D)  Transformator",
+            "text": "  Transformator",
             "correct":0
         }
     ]
@@ -693,19 +693,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  Fotodioda ",
+            "text": " Fotodioda ",
             "correct": 0
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Dioda  ",
+            "text": " Dioda  ",
             "correct": 1
         },
         {
-            "text": "D)  Dioda tunelowa",
+            "text": "  Dioda tunelowa",
             "correct":0
         }
     ]
@@ -716,19 +716,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  Fotodioda ",
+            "text": " Fotodioda ",
             "correct": 0
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 1
         },
         {
-            "text": "C) Dioda  tunelowa",
+            "text": " Dioda  tunelowa",
             "correct": 0
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":0
         }
     ]
@@ -739,19 +739,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  Fotodioda ",
+            "text": " Fotodioda ",
             "correct": 1
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Dioda  tunelowa",
+            "text": " Dioda  tunelowa",
             "correct": 0
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":0
         }
     ]
@@ -762,19 +762,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  Fotodioda ",
+            "text": " Fotodioda ",
             "correct": 0
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Dioda  tunelowa",
+            "text": " Dioda  tunelowa",
             "correct": 1
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":0
         }
     ]
@@ -785,19 +785,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  Dioda pojemnościowa ",
+            "text": " Dioda pojemnościowa ",
             "correct": 1
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Dioda  tunelowa",
+            "text": " Dioda  tunelowa",
             "correct": 0
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":0
         }
     ]
@@ -808,19 +808,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  Dioda pojemnościowa ",
+            "text": " Dioda pojemnościowa ",
             "correct": 0
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Dioda  tunelowa",
+            "text": " Dioda  tunelowa",
             "correct": 0
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":1
         }
     ]
@@ -832,19 +832,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Tranzystor bipolarny",
+            "text": "Tranzystor bipolarny",
             "correct": 1
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Tranzystor unipolarny",
+            "text": " Tranzystor unipolarny",
             "correct": 0
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":0
         }
     ]
@@ -858,19 +858,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Tranzystor bipolarny",
+            "text": "Tranzystor bipolarny",
             "correct": 0
         },
         {
-            "text": "B) Dioda LED",
+            "text": " Dioda LED",
             "correct": 0
         },
         {
-            "text": "C) Tranzystor unipolarny",
+            "text": " Tranzystor unipolarny",
             "correct": 1
         },
         {
-            "text": "D)  Dioda shottskyego",
+            "text": "  Dioda shottskyego",
             "correct":0
         }
     ]
@@ -884,19 +884,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Tranzystor bipolarny",
+            "text": "Tranzystor bipolarny",
             "correct": 0
         },
         {
-            "text": "B) Rezystor",
+            "text": " Rezystor",
             "correct": 0
         },
         {
-            "text": "C) Tranzystor unipolarny",
+            "text": " Tranzystor unipolarny",
             "correct": 0
         },
         {
-            "text": "D)  Cewka",
+            "text": "  Cewka",
             "correct":1
         }
     ]
@@ -909,19 +909,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Tranzystor bipolarny",
+            "text": "Tranzystor bipolarny",
             "correct": 0
         },
         {
-            "text": "B) Transformator bez rdzenia",
+            "text": " Transformator bez rdzenia",
             "correct": 1
         },
         {
-            "text": "C) Tranzystor unipolarny",
+            "text": " Tranzystor unipolarny",
             "correct": 0
         },
         {
-            "text": "D)  Transformator z rdzeniem",
+            "text": "  Transformator z rdzeniem",
             "correct":0
         }
     ]
@@ -934,19 +934,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Tranzystor bipolarny",
+            "text": "Tranzystor bipolarny",
             "correct": 0
         },
         {
-            "text": "B) Transformator bez rdzenia",
+            "text": " Transformator bez rdzenia",
             "correct": 0
         },
         {
-            "text": "C) Tranzystor unipolarny",
+            "text": " Tranzystor unipolarny",
             "correct": 0
         },
         {
-            "text": "D)  Transformator z rdzeniem",
+            "text": "  Transformator z rdzeniem",
             "correct":1
         }
     ]
@@ -959,19 +959,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Rezonator kwarcowy",
+            "text": "Rezonator kwarcowy",
             "correct": 1
         },
         {
-            "text": "B) Transformator bez rdzenia",
+            "text": " Transformator bez rdzenia",
             "correct": 0
         },
         {
-            "text": "C) Tranzystor unipolarny",
+            "text": " Tranzystor unipolarny",
             "correct": 0
         },
         {
-            "text": "D)  Transformator z rdzeniem",
+            "text": "  Transformator z rdzeniem",
             "correct":0
         }
     ]
@@ -985,19 +985,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka NOT",
+            "text": "Bramka NOT",
             "correct": 1
         },
         {
-            "text": "B) Bramka OR",
+            "text": " Bramka OR",
             "correct": 0
         },
         {
-            "text": "C) NAND",
+            "text": " NAND",
             "correct": 0
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":0
         }
     ]
@@ -1009,19 +1009,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka NAND",
+            "text": "Bramka NAND",
             "correct": 0
         },
         {
-            "text": "B) Bramka OR",
+            "text": " Bramka OR",
             "correct": 0
         },
         {
-            "text": "C) AND",
+            "text": " AND",
             "correct": 1
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":0
         }
     ]
@@ -1034,19 +1034,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka XNOR",
+            "text": "Bramka XNOR",
             "correct": 0
         },
         {
-            "text": "B) Bramka OR",
+            "text": " Bramka OR",
             "correct": 1
         },
         {
-            "text": "C) XOR",
+            "text": " XOR",
             "correct": 0
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":0
         }
     ]
@@ -1059,19 +1059,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka NAND",
+            "text": "Bramka NAND",
             "correct": 1
         },
         {
-            "text": "B) Bramka AND",
+            "text": " Bramka AND",
             "correct": 0
         },
         {
-            "text": "C) NOR",
+            "text": " NOR",
             "correct": 0
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":0
         }
     ]
@@ -1085,19 +1085,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka NAND",
+            "text": "Bramka NAND",
             "correct": 0
         },
         {
-            "text": "B) Bramka AND",
+            "text": " Bramka AND",
             "correct": 0
         },
         {
-            "text": "C) NOR",
+            "text": " NOR",
             "correct": 0
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":1
         }
     ]
@@ -1112,19 +1112,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka EXOR",
+            "text": "Bramka EXOR",
             "correct": 1
         },
         {
-            "text": "B) Bramka XNOR",
+            "text": " Bramka XNOR",
             "correct": 0
         },
         {
-            "text": "C) OR",
+            "text": " OR",
             "correct": 0
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":0 
         }
     ]
@@ -1137,19 +1137,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Bramka EXOR",
+            "text": "Bramka EXOR",
             "correct": 0
         },
         {
-            "text": "B) Bramka XNOR",
+            "text": " Bramka XNOR",
             "correct": 1
         },
         {
-            "text": "C) OR",
+            "text": " OR",
             "correct": 0
         },
         {
-            "text": "D)  NOR",
+            "text": "  NOR",
             "correct":0 
         }
     ]
@@ -1162,19 +1162,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Układ który pamięta o conajmniej dwóch wejściach i z reguły dwóch wyjściach",
+            "text": "Układ który pamięta o conajmniej dwóch wejściach i z reguły dwóch wyjściach",
             "correct": 1
         },
         {
-            "text": "B) Zapamiętuje jeden bit informacji",
+            "text": " Zapamiętuje jeden bit informacji",
             "correct": 1
         },
         {
-            "text": "C) Układ, który nie pamięta żadnych wejść ani wyjść",
+            "text": " Układ, który nie pamięta żadnych wejść ani wyjść",
             "correct": 0
         },
         {
-            "text": "D)  Układ, który generuje losowe bity informacji",
+            "text": "  Układ, który generuje losowe bity informacji",
             "correct":0 
         }
     ]
@@ -1185,19 +1185,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Można go realizować na bramkach NAND i NOR ",
+            "text": "Można go realizować na bramkach NAND i NOR ",
             "correct": 1
         },
         {
-            "text": "B) Utrzymuje zwracaną wartość, chyba zmieni się wynik z tablicy praw",
+            "text": " Utrzymuje zwracaną wartość, chyba zmieni się wynik z tablicy praw",
             "correct": 1
         },
         {
-            "text": "C) Można go realizować tylko na bramkach XOR ",
+            "text": " Można go realizować tylko na bramkach XOR ",
             "correct": 0
         },
         {
-            "text": "D)  Zawsze zwraca wartość 0, niezależnie od wejść",
+            "text": "  Zawsze zwraca wartość 0, niezależnie od wejść",
             "correct":0 
         }
     ]
@@ -1208,19 +1208,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Zmiana przerzutnika nastepuje pod wpływem zegara",
+            "text": "Zmiana przerzutnika nastepuje pod wpływem zegara",
             "correct": 1
         },
         {
-            "text": "B) Przyjmuje 0 lub 1 przy zmianie zegara i zwraca tę samą wartość",
+            "text": " Przyjmuje 0 lub 1 przy zmianie zegara i zwraca tę samą wartość",
             "correct": 1
         },
         {
-            "text": "C) Zmiana przerzutnika następuje bez wpływu zegara ",
+            "text": " Zmiana przerzutnika następuje bez wpływu zegara ",
             "correct": 0
         },
         {
-            "text": "D)  Zawsze zwraca wartość 1, niezależnie od wejść",
+            "text": "  Zawsze zwraca wartość 1, niezależnie od wejść",
             "correct":0 
         }
     ]
@@ -1232,11 +1232,11 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Zmienia sie pod wpływem zegara ",
+            "text": "Zmienia sie pod wpływem zegara ",
             "correct": 1
         },
         {
-            "text": "B) Przyjmuje 0 lub 1 przy zmianie zegara i zwraca tę samą wartość",
+            "text": " Przyjmuje 0 lub 1 przy zmianie zegara i zwraca tę samą wartość",
             "correct": 0
         },
         {
@@ -1244,7 +1244,7 @@ const questions = [
             "correct": 1
         },
         {
-            "text": "D)  Zawsze zwraca wartość 1, niezależnie od wejść",
+            "text": "  Zawsze zwraca wartość 1, niezależnie od wejść",
             "correct":0 
         }
     ]
@@ -1259,7 +1259,7 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Po podaniu wartości na wejścia, zmiena stan na przeciwny przy każdym opadającym zboczu zegarowym",
+            "text": "Po podaniu wartości na wejścia, zmiena stan na przeciwny przy każdym opadającym zboczu zegarowym",
             "correct": 1
         },
     ]
@@ -1272,19 +1272,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Zbiór przerzutników, który przechowuje określoną ilość bitów informacji, występuje w niemal wszystkich poważneiejszych urządzeniach cyfrowych",
+            "text": "Zbiór przerzutników, który przechowuje określoną ilość bitów informacji, występuje w niemal wszystkich poważneiejszych urządzeniach cyfrowych",
             "correct": 1
         },
         {
-            "text": "B) Pojedynczy przerzutnik, który przechowuje jeden bit informacji",
+            "text": " Pojedynczy przerzutnik, który przechowuje jeden bit informacji",
             "correct": 0
         },
         {
-            "text": "C) Urządzenie, które nie przechowuje żadnych bitów informacji ",
+            "text": " Urządzenie, które nie przechowuje żadnych bitów informacji ",
             "correct": 0
         },
         {
-            "text": "D) Urządzenie, które generuje losowe bity informacji",
+            "text": " Urządzenie, które generuje losowe bity informacji",
             "correct": 0
         },
     ]
@@ -1296,19 +1296,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
+            "text": "Informacje wprowadzane i wyprowadzane są jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
             "correct": 1
         },
         {
-            "text": "B) Informacje są wprowadzane kolejno bit po bicie",
+            "text": " Informacje są wprowadzane kolejno bit po bicie",
             "correct": 0
         },
         {
-            "text": "C) Urządzenie, które nie przechowuje żadnych bitów informacji ",
+            "text": " Urządzenie, które nie przechowuje żadnych bitów informacji ",
             "correct": 0
         },
         {
-            "text": "D) Urządzenie, które generuje losowe bity informacji",
+            "text": " Urządzenie, które generuje losowe bity informacji",
             "correct": 0
         },
     ]
@@ -1320,19 +1320,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
+            "text": "umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
             "correct": 0
         },
         {
-            "text": "B) Informacje są wprowadzane kolejno bit po bicie",
+            "text": " Informacje są wprowadzane kolejno bit po bicie",
             "correct": 1
         },
         {
-            "text": "C) Urządzenie, które nie przechowuje żadnych bitów informacji ",
+            "text": " Urządzenie, które nie przechowuje żadnych bitów informacji ",
             "correct": 0
         },
         {
-            "text": "D) Urządzenie, które generuje losowe bity informacji",
+            "text": " Urządzenie, które generuje losowe bity informacji",
             "correct": 0
         },
     ]
@@ -1346,19 +1346,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
+            "text": "umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
             "correct": 0
         },
         {
-            "text": "B) Informacje są wprowadzane kolejno bit po bicie",
+            "text": " Informacje są wprowadzane kolejno bit po bicie",
             "correct": 0
         },
         {
-            "text": "C) Urządzenie, które nie przechowuje żadnych bitów informacji ",
+            "text": " Urządzenie, które nie przechowuje żadnych bitów informacji ",
             "correct": 1
         },
         {
-            "text": "D) Urządzenie, które generuje losowe bity informacji",
+            "text": " Urządzenie, które generuje losowe bity informacji",
             "correct": 0
         },
     ]
@@ -1370,19 +1370,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
+            "text": "umożliwia rownoległe wprowadzanie i wyprowazdzanie informacji jednocześnie, do wszystkich i ze wszystkich pozycji rejestru",
             "correct": 0
         },
         {
-            "text": "B) Informacje są wprowadzane kolejno bit po bicie",
+            "text": " Informacje są wprowadzane kolejno bit po bicie",
             "correct": 0
         },
         {
-            "text": "C) Urządzenie, które nie przechowuje żadnych bitów informacji ",
+            "text": " Urządzenie, które nie przechowuje żadnych bitów informacji ",
             "correct": 0
         },
         {
-            "text": "D) Urządzenie, które generuje losowe bity informacji",
+            "text": " Urządzenie, które generuje losowe bity informacji",
             "correct": 1
         },
     ]
@@ -1394,15 +1394,15 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Układ sekwencyjny, służący do zliczania i pamiętania liczby impulsów podawanych na wejście zliczające, elementem podstawowym sa przerzutniki",
+            "text": "Układ sekwencyjny, służący do zliczania i pamiętania liczby impulsów podawanych na wejście zliczające, elementem podstawowym sa przerzutniki",
             "correct": 1
         },
         {
-            "text": "B) Układ, który nie zlicza impulsów",
+            "text": " Układ, który nie zlicza impulsów",
             "correct": 0
         },
         {
-            "text": "C)Układ, który generuje impulsy zamiast zliczać ",
+            "text": "Układ, który generuje impulsy zamiast zliczać ",
             "correct": 0
         },
     ]
@@ -1414,19 +1414,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) długość cyklu",
+            "text": "długość cyklu",
             "correct": 1
         },
         {
-            "text": "B) pojemność licznika",
+            "text": " pojemność licznika",
             "correct": 1
         },
         {
-            "text": "C) Szerokość impulsu ",
+            "text": " Szerokość impulsu ",
             "correct": 0
         },
         {
-            "text": "D) Częstotliwość impulsu",
+            "text": " Częstotliwość impulsu",
             "correct": 0
         },
     ]
@@ -1437,19 +1437,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A)  układ służący do konwersji kodu 1 z n lub 0 z n na inny kod (np. binarny)",
+            "text": " układ służący do konwersji kodu 1 z n lub 0 z n na inny kod (np. binarny)",
             "correct": 1
         },
         {
-            "text": "B) Układ śłużący do konwersji kodu np binarnego na kod 1 z n lub 0 z n",
+            "text": " Układ śłużący do konwersji kodu np binarnego na kod 1 z n lub 0 z n",
             "correct": 0
         },
         {
-            "text": "C) Układ, który nie wykonuje żadnej konwersji kodu",
+            "text": " Układ, który nie wykonuje żadnej konwersji kodu",
             "correct": 0
         },
         {
-            "text": "D) Układ, który zawsze zwraca ten sam kod, niezależnie od wejścia",
+            "text": " Układ, który zawsze zwraca ten sam kod, niezależnie od wejścia",
             "correct": 0
         },
     ]
@@ -1462,15 +1462,15 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Służy do dodawania/odejmowania liczb, ma conajmniej dwa wejścia i dwa wyjścia, po uzupełnieniu układem przesuwającym dane, powstaje układ realizujący operację mnożenia lub dzielenia",
+            "text": "Służy do dodawania/odejmowania liczb, ma conajmniej dwa wejścia i dwa wyjścia, po uzupełnieniu układem przesuwającym dane, powstaje układ realizujący operację mnożenia lub dzielenia",
             "correct": 1
         },
         {
-            "text": "B) Układ, który mnoży liczby zamiast dodawać ",
+            "text": " Układ, który mnoży liczby zamiast dodawać ",
             "correct": 0
         },
         {
-            "text": "C) Układ, który dzieli liczby zamiast dodawać",
+            "text": " Układ, który dzieli liczby zamiast dodawać",
             "correct": 0
         },
 
@@ -1484,11 +1484,11 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Szeregowe",
+            "text": "Szeregowe",
             "correct": 1
         },
         {
-            "text": "B) Równoległe",
+            "text": " Równoległe",
             "correct": 1
         },
 
@@ -1502,15 +1502,15 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Porównuje wartości dwóch lub więcej liczb binarnych",
+            "text": "Porównuje wartości dwóch lub więcej liczb binarnych",
             "correct": 1
         },
         {
-            "text": "B) Służy do mnożenia wartości dwóch lub więcej liczb binarnych ",
+            "text": " Służy do mnożenia wartości dwóch lub więcej liczb binarnych ",
             "correct": 0
         },
         {
-            "text": "C) Służy do dzielenia wartości dwóch lub więcej liczb binarnych ",
+            "text": " Służy do dzielenia wartości dwóch lub więcej liczb binarnych ",
             "correct": 0
         },
     ]
@@ -1523,19 +1523,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Szeregowe",
+            "text": "Szeregowe",
             "correct": 1
         },
         {
-            "text": "B) Równoległe",
+            "text": " Równoległe",
             "correct": 1
         },
         {
-            "text": "C) kwadratowe",
+            "text": " kwadratowe",
             "correct": 0
         },
         {
-            "text": "D) logarytmiczne",
+            "text": " logarytmiczne",
             "correct": 0
         },
     ]
@@ -1546,19 +1546,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Przekazujemy całe liczby A i B",
+            "text": "Przekazujemy całe liczby A i B",
             "correct": 1
         },
         {
-            "text": "B) Na jednym z wyjść większe/mnniejsze/równe otrzymujemy wartość 1",
+            "text": " Na jednym z wyjść większe/mnniejsze/równe otrzymujemy wartość 1",
             "correct": 1
         },
         {
-            "text": "C) Przekazujemy tylko jeden bit liczby A i B ",
+            "text": " Przekazujemy tylko jeden bit liczby A i B ",
             "correct": 0
         },
         {
-            "text": "D) Na wszystkich wyjściach większe/mniejsze/równe otrzymujemy wartość 0",
+            "text": " Na wszystkich wyjściach większe/mniejsze/równe otrzymujemy wartość 0",
             "correct": 0
         },
     ]
@@ -1570,15 +1570,15 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Liczba przekazywana bit po bicie",
+            "text": "Liczba przekazywana bit po bicie",
             "correct": 1
         },
         {
-            "text": "B) Liczba przekazywana jako całość, a nie bit po bicie ",
+            "text": " Liczba przekazywana jako całość, a nie bit po bicie ",
             "correct": 0
         },
         {
-            "text": "C) Liczba przekazywana jako ciąg znaków zamiast bitów",
+            "text": " Liczba przekazywana jako ciąg znaków zamiast bitów",
             "correct": 0
         },
 
@@ -1592,11 +1592,11 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Umożliwia przesyłanie danych z wielu wejść na jedno wyjście",
+            "text": "Umożliwia przesyłanie danych z wielu wejść na jedno wyjście",
             "correct": 1
         },
         {
-            "text": "B) Umożliwia przesyłanie dancyh z jednego wyjścia na wiele wyjść",
+            "text": " Umożliwia przesyłanie dancyh z jednego wyjścia na wiele wyjść",
             "correct": 0
         },
     ]
@@ -1608,15 +1608,15 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Układ służący do generowania impulsu o okreslonym czasie trwania pod wpływem impulsu wyzwalającego ( od kilku nanosekund do kilkudziesieciu sekund ) ",
+            "text": "Układ służący do generowania impulsu o okreslonym czasie trwania pod wpływem impulsu wyzwalającego ( od kilku nanosekund do kilkudziesieciu sekund ) ",
             "correct": 1
         },
         {
-            "text": "B)  Układ, który zawsze generuje impulsy o tej samej długości ",
+            "text": "  Układ, który zawsze generuje impulsy o tej samej długości ",
             "correct": 0
         },
         {
-            "text": "C) Układ, który nie generuje impulsów",
+            "text": " Układ, który nie generuje impulsów",
             "correct": 0
         },
     ]
@@ -1628,19 +1628,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Częstotliwość określana w HZ ( czas który upływa między dwoma impulsami) ",
+            "text": "Częstotliwość określana w HZ ( czas który upływa między dwoma impulsami) ",
             "correct": 1
         },
         {
-            "text": "B)  Wypełnienie ( Czas trwania impulsu ) ",
+            "text": "  Wypełnienie ( Czas trwania impulsu ) ",
             "correct": 1
         },
         {
-            "text": "C) Amplituda (maksymalna wartość impulsu) ",
+            "text": " Amplituda (maksymalna wartość impulsu) ",
             "correct": 0
         },
         {
-            "text": "D) Faza (przesunięcie w czasie impulsu)",
+            "text": " Faza (przesunięcie w czasie impulsu)",
             "correct": 0
         },
     ]
@@ -1656,9 +1656,13 @@ const questions = [
             "correct": 1
         },
         {
-            "text": "B)  Duży układ elektroniczny, który nie realizuje żadnej określonej funkcji C) Układ, który zawiera tylko jeden podstawowy element",
+            "text": "  Duży układ elektroniczny, który nie realizuje żadnej określonej funkcji  Układ, który zawiera tylko jeden podstawowy element",
             "correct": 0
         },
+        {
+            "text": 'Układ scalony to rodzaj baterii używanej do zasilania urządzeń elektronicznych.',
+            "correct": 0
+        }
 
     ]
 },
@@ -1668,19 +1672,19 @@ const questions = [
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "A) Odporność na zakłócenia ",
+            "text": " Odporność na zakłócenia ",
             "correct": 1
         },
         {
-            "text": "B) Strata binarna któą można ponieśc w efekcie działania ",
+            "text": " Strata binarna któą można ponieśc w efekcie działania ",
             "correct": 1
         },
         {
-            "text": "C) Czas propagacji ( czas uplywajacy od chwili zmiany stanu wejscia ukladu logicznego, do chwili zmiany stanu wyjsc. ",
+            "text": " Czas propagacji ( czas uplywajacy od chwili zmiany stanu wejscia ukladu logicznego, do chwili zmiany stanu wyjsc. ",
             "correct": 0
         },
         {
-            "text": "D) Brak odporności na zakłócenia ",
+            "text": " Brak odporności na zakłócenia ",
             "correct": 0
         },
     ]
