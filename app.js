@@ -1,16 +1,7 @@
-//generateQuestion();
+
 var questionsAmount = 1;
 let askedQuestions = new Set();
 function generateQuestion() {
-    // let element = questions[1]
-    // console.log(element.pytanie+ " PYTANIE")
-    // console.log(questions.length+ " DLUGOSC TABLICY Z PYTANIAMI")
-    // console.log(usedQuestions.length+ " DRUGA TABLICA")
-
-    
-    // console.log(usedQuestions[element] + " BEFORE")
-    // usedQuestions[element] = true;
-    // console.log(usedQuestions[element] + " AFTER")
 
     if (questions.length === askedQuestions.size) {
         console.log("All questions have been asked.");
@@ -61,6 +52,12 @@ function startExam(){
   
         const answersContainer = document.createElement("div");
         answersContainer.className = "questions";
+
+        if(generatedQuestion.imgPath != undefined){
+            const image = document.createElement('img')
+            image.src = generatedQuestion.imgPath;
+            singleQuestion.appendChild(image)
+        }
     
         for (const odpowiedz of generatedQuestion.answers) {
             const answer = createAnswer(odpowiedz.text, odpowiedz.correct)
@@ -134,66 +131,67 @@ function createAnswer(text, isCorrect) {
     return answerDiv;
 }
 
-function checkQuestions(){
-    let correctAnswers = 0;
 
-    var answers = document.querySelectorAll(".odpowiedz");
+function twojastara(){
+    const ans = document.querySelectorAll(".questions");
+    ans.forEach(function(question){
+        let correctForAnswer = 0;
+        const inputs = question.querySelectorAll('input')
+        inputs.forEach(function(input){
+            input.checked = true;
+            if(input.dataset.correct){
+                correctForAnswer
+            }
 
-    answers.forEach(function(answer){
-        const input = answer.querySelector('input');
-        const span = answer.querySelector('span')
-        console.log(input.dataset.correct,input.checked)
-        if(input.checked){
-            if(input.dataset.correct == "1"){
-                correctAnswers++
-                span.style.color = "green";
-            } else{
-                span.style.color = "red";
-                
-            }
-        }else{
-            if(input.dataset.correct == "1"){
-                span.style.color = "purple"
-            }
-        }
+
+        })
     })
 
-    alert("WYNIK: "+correctAnswers)
+}
 
-    // var elements = document.querySelectorAll(".odpowiedz");
+function checkQuestions(){
+    let totalCorrectAnswers = 0
+
+    const ans = document.querySelectorAll(".questions");
+    ans.forEach(function(question){
+        let correctForAnswer = 0;
+        let checkedCorrectAnswers = 0;
+        const inputs = question.querySelectorAll('input')
+        inputs.forEach(function(input){
+            
+            const span = input.nextElementSibling;
+        
+            if(input.dataset.correct == "1"){
+                correctForAnswer++;
+            }
+
+            if(input.checked && input.dataset.correct){
+                checkedCorrectAnswers++;
+            }
 
 
+            if(input.checked){
+                if(input.dataset.correct == "1"){
+                    console.log('DOBRZE')
+                } else{
+                    span.style.color = "red";
+                    
+                }
+            }else{
+                if(input.dataset.correct == "1"){
+                    span.style.color = "purple"
+                }
+            }
 
-    
-    // let correctAnswers = 0;
-    // for( var i = 0; elements[i]; ++i){
-    //     const input = elements[i].querySelector("input");
-    //     const span = elements[i].querySelector("span");
-    //     console.log(input.checked, input.dataset.correct);
-
-    //     if(input.checked && input.dataset.correct){
-    //         correctAnswers++;
-    //         span.style.color = "green";
-    //     }
+        })
+        if(checkedCorrectAnswers == correctForAnswer){
+            totalCorrectAnswers++
+        }
 
 
-    //     // console.log(elements[i].querySelector('input').checked);
-    //     // if(elements[i].checked) {
-    //     //     if(elements[i].querySelector('input').correct){
-    //     //         correctAnswers++;
-    //     //         elements[i].querySelector('span').style.color = "green";
-    //     //     }else{
-    //     //         // elements[i].
-    //     //     }
-    //     // }else{
-    //     //     if(elements[i].querySelector('input').correct){
-    //     //         elements[i].querySelector('input').checked;
-    //     //     }
-    //     // }
+    })
 
-    // }
-    // //alert("POPRAWNE ODPOWIEDZI: "+correctAnswers);
-
+    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount)
 }
 
 
