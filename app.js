@@ -22,12 +22,6 @@ function startExam(){
     clearObjects()
     const mainBox = document.createElement("div");
     mainBox.className = "mainBox";
-    const checkButton = document.createElement("button");
-        checkButton.className = 'controlBtn',
-        checkButton.onclick = checkQuestions,
-        checkButton.innerText = "SPRAWDŹ TEST"
-        mainBox.appendChild(checkButton)
-
     questionsAmount  = document.querySelector("#questionamount").value;
     
 
