@@ -11,7 +11,7 @@ body{
     display:flex;
     margin:0 auto;
     max-height: 800px;
-    width: 100%;    
+    width: 680px;    
     background: rgba(0,0,0,0.6);
     flex-direction: column;
     border-radius: 8px;
@@ -21,19 +21,25 @@ body{
     align-items: center;
 }
 
+
+
 .singleQuestion{
-    width: 100%;
+    width: 600px;;
     display:flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
+
 .question{
-    width:100%;
+    width:600px;
     font-size: 32px;
     border: 2px dashed #03A062;
     padding: 15px;
 }
+
+
 
 .questions{
     margin-top:2%;
@@ -90,10 +96,9 @@ body{
     width: 85px;
     height: fit-content;
 }
-
 img{
-    width:100%;
-    height: auto;
+    width:220px;
+    height: 120px;
     padding:10px;
     margin: 0 auto;
 }
