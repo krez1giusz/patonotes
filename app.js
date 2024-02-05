@@ -146,10 +146,8 @@ function checkQuestions(){
         if(input.checked){
             if(input.dataset.correct == "1"){
                 correctAnswers++
-                span.style.color = "white";
-            } else if(isCorrect >= 2){
-                correctAnswers--;
-             } else{
+                span.style.color = "green";
+            } else{
                 span.style.color = "red";
                 
             }
