@@ -137,22 +137,6 @@ function createAnswer(text, isCorrect) {
 }
 
 
-function twojastara(){
-    const ans = document.querySelectorAll(".questions");
-    ans.forEach(function(question){
-        let correctForAnswer = 0;
-        const inputs = question.querySelectorAll('input')
-        inputs.forEach(function(input){
-            input.checked = true;
-            if(input.dataset.correct){
-                correctForAnswer
-            }
-
-
-        })
-    })
-
-}
 
 function checkQuestions(){
     let totalCorrectAnswers = 0
