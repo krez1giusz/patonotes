@@ -147,10 +147,8 @@ function checkQuestions(){
             if(input.dataset.correct == "1"){
                 correctAnswers++
                 span.style.color = "green";
-            } else if(input.dataset.correct == "1" && isCorrect >= 2){
-                correctAnswers++
-                correctAnswers - 1
-                span.style.color = "green";
+            } else if(isCorrect >= 2){
+                correctAnswers--;
              } else{
                 span.style.color = "red";
                 
