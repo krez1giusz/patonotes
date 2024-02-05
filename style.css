@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body{
-    background-color:rgba(0,0,0,0.75);
+    background-color:rgba(0,0,0,1);
     color: white;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .mainBox{
@@ -21,6 +24,7 @@ body{
 
 
 .singleQuestion{
+    width: 600px;;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -29,12 +33,16 @@ body{
 
 
 .question{
+    width:600px;
     font-size: 32px;
+    border: 2px dashed #03A062;
+    padding: 15px;
 }
 
 
 
 .questions{
+    margin-top:2%;
     display:flex;
     flex-direction: column;
     gap: 20px;
@@ -47,13 +55,77 @@ body{
     display:flex;
     flex-direction: column;
     gap:15px;
-    position: absolute;
+    border:2px dashed #03A062;
+    padding:15px;
+}
+
+.trash{
+    position:absolute;
 }
 
 .controlBtn{
     width: fit-content;
+    background-color: #03A062;
+    border:none;
+    &:hover{
+        cursor:pointer;
+        transform: scale(1.05);
+    }
 }
 
 .checkBtn{
 }
 
+.boxText{
+
+}
+
+.fractionNumbers{
+    display:flex;
+    flex-direction: column;
+    margin-top:10%;
+    width: fit-content;
+    height: fit-content;
+    border: 2px dashed #03A062;
+    align-items: center;
+    gap:10px;
+    padding:15px;
+}
+
+.mantysa{
+    width: 85px;
+    height: fit-content;
+}
+img{
+    width:220px;
+    height: 120px;
+    padding:10px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainBox{
+        width: 100%;    
+    }
+
+    .singleQuestion{
+        width: 100%;
+    }
+
+    .question{
+        width:100%;
+        font-size: 24px;
+    }
+
+    .questions{
+        width:100%;
+    }
+
+    .mantysa{
+        width: 60px;
+    }
+    img{
+        width:150px;
+        height: 80px;
+    }
+}
