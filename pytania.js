@@ -1174,8 +1174,7 @@ const questions = [
             "correct": 0
         },
         {
-            "text": "D)  Układ, który generuje losowe bity informacji
-            ",
+            "text": "D)  Układ, który generuje losowe bity informacji",
             "correct":0 
         }
     ]
