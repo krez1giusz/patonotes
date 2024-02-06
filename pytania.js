@@ -1689,5 +1689,369 @@ const questions = [
         },
     ]
 },
+{
+    "pytanie": "Co robi mikroprocesor?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Przechowuje Dane",
+            "correct": 0
+        },
+        {
+            "text": "Przetwarza dane, wykonując na nich operacje arytmetyczne i logiczne",
+            "correct": 1
+        },
+        {
+            "text": "Konwertuje dane na obrazy",
+            "correct": 0
+        },
+        {
+            "text": "Przesyła dane bezprzewodowo",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jak inaczej nazywa się centralny zespół mikrokomputera?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "GPU",
+            "correct": 0
+        },
+        {
+            "text": "RAM",
+            "correct": 0
+        },
+        {
+            "text": "CPU",
+            "correct": 1
+        },
+        {
+            "text": "PSU",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Który z poniższych NIE jest zespołem funkcjonalnym mikroprocesora?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zespół rejestrów",
+            "correct": 0
+        },
+        {
+            "text": "Jednostka arytmetyczno - logiczna",
+            "correct": 0
+        },
+        {
+            "text": "Jednostka sterowania",
+            "correct": 0
+        },
+        {
+            "text": "Zespół chłodzenia",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Co oznacza szerokość szyny danych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Liczbę bitów, które mogą być jednocześnie przesyłane przez szynę",
+            "correct": 1
+        },
+        {
+            "text": "Liczbę linii adresowych, które określają lokalizację danych w pamięci",
+            "correct": 0
+        },
+        {
+            "text": "Liczbę sygnałów sterujących, które koordynują transmisję danych",
+            "correct": 0
+        },
+        {
+            "text": "Liczbę cykli zegarowych, które są potrzebne do przesłania danych",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką rolę pełni szyna danych w systemie mikroprocesora?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Przesyła dane, wyniki oraz kody instrukcji między mikroprocesorem a innymi układami ",
+            "correct": 1
+        },
+        {
+            "text": "Adresuje komórki pamięci lub porty wejścia/wyjścia",
+            "correct": 0
+        },
+        {
+            "text": "Koordynuje transmisję danych i sygnalizuje stany wyjątkowe",
+            "correct": 0
+        },
+        {
+            "text": "Zawiera informacje o typie i rozmiarze danych",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką szerokość ma szyna danych w mikroprocesorze Intel 4004, pierwszym komercyjnym mikroprocesorze?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "4 bity",
+            "correct": 1
+        },
+        {
+            "text": "8 bitów",
+            "correct": 0
+        },
+        {
+            "text": "16 bitów",
+            "correct": 0
+        },
+        {
+            "text": "32 bity",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czym jest pamięć RAM?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Pamięć do przechowywania plików na stałe.",
+            "correct": 0
+        },
+        {
+            "text": "Pamięć używana do przechowywania danych tymczasowych podczas pracy komputera.",
+            "correct": 1
+        },
+        {
+            "text": "Pamięć używana do przechowywania plików multimedialnych.",
+            "correct": 0
+        },
+        {
+            "text": "Pamięć używana do przechowywania kopii zapasowych.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co oznacza prędkość zegara (częstotliwość) pamięci RAM?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Liczbę cykli zegara potrzebnych do zarejestrowania przez RAM polecenia.",
+            "correct": 1
+        },
+        {
+            "text": "Ilość megabajtów dostępnych w pamięci RAM.",
+            "correct": 0
+        },
+        {
+            "text": "Szybkość przesyłania danych między RAM a procesorem.",
+            "correct": 0
+        },
+        {
+            "text": "Ilość programów, które można uruchomić jednocześnie.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest opóźnienie CAS (Column Access Strobe)?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Czas potrzebny na rozpoznanie polecenia przez RAM.",
+            "correct": 1
+        },
+        {
+            "text": "Liczba cykli zegara potrzebna do zapisania danych w pamięci RAM.",
+            "correct": 0
+        },
+        {
+            "text": "Ilość programów, które można uruchomić jednocześnie.",
+            "correct": 0
+        },
+        {
+            "text": "Szybkość przesyłania danych między RAM a procesorem.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co oznacza swap file?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Pamięć wirtualna.",
+            "correct": 0
+        },
+        {
+            "text": "Plik wymiany lub plik stronicowania.",
+            "correct": 1
+        },
+        {
+            "text": "Wymiana między pamięcią RAM a ROM.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Która z wymienionych pamięci jest pamięcią ulotną?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "ROM.",
+            "correct": 0
+        },
+        {
+            "text": "Cache.",
+            "correct": 0
+        },
+        {
+            "text": "SSD.",
+            "correct": 0
+        },
+        {
+            "text": "RAM.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest Bootstrap Loader?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Program poszukujący i ładujący system operacyjny.",
+            "correct": 1
+        },
+        {
+            "text": "Program sprawdzający poprawność danych w pamięci ROM.",
+            "correct": 0
+        },
+        {
+            "text": "Program uruchamiający testy poszczególnych kompotentów komputera.",
+            "correct": 0
+        },
+        {
+            "text": "Program zarządzający podstawowymi funkcjami i/o.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czym jest BIOS?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Rodzaj pamięci komputera, która przechowuje wszystkie Twoje pliki i dane.",
+            "correct": 0
+        },
+        {
+            "text": "Specjalny typ procesora znajdujący się w komputerze.",
+            "correct": 0
+        },
+        {
+            "text": "Program antywirusowy, który chroni Twój komputer przed szkodliwym oprogramowaniem.",
+            "correct": 0
+        },
+        {
+            "text": "Zestaw instrukcji oprogramowania zapisanych na stałe w pamięci ROM komputera. Jest to pierwszy program, który uruchamia się, gdy włączasz komputer.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Czym jest POST?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Rodzaj kabla używanego do łączenia komponentów komputera.",
+            "correct": 0
+        },
+        {
+            "text": "Specjalny typ baterii znajdującej się w komputerze.",
+            "correct": 0
+        },
+        {
+            "text": "Program, który chroni Twój komputer przed przegrzewaniem",
+            "correct": 0
+        },
+        {
+            "text": "Proces, który komputer wykonuje przy starcie, aby sprawdzić, czy wszystkie podstawowe komponenty systemu działają poprawnie.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Czym jest Magistrala komputera?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Specjalny typ oprogramowania, które zarządza wszystkimi procesami w komputerze. Jest to program, który kontroluje wszystko, co dzieje się w komputerze, od zarządzania pamięcią po uruchamianie aplikacji.",
+            "correct": 0
+        },
+        {
+            "text": "Rodzaj kabla używanego do łączenia komponentów komputera. Jest to fizyczny element komputera, który łączy różne części, takie jak procesor, pamięć RAM i dysk twardy, umożliwiając im komunikację i współpracę.",
+            "correct": 0
+        },
+        {
+            "text": "Program, który chroni Twój komputer przed szkodliwym oprogramowaniem. Jest to rodzaj oprogramowania zabezpieczającego, które skanuje Twój komputer w poszukiwaniu wirusów i innych zagrożeń, a następnie neutralizuje je, aby zapewnić bezpieczeństwo Twojego systemu.",
+            "correct": 0
+        },
+        {
+            "text": "Zbiór ścieżek, które są wspólne dla wielu układów przewodzących układy elektryczne. Dane są przesyłane jako informacja cyfrowa, przyjmująca wartości 1 lub 0, logicznie odpowiadające odpowiednim napięciom.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Czym jest ROM?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Rodzaj pamięci komputera, która jest regularnie czyszczona po wyłączeniu komputera.",
+            "correct": 0
+        },
+        {
+            "text": "Specjalny typ dysku twardego używanego do przechowywania danych.",
+            "correct": 0
+        },
+        {
+            "text": "Program, który chroni Twój komputer przed szkodliwym oprogramowaniem.",
+            "correct": 0
+        },
+        {
+            "text": "Rodzaj pamięci, która przechowuje dane, które mogą być tylko odczytywane, a nie zapisywane.",
+            "correct": 1
+        }
+    ]
+},
 
 ]
