@@ -1,4 +1,4 @@
-const questions = [
+ questions = [
     {
         "pytanie": "Do jakich układów należy przerzutnik?",
         "alreadyGenerated": false,
