@@ -154,7 +154,7 @@ function checkQuestions(){
                 correctForAnswer++;
             }
 
-            if(input.checked && input.dataset.correct){
+            if(input.checked && input.dataset.correct == "1"){
                 checkedCorrectAnswers++;
             }
 
@@ -173,7 +173,7 @@ function checkQuestions(){
             }
 
         })
-        if(checkedCorrectAnswers == correctForAnswer){
+        if(checkedCorrectAnswers == correctForAnswer && correctForAnswer != 0){
             totalCorrectAnswers++
         }
 
