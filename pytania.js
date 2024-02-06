@@ -2194,7 +2194,7 @@ const questions = [
 },
 {
     "pytanie": "Co to jest?",
-    "imgPath": "img/mikroprocesor/DRAM.png",
+    "imgPath": "img/pamięć/DRAM.png",
     "alreadyGenerated": false,
     "correctAnswers": 0,
     "answers": [
@@ -2218,7 +2218,7 @@ const questions = [
 },
 {
     "pytanie": "Co to jest?",
-    "imgPath": "img/mikroprocesor/SRAM.png",
+    "imgPath": "img/pamięć/SRAM.png",
     "alreadyGenerated": false,
     "correctAnswers": 0,
     "answers": [
@@ -2602,7 +2602,7 @@ const questions = [
 },
 {
     "pytanie": "Co przedstawia poniższe zdjęcie?",
-    "imgPath": "img/mikroprocesor/SDRAM.png",
+    "imgPath": "img/pamięć/SDRAM.png",
     "alreadyGenerated": false,
     "correctAnswers": 0,
     "answers": [
@@ -2626,7 +2626,7 @@ const questions = [
 },
 {
     "pytanie": "Co przedstawia poniższe zdjęcie?",
-    "imgPath": "img/mikroprocesor/DDR SDRAM.png",
+    "imgPath": "img/pamięć/DDR SDRAM.png",
     "alreadyGenerated": false,
     "correctAnswers": 0,
     "answers": [
