@@ -2596,7 +2596,7 @@ const questions = [
         },
         {
             "text": "Kości mogą być różnych producentów i modeli, ale muszą mieć taki sam rozmiar i architekturę oraz być sparowane i umieszczone w skorelowanych ze sobą gniazdach.",
-            "correct": 0
+            "correct": 1
         }
     ]
 },
@@ -2648,5 +2648,1746 @@ const questions = [
         }
     ]
 },
-
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/transmisje/jednokierunkowa.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Transmisje jednokierunkową Simplex",
+            "correct": 1
+        },
+        {
+            "text": "Transmisje naprzemienną Half Duplex",
+            "correct": 0
+        },
+        {
+            "text": "Transmisje jednoczesną Full Duplex",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/transmisje/jednoczesna.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Transmisje jednokierunkową Simplex",
+            "correct": 0
+        },
+        {
+            "text": "Transmisje naprzemienną Half Duplex",
+            "correct": 0
+        },
+        {
+            "text": "Transmisje jednoczesną Full Duplex",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/transmisje/naprzemienna.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Transmisje jednokierunkową Simplex",
+            "correct": 0
+        },
+        {
+            "text": "Transmisje naprzemienną Half Duplex",
+            "correct": 1
+        },
+        {
+            "text": "Transmisje jednoczesną Full Duplex",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są rodzaje transmisji ze względu na kierunek?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Transmisja jednokierunkowa, transmisja równoległa, transmisja synchroniczna",
+            "correct": 0
+        },
+        {
+            "text": "Transmisja naprzemienna, transmisja szeregowa, transmisja asynchroniczna",
+            "correct": 0
+        },
+        {
+            "text": "Transmisja jednokierunkowa, transmisja naprzemienna, transmisja dwukierunkowa",
+            "correct": 1
+        },
+        {
+            "text": "Transmisja cyfrowa, transmisja analogowa, transmisja mieszana",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są metody przesyłania poszczególnych bitów?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Transmisja szeregowa, transmisja równoległa",
+            "correct": 1
+        },
+        {
+            "text": "Transmisja szybka, transmisja wolna",
+            "correct": 0
+        },
+        {
+            "text": "Transmisja bezprzewodowa, transmisja przewodowa",
+            "correct": 0
+        },
+        {
+            "text": "Transmisja optyczna, transmisja elektryczna",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jak można klasyfikować sposoby przesyłania jednostek informacji w czasie?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Przesyłanie ciągłe, przesyłanie okresowe",
+            "correct": 0
+        },
+        {
+            "text": "Transmisja synchroniczna, transmisja asynchroniczna",
+            "correct": 1
+        },
+        {
+            "text": "Przesyłanie online, przesyłanie offline",
+            "correct": 0
+        },
+        {
+            "text": "Przesyłanie dynamiczne, przesyłanie statyczne",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jak przesyłane są dane w transmisji szeregowej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Bity danych są wysyłane jednocześnie, co czyni tę metodę szybką i odpowiednią do komunikacji na długie dystanse.",
+            "correct": 0
+        },
+        {
+            "text": "Bity danych są wysyłane jeden po drugim, bit po bicie, co może być wolniejsze, ale jest często używane do komunikacji na długie dystanse ze względu na jej niezawodność.",
+            "correct": 1
+        },
+        {
+            "text": "Dane są przesyłane przez wiele kanałów, wykorzystując mechanizm “handshake” do zapewnienia integralności danych.",
+            "correct": 0
+        },
+        {
+            "text": "Dane są wysyłane w pakietach z mechanizmami sprawdzania błędów, aby zapewnić, że każdy pakiet jest odbierany w całości.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co charakteryzuje równoległą transmisję danych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Polega na wysyłaniu bitów danych jeden po drugim sekwencyjnie przez jeden kanał.",
+            "correct": 0
+        },
+        {
+            "text": "Jest głównie używana do komunikacji na krótkie dystanse, ponieważ na dłuższych dystansach może wystąpić degradacja sygnału.",
+            "correct": 1
+        },
+        {
+            "text": "Wykorzystuje jeden przewód do przesyłania wszystkich bitów, co czyni go ekonomicznym, ale wolnym.",
+            "correct": 0
+        },
+        {
+            "text": "Wykorzystuje szyfrowanie do zabezpieczenia każdego przesyłanego bitu.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie komponenty są zaangażowane zarówno w transmisji szeregowej, jak i równoległej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Nadajnik, Odbiornik, GND",
+            "correct": 1
+        },
+        {
+            "text": "Nadajnik, Odbiornik, Dane",
+            "correct": 0
+        },
+        {
+            "text": "GND, Strob, Gotowość",
+            "correct": 0
+        },
+        {
+            "text": "Szyfrowanie, Deszyfrowanie, Weryfikacja",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jak osiągana jest synchronizacja w synchronicznej transmisji danych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Za pomocą bitów startu i stopu.",
+            "correct": 0
+        },
+        {
+            "text": "Poprzez zapewnienie, że oba urządzenia pracują z tą samą prędkością.",
+            "correct": 0
+        },
+        {
+            "text": "Za pomocą dodatkowych impulsów synchronizacyjnych lub wbudowanych sygnałów synchronizacyjnych w przesyłanych informacjach.",
+            "correct": 1
+        },
+        {
+            "text": "Za pomocą bitów parzystości.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co charakteryzuje asynchroniczną (start-stop, arytmetyczną) transmisję danych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Dodatkowe linie do synchronizacji danych.",
+            "correct": 0
+        },
+        {
+            "text": "Urządzenia muszą pracować z tą samą prędkością, a informacje są przesyłane w ramkach (SDU).",
+            "correct": 1
+        },
+        {
+            "text": "Wbudowane sygnały synchronizacyjne w przesyłanych informacjach.",
+            "correct": 0
+        },
+        {
+            "text": "Ciągły przepływ danych bez przerw.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "W kontekście transmisji synchronicznej, co oznacza S w sekwencji “S S S Z Z Z Z Z”?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Bit startu.",
+            "correct": 0
+        },
+        {
+            "text": "Bit stopu.",
+            "correct": 0
+        },
+        {
+            "text": "Bit sygnału.",
+            "correct": 0
+        },
+        {
+            "text": "Sygnał synchronizacyjny.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Co w transmisji asynchronicznej wskazuje początek i koniec jednostki danych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Wbudowane sygnały synchronizacyjne w przesyłanych informacjach.",
+            "correct": 0
+        },
+        {
+            "text": "Dodatkowe linie do synchronizacji danych.",
+            "correct": 0
+        },
+        {
+            "text": "Bity startu i stopu, które ramkują Jednostkę Danych Szeregowej (SDU).",
+            "correct": 1
+        },
+        {
+            "text": "Bity parzystości do sprawdzania błędów.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co w transmisji asynchronicznej wskazuje początek i koniec jednostki danych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Wbudowane sygnały synchronizacyjne w przesyłanych informacjach.",
+            "correct": 0
+        },
+        {
+            "text": "Dodatkowe linie do synchronizacji danych.",
+            "correct": 0
+        },
+        {
+            "text": "Bity startu i stopu, które ramkują Jednostkę Danych Szeregowej (SDU).",
+            "correct": 1
+        },
+        {
+            "text": "Bity parzystości do sprawdzania błędów.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest maksymalna długość kabla dla interfejsu CENTRONICS?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Maksymalna długość kabla wynosi 2 metry, a odległość można zwiększyć, skręcając linie sygnałowe z liniami uziemiającymi.",
+            "correct": 1
+        },
+        {
+            "text": "Maksymalna długość kabla wynosi 5 metrów, a odległość można zwiększyć za pomocą wzmacniaczy sygnału.",
+            "correct": 0
+        },
+        {
+            "text": "Maksymalna długość kabla wynosi 10 metrów, ale nie ma metod na zwiększenie tej odległości.",
+            "correct": 0
+        },
+        {
+            "text": "Maksymalna długość kabla wynosi 1 metr, a odległość można zwiększyć za pomocą przekaźników.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Które z poniższych stwierdzeń na temat EPP jest nieprawdziwe?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "EPP obsługuje komunikację dwukierunkową z prędkością transmisji do 2 Mb/s.",
+            "correct": 0
+        },
+        {
+            "text": "EPP ma interfejs jednokierunkowy i obsługuje prędkość transmisji do 4 Mb/s.",
+            "correct": 1
+        },
+        {
+            "text": "Do jednego portu EPP można podłączyć do 64 urządzeń.",
+            "correct": 0
+        },
+        {
+            "text": "EPP ma 8-bitowy interfejs dwukierunkowy.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jak zmienia się prędkość transmisji w ECP (Extended Capabilities Port)?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Prędkość transmisji pozostaje stała, niezależnie od warunków linii.",
+            "correct": 0
+        },
+        {
+            "text": "Prędkość transmisji zależy od warunków linii.",
+            "correct": 1
+        },
+        {
+            "text": "Prędkość transmisji rośnie liniowo wraz z liczbą podłączonych urządzeń.",
+            "correct": 0
+        },
+        {
+            "text": "Prędkość transmisji maleje, gdy podłączane są kolejne urządzenia.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Do jakiego celu głównie zaprojektowano Extended Capabilities Port (ECP)?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Został zaprojektowany do podłączania zewnętrznych dysków twardych z wymaganiami dotyczącymi szybkiego transferu danych.",
+            "correct": 0
+        },
+        {
+            "text": "Został zaprojektowany do podłączania routerów i przełączników sieciowych.",
+            "correct": 0
+        },
+        {
+            "text": "Został zaprojektowany do współpracy z szybkimi drukarkami.",
+            "correct": 1
+        },
+        {
+            "text": "Został zaprojektowany do przesyłania strumieniowego audio/wideo przez sieci.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/kable/CENTRONICS.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "CENTRONICS",
+            "correct": 1
+        },
+        {
+            "text": "VGA",
+            "correct": 0
+        },
+        {
+            "text": "USB",
+            "correct": 0
+        },
+        {
+            "text": "FireWire",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest maksymalna odległość transmisji dozwolona przez standard RS-232C?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "50 metrów przy prędkości do 2 Mb/s.",
+            "correct": 0
+        },
+        {
+            "text": "15 metrów przy prędkości do 1 Mb/s.",
+            "correct": 1
+        },
+        {
+            "text": "30 metrów bez limitu prędkości.",
+            "correct": 0
+        },
+        {
+            "text": "10 metrów przy prędkości do 500 Kb/s.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są poziomy napięcia dla stanów logicznych w RS-232C?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "“1” = +3 do +25 V, “0” = -3 do -25 V",
+            "correct": 1
+        },
+        {
+            "text": "“1” = +5 V, “0” = 0 V",
+            "correct": 0
+        },
+        {
+            "text": "“1” = +12 V, “0” = -12 V",
+            "correct": 0
+        },
+        {
+            "text": "“1” = +15 V, “0” = +5V",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie urządzenia są podłączane przez interfejs szeregowy w standardzie RS-232C?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "DTE (Data Terminal Equipment) i DCE (Data Communication Equipment)",
+            "correct": 1
+        },
+        {
+            "text": "CPU (Central Processing Unit) i GPU (Graphics Processing Unit)",
+            "correct": 0
+        },
+        {
+            "text": "RAM (Random Access Memory) i ROM (Read Only Memory)",
+            "correct": 0
+        },
+        {
+            "text": "HDD (Hard Disk Drive) i SSD (Solid State Drive)",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czy zwarcie dwóch skoków RS-232 prowadzi do jego uszkodzenia?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zawsze prowadzi do uszkodzenia",
+            "correct": 1
+        },
+        {
+            "text": "Nigdy nie prowadzi do uszkodzenia",
+            "correct": 0
+        },
+        {
+            "text": "Powinno powodować uszkodzenia, ale ten warunek nie zawsze jest spełniony",
+            "correct": 0
+        },
+        {
+            "text": "Zależy od poziomu napięcia",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaki jest poziom napięcia dla stanu logicznego “0” w standardzie RS-232C?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "“+3 do +15 [V]”",
+            "correct": 0
+        },
+        {
+            "text": "“-3 do +15 [V]”",
+            "correct": 0
+        },
+        {
+            "text": "“-3 do +25 [V]”",
+            "correct": 0
+        },
+        {
+            "text": "“-3 do -15 [V]”",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/kable/RS-232C.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "CENTRONICS",
+            "correct": 0
+        },
+        {
+            "text": "VGA",
+            "correct": 0
+        },
+        {
+            "text": "RS-232C",
+            "correct": 1
+        },
+        {
+            "text": "RS-323C",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie firmy są odpowiedzialne za rozwój interfejsu komunikacyjnego USB?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Microsoft, Intel, Compaq, IBM i DEC",
+            "correct": 1
+        },
+        {
+            "text": "Apple, Samsung, Sony",
+            "correct": 0
+        },
+        {
+            "text": "Dell, HP, Lenovo",
+            "correct": 0
+        },
+        {
+            "text": "Asus, Acer, Toshiba",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest maksymalna liczba urządzeń, które można podłączyć do jednego portu USB?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "50",
+            "correct": 0
+        },
+        {
+            "text": "100",
+            "correct": 0
+        },
+        {
+            "text": "127",
+            "correct": 1
+        },
+        {
+            "text": "Nie ma ograniczenia",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką prędkość transmisji danych oferuje USB 3.0?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "1-5 Mb/s (low speed)",
+            "correct": 0
+        },
+        {
+            "text": "480 Mb/s (Hi-Speed)",
+            "correct": 0
+        },
+        {
+            "text": "5 Gb/s (Super Speed)",
+            "correct": 1
+        },
+        {
+            "text": "10 Gb/s (Super Speed+)",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Który kolor przewodu odpowiada za masę w kablu USB?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zielony",
+            "correct": 0
+        },
+        {
+            "text": "Żółty",
+            "correct": 0
+        },
+        {
+            "text": "Czerwony",
+            "correct": 0
+        },
+        {
+            "text": "Czarny",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Co oznacza termin “Plug and Play” w kontekście USB?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Oznacza to możliwość podłączenia i odłączenia urządzenia bez konieczności wyłączania i ponownego uruchamiania komputera",
+            "correct": 1
+        },
+        {
+            "text": "Oznacza to możliwość ładowania urządzeń przez porty USB",
+            "correct": 0
+        },
+        {
+            "text": "Oznacza to szyfrowanie danych przesyłanych przez porty USB",
+            "correct": 0
+        },
+        {
+            "text": "Oznacza to zwiększoną prędkość transmisji danych",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czym jest znany standard FireWire?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Umożliwia wolną komunikację szeregową.",
+            "correct": 0
+        },
+        {
+            "text": "Umożliwia szybką komunikację szeregową i usługi danych w czasie rzeczywistym.",
+            "correct": 1
+        },
+        {
+            "text": "Jest używany wyłącznie w urządzeniach innych niż Apple.",
+            "correct": 0
+        },
+        {
+            "text": "Jest jednostką zasilania dla komputerów.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Która z poniższych prędkości transferu NIE jest związana z FireWire?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "100 Mb/s",
+            "correct": 0
+        },
+        {
+            "text": "200 Mb/s",
+            "correct": 0
+        },
+        {
+            "text": "500 Mb/s",
+            "correct": 1
+        },
+        {
+            "text": "1600 Mb/s",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Ile urządzeń można podłączyć do magistrali FireWire?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Do 63 urządzeń.",
+            "correct": 1
+        },
+        {
+            "text": "Dokładnie jedno urządzenie, nie obsługuje wielokrotnych połączeń.",
+            "correct": 0
+        },
+        {
+            "text": "Do 10 urządzeń, podobnie jak niektóre koncentratory Ethernet.",
+            "correct": 0
+        },
+        {
+            "text": "Nieograniczoną ilość, obsługuje łańcuchy połączeń bez żadnych ograniczeń.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest maksymalna długość segmentu kabla FireWire?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Maksymalna długość nie jest zdefiniowana; zależy od mocy urządzenia.",
+            "correct": 0
+        },
+        {
+            "text": "Do 72 metrów, podzielonych na segmenty nie dłuższe niż około cztery metry każdy.",
+            "correct": 1
+        },
+        {
+            "text": "Do pięciu metrów, podobnie jak typowa maksymalna długość kabli USB.",
+            "correct": 0
+        },
+        {
+            "text": "Nie ma limitu. Kable FireWire mogą być dowolnie długie bez żadnych ograniczeń.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Która firma używa nazwy “i.Link” dla swojej wersji technologii IEEE1394/FireWire?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Microsoft nazywa to i.Link w ustawieniach i dokumentacji systemów operacyjnych Windows.",
+            "correct": 0
+        },
+        {
+            "text": "Sony nazywa tę technologię i.Link w swoich produktach i materiałach marketingowych.",
+            "correct": 1
+        },
+        {
+            "text": "IBM używa terminu i.Link w swoich technologiach serwerowych, które zawierają porty IEEE1394.",
+            "correct": 0
+        },
+        {
+            "text": "Intel nazywa porty IEEE1394 jako i.Link na płytach głównych, które zawierają tę funkcję.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/kable/FireWire.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "CENTRONICS",
+            "correct": 0
+        },
+        {
+            "text": "VGA",
+            "correct": 0
+        },
+        {
+            "text": "FireWire",
+            "correct": 1
+        },
+        {
+            "text": "USB",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest IrDA?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Interaktywny Rozkład Danych Akademickich, system do zarządzania danymi studentów.",
+            "correct": 0
+        },
+        {
+            "text": "Infrared Data Association, standard transmisji szeregowej bezprzewodowej w podczerwieni, przeznaczony przede wszystkim do tworzenia sieci tymczasowych komputerów przenośnych.",
+            "correct": 1
+        },
+        {
+            "text": "Internetowy Rejestr Domen Akademickich, baza danych zawierająca informacje o domenach internetowych uczelni wyższych.",
+            "correct": 0
+        },
+        {
+            "text": "Interfejs Rozkładu Danych Aplikacji, narzędzie programistyczne do zarządzania danymi aplikacji.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są zalety korzystania z technologii IrDA?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Możliwość pracy w trybie offline, automatyczna synchronizacja danych po nawiązaniu połączenia internetowego.",
+            "correct": 0
+        },
+        {
+            "text": "Brak potrzeby kabli, obniżone koszty, elektryczna izolacja współpracujących urządzeń i odporność na zakłócenia elektromagnetyczne.",
+            "correct": 1
+        },
+        {
+            "text": "Zwiększone zasięgi działania dzięki nowoczesnym technologiom wzmacniania sygnału.",
+            "correct": 0
+        },
+        {
+            "text": "Możliwość tworzenia sieci ad-hoc, co umożliwia szybkie i łatwe udostępnianie danych między urządzeniami.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką długość fali ma standard IrDA?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "85 do 1000 nm (dioda świecąca 880 nm)",
+            "correct": 1
+        },
+        {
+            "text": "500 do 750 nm (dioda świecąca 720 nm)",
+            "correct": 0
+        },
+        {
+            "text": "1000 do 1500 nm (dioda świecąca 1200 nm)",
+            "correct": 0
+        },
+        {
+            "text": "75 do 850 nm (dioda świecąca 800 nm)",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaki jest kąt odbioru promieniowania w standardzie IrDA?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Odbiór promieniowania pod kątem 45°",
+            "correct": 0
+        },
+        {
+            "text": "Odbiór promieniowania pod kątem 15°",
+            "correct": 1
+        },
+        {
+            "text": "Odbiór promieniowania pod kątem 30°",
+            "correct": 0
+        },
+        {
+            "text": "Odbiór promieniowania pod kątem 60",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest zalecana odległość dla optymalnej wydajności w standardzie IrDA?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Do 1 metra",
+            "correct": 1
+        },
+        {
+            "text": "Do 5 metrów",
+            "correct": 0
+        },
+        {
+            "text": "Do 10 metrów",
+            "correct": 0
+        },
+        {
+            "text": "Do 100 metrów",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką maksymalną prędkość transferu danych oferuje Bluetooth w wersji 3.0 + HS?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "21 kb/s",
+            "correct": 0
+        },
+        {
+            "text": "3 Mb/s",
+            "correct": 0
+        },
+        {
+            "text": "24 Mb/s", 
+            "correct": 1
+        },
+        {
+            "text": "40 Mb/s",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są cechy standardu Bluetooth?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Duży zasięg, wysoki pobór mocy, wysoka cena",
+            "correct": 0
+        },
+        {
+            "text": "Mały pobór mocy, niski poziom mocy, niska cena",
+            "correct": 1
+        },
+        {
+            "text": "Wysoka przepustowość danych, duży zasięg",
+            "correct": 0
+        },
+        {
+            "text": "Niska przepustowość danych, wysoki poziom mocy",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest “katastrofa w nadfiolecie”?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Jest to nazwa dla sytuacji, w której ciało doskonale czarne emituje nieskończoną energię przy pewnej temperaturze.",
+            "correct": 1
+        },
+        {
+            "text": "Jest to teoria, która mówi, że ciało doskonale czarne może pochłaniać nieskończoną ilość energii.",
+            "correct": 0
+        },
+        {
+            "text": "Jest to nazwa dla sytuacji, w której ciało doskonale czarne emituje nieskończoną energię przy niskich temperaturach.",
+            "correct": 0
+        },
+        {
+            "text": "Jest to nazwa dla sytuacji, w której ciało doskonale czarne emituje nieskończoną energię przy wysokich temperaturach.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co zaproponował Max Planck jako rozwiązanie problemu nieskończonej energii?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zaproponował teorię strun.",
+            "correct": 0
+        },
+        {
+            "text": "Zaproponował postulat istnienia dyskretnych pakietów energii, zwanych kwantami.",
+            "correct": 1
+        },
+        {
+            "text": "Zaproponował teorię względności.",
+            "correct": 0
+        },
+        {
+            "text": "Zaproponował teorię kwantową pola.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co postulował Albert Einstein na temat światła?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Postulował, że światło składa się z fal elektromagnetycznych.",
+            "correct": 0
+        },
+        {
+            "text": "Postulował, że światło składa się z cząstek zwanych fotonami.",
+            "correct": 1
+        },
+        {
+            "text": "Postulował, że światło składa się z cząstek zwanych elektronami.",
+            "correct": 0
+        },
+        {
+            "text": "Postulował, że światło składa się z cząstek zwanych kwarkami.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest interferencja w kontekście eksperymentu Younga?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zjawisko, w którym elektron przechodzi przez obie szczeliny na raz.",
+            "correct": 1
+        },
+        {
+            "text": "Zjawisko, w którym elektron przechodzi tylko przez jedną szczelinę.",
+            "correct": 0
+        },
+        {
+            "text": "Zjawisko, w którym elektron nie przechodzi przez żadną szczelinę.",
+            "correct": 0
+        },
+        {
+            "text": "Zjawisko, w którym elektron przechodzi przez trzy szczeliny na raz.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Dlaczego nie obserwujemy interferencji w życiu codziennym?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Ponieważ efekty interferencji są bardzo małe na skali makro.",
+            "correct": 1
+        },
+        {
+            "text": "Ponieważ interferencja nie istnieje.",
+            "correct": 0
+        },
+        {
+            "text": "Ponieważ interferencja jest zbyt skomplikowana do zrozumienia.",
+            "correct": 0
+        },
+        {
+            "text": "Ponieważ interferencja jest zbyt prosta do zrozumienia.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest zjawisko superpozycji w kontekście fizyki kwantowej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zjawisko, w którym jedna cząstka elementarna znajduje się w wielu stanach.",
+            "correct": 1
+        },
+        {
+            "text": "Zjawisko, w którym jedna cząstka elementarna znajduje się tylko w jednym stanie.",
+            "correct": 0
+        },
+        {
+            "text": "Zjawisko, w którym jedna cząstka elementarna nie znajduje się w żadnym stanie.",
+            "correct": 0
+        },
+        {
+            "text": "Zjawisko, w którym jedna cząstka elementarna znajduje się w trzech stanach.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest idea wielu światów w kontekście fizyki kwantowej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Idea, że w jednym świecie cząstka jest w jednym stanie, a w drugim - w innym.",
+            "correct": 1
+        },
+        {
+            "text": "Idea, że w jednym świecie cząstka jest w dwóch stanach, a w drugim - w trzech.",
+            "correct": 0
+        },
+        {
+            "text": "Idea, że w jednym świecie cząstka jest w trzech stanach, a w drugim - w czterech.",
+            "correct": 0
+        },
+        {
+            "text": "Idea, że w jednym świecie cząstka jest w czterech stanach, a w drugim - w pięciu.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest efekt obserwatora w kontekście eksperymentu Younga?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Obserwacja/pomiar nie wpływa na rzeczywistość.",
+            "correct": 0
+        },
+        {
+            "text": "Obserwacja/pomiar zmienia rzeczywistość, powodując, że elektrony zaczynają przechodzić tylko przez jedną szczelinę.",
+            "correct": 1
+        },
+        {
+            "text": "Obserwacja/pomiar zmienia rzeczywistość, powodując, że elektrony zaczynają przechodzić przez trzy szczeliny.",
+            "correct": 0
+        },
+        {
+            "text": "Obserwacja/pomiar zmienia rzeczywistość, powodując, że elektrony zaczynają przechodzić przez cztery szczeliny.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest splątanie i stany splątane w kontekście fizyki kwantowej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Jeżeli zmienimy cząstkę kwantową w punkcie A, cząstka kwantowa w punkcie B nie ulegnie zmianie.",
+            "correct": 0
+        },
+        {
+            "text": "Jeżeli zmienimy cząstkę kwantową w punkcie A, cząstka kwantowa w punkcie B również ulegnie zmianie.",
+            "correct": 1
+        },
+        {
+            "text": "Jeżeli zmienimy cząstkę kwantową w punkcie A, cząstka kwantowa w punkcie C również ulegnie zmianie.",
+            "correct": 0
+        },
+        {
+            "text": "Jeżeli zmienimy cząstkę kwantową w punkcie A, cząstka kwantowa w punkcie D również ulegnie zmianie.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Ile stanów może przechowywać klasyczny bit?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Jeden.",
+            "correct": 0
+        },
+        {
+            "text": "Dwa.",
+            "correct": 1
+        },
+        {
+            "text": "Trzy.",
+            "correct": 0
+        },
+        {
+            "text": "Cztery.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest qubit w kontekście informatyki kwantowej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Bit kwantowy, który umożliwia reprezentację superpozycji stanów między 0 a 1.",
+            "correct": 1
+        },
+        {
+            "text": "Bit kwantowy, który umożliwia reprezentację tylko stanu 0.",
+            "correct": 0
+        },
+        {
+            "text": "Bit kwantowy, który umożliwia reprezentację tylko stanu 1.",
+            "correct": 0
+        },
+        {
+            "text": "Bit kwantowy, który nie umożliwia reprezentacji żadnego stanu.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaki jest najprostszy sposób na reprezentację qubitu?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Sfera Blocha.",
+            "correct": 1
+        },
+        {
+            "text": "Kwadrat Blocha.",
+            "correct": 0
+        },
+        {
+            "text": "Trójkąt Blocha.",
+            "correct": 0
+        },
+        {
+            "text": "Okrąg Blocha.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Ile stanów możemy mieć w jednej chwili przy wykorzystaniu qubitów w komputerach kwantowych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Jeden.",
+            "correct": 0
+        },
+        {
+            "text": "Dwa.",
+            "correct": 0
+        },
+        {
+            "text": "Wiele.",
+            "correct": 1
+        },
+        {
+            "text": "Żadnego.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czym są komputery kwantowe w porównaniu do komputerów klasycznych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Komputery kwantowe są zbudowane z bramek kwantowych, podczas gdy komputery klasyczne z bramek klasycznych.",
+            "correct": 1
+        },
+        {
+            "text": "Komputery kwantowe są zbudowane z bramek klasycznych, podczas gdy komputery klasyczne z bramek kwantowych.",
+            "correct": 0
+        },
+        {
+            "text": "Komputery kwantowe i komputery klasyczne są zbudowane z tych samych bramek.",
+            "correct": 0
+        },
+        {
+            "text": "Komputery kwantowe i komputery klasyczne nie są zbudowane z żadnych bramek.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest bramka kwantowa?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Operator działający na pojedynczym lub kilku qubitach.",
+            "correct": 1
+        },
+        {
+            "text": "Operator działający tylko na pojedynczym qubicie.",
+            "correct": 0
+        },
+        {
+            "text": "Operator działający tylko na kilku qubitach.",
+            "correct": 0
+        },
+        {
+            "text": "Operator, który nie działa na żadnym qubicie.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co robi bramka Pauli-X (Quantum NOT) na qubicie?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Obraca qubit o 180 stopni w osi X.",
+            "correct": 1
+        },
+        {
+            "text": "Obraca qubit o 90 stopni w osi X.",
+            "correct": 0
+        },
+        {
+            "text": "Obraca qubit o 180 stopni w osi Y.",
+            "correct": 0
+        },
+        {
+            "text": "Obraca qubit o 180 stopni w osi Z.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co robi bramka Hadamard na qubicie?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zamienia miejscami oś X z osią Z.",
+            "correct": 1
+        },
+        {
+            "text": "Zamienia miejscami oś X z osią Y.",
+            "correct": 0
+        },
+        {
+            "text": "Zamienia miejscami oś Y z osią Z.",
+            "correct": 0
+        },
+        {
+            "text": "Nie zamienia miejscami żadnych osi.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co robi bramka SWAP na qubitach?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Jeżeli na wejściu podamy qubity A i B, to na wyjściu dostaniemy qubity B i A.",
+            "correct": 1
+        },
+        {
+            "text": "Jeżeli na wejściu podamy qubity A i B, to na wyjściu dostaniemy qubity A i B.",
+            "correct": 0
+        },
+        {
+            "text": "Jeżeli na wejściu podamy qubity A i B, to na wyjściu dostaniemy qubity A i A.",
+            "correct": 0
+        },
+        {
+            "text": "Jeżeli na wejściu podamy qubity A i B, to na wyjściu dostaniemy qubity B i B.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co robi bramka Measurement na qubicie?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Podaje w ilu procentach jest to jedna wartość, a w ilu procentach inna.",
+            "correct": 1
+        },
+        {
+            "text": "Podaje tylko jedną wartość.",
+            "correct": 0
+        },
+        {
+            "text": "Podaje tylko dwie wartości.",
+            "correct": 0
+        },
+        {
+            "text": "Nie podaje żadnej wartości.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są podstawowe etapy działania algorytmów kwantowych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Obliczenia rozpoczynają się klasycznym stanem qubitów, system jest wprowadzany w stan superpozycji, realizowane są wielokrotne operacje unitarne, a obliczenia kończą się pomiarem qubitów.",
+            "correct": 1
+        },
+        {
+            "text": "Obliczenia rozpoczynają się stanem superpozycji qubitów, system jest wprowadzany w klasyczny stan, realizowane są pojedyncze operacje unitarne, a obliczenia kończą się pomiarem qubitów.",
+            "correct": 0
+        },
+        {
+            "text": "Obliczenia rozpoczynają się klasycznym stanem qubitów, system jest wprowadzany w stan superpozycji, realizowane są wielokrotne operacje nieunitarne, a obliczenia kończą się pomiarem qubitów.",
+            "correct": 0
+        },
+        {
+            "text": "Obliczenia rozpoczynają się stanem superpozycji qubitów, system jest wprowadzany w klasyczny stan, realizowane są pojedyncze operacje nieunitarne, a obliczenia kończą się pomiarem qubitów.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czy każda operacja w komputerze kwantowym musi być odwracalna?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Tak.",
+            "correct": 1
+        },
+        {
+            "text": "Nie.",
+            "correct": 0
+        },
+        {
+            "text": "Tylko niektóre operacje muszą być odwracalne.",
+            "correct": 0
+        },
+        {
+            "text": "Tylko operacje na qubitach muszą być odwracalne.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co mówi twierdzenie o nieklonowaniu (No-cloning theorem) w teorii kwantowej?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Umożliwia wykonywanie operacji stanu qubitów, ale nie pozwala na kopiowanie qubitów samych w sobie.",
+            "correct": 1
+        },
+        {
+            "text": "Umożliwia wykonywanie operacji stanu qubitów i pozwala na kopiowanie qubitów samych w sobie.",
+            "correct": 0
+        },
+        {
+            "text": "Nie umożliwia wykonywanie operacji stanu qubitów, ale pozwala na kopiowanie qubitów samych w sobie.",
+            "correct": 0
+        },
+        {
+            "text": "Nie umożliwia wykonywanie operacji stanu qubitów i nie pozwala na kopiowanie qubitów samych w sobie.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to są analogowe komputery kwantowe?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Komputery, które działają bez bramek kwantowych, bezpośrednio na zbiorze qubitów.",
+            "correct": 1
+        },
+        {
+            "text": "Komputery, które działają z bramkami kwantowymi, bezpośrednio na zbiorze qubitów.",
+            "correct": 0
+        },
+        {
+            "text": "Komputery, które działają bez bramek kwantowych, pośrednio na zbiorze qubitów.",
+            "correct": 0
+        },
+        {
+            "text": "Komputery, które działają z bramkami kwantowymi, pośrednio na zbiorze qubitów.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to są NISQ (Noisy intermediate Scale Quantum gate-based computers)?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Komputery, które działają w oparciu o bramki kwantowe wspierane przez dodatkowy sprzęt m.in. sterujący, pomiarowy i diagnostyczny.",
+            "correct": 1
+        },
+        {
+            "text": "Komputery, które działają w oparciu o bramki kwantowe bez wsparcia dodatkowego sprzętu.",
+            "correct": 0
+        },
+        {
+            "text": "Komputery, które działają bez bramek kwantowych, ale z wsparciem dodatkowego sprzętu.",
+            "correct": 0
+        },
+        {
+            "text": "Komputery, które działają bez bramek kwantowych i bez wsparcia dodatkowego sprzętu.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to są Fully error-corrected (gate-based quantum computers)?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Klasa komputerów kwantowych, które działają wyłącznie na bramkach kwantowych bez wsparcia sprzętu dodatkowego.",
+            "correct": 1
+        },
+        {
+            "text": "Klasa komputerów kwantowych, które działają wyłącznie na bramkach kwantowych z wsparciem sprzętu dodatkowego.",
+            "correct": 0
+        },
+        {
+            "text": "Klasa komputerów kwantowych, które działają bez bramek kwantowych, ale z wsparciem sprzętu dodatkowego.",
+            "correct": 0
+        },
+        {
+            "text": "Klasa komputerów kwantowych, które działają bez bramek kwantowych i bez wsparcia sprzętu dodatkowego.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest dekoherencja qubitów?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Stan, w którym koherencja kwantowa jest utrzymywana, gdy superpozycje kwantowe utrzymywane są na stałym poziomie.",
+            "correct": 0
+        },
+        {
+            "text": "Stan, w którym koherencja kwantowa jest utracona, gdy superpozycje kwantowe utrzymywane są na stałym poziomie.",
+            "correct": 1
+        },
+        {
+            "text": "Stan, w którym koherencja kwantowa jest utrzymywana, gdy superpozycje kwantowe nie są utrzymywane na stałym poziomie.",
+            "correct": 0
+        },
+        {
+            "text": "Stan, w którym koherencja kwantowa jest utracona, gdy superpozycje kwantowe nie są utrzymywane na stałym poziomie.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest czas koherencji?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "To maksymalny czas, w którym dany obiekt może trwać w określonym stanie.",
+            "correct": 1
+        },
+        {
+            "text": "To minimalny czas, w którym dany obiekt może trwać w określonym stanie.",
+            "correct": 0
+        },
+        {
+            "text": "To maksymalny czas, w którym dany obiekt nie może trwać w określonym stanie.",
+            "correct": 0
+        },
+        {
+            "text": "To minimalny czas, w którym dany obiekt nie może trwać w określonym stanie.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Dlaczego stan qubitów jest utrzymywany bardzo krótko?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Ponieważ do utrzymania tego stanu potrzebna jest bardzo niska temperatura komputerów kwantowych.",
+            "correct": 1
+        },
+        {
+            "text": "Ponieważ do utrzymania tego stanu potrzebna jest bardzo wysoka temperatura komputerów kwantowych.",
+            "correct": 0
+        },
+        {
+            "text": "Ponieważ do utrzymania tego stanu potrzebna jest bardzo niska temperatura komputerów klasycznych.",
+            "correct": 0
+        },
+        {
+            "text": "Ponieważ do utrzymania tego stanu potrzebna jest bardzo wysoka temperatura komputerów klasycznych.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Ile qubitów zawiera D-Wave quantum computer?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "64.",
+            "correct": 0
+        },
+        {
+            "text": "128.",
+            "correct": 1
+        },
+        {
+            "text": "256.",
+            "correct": 0
+        },
+        {
+            "text": "512.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie procesory wspiera IBM Q One?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Procesory 27 qubitowe, 65 qubitowe oraz 127 qubitowe.",
+            "correct": 1
+        },
+        {
+            "text": "Procesory 32 qubitowe, 64 qubitowe oraz 128 qubitowe.",
+            "correct": 0
+        },
+        {
+            "text": "Procesory 16 qubitowe, 32 qubitowe oraz 64 qubitowe.",
+            "correct": 0
+        },
+        {
+            "text": "Procesory 8 qubitowe, 16 qubitowe oraz 32 qubitowe.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co zapowiadają twórcy Google Quantum Computer na rok 2029?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zbudują komputer z pełną korekcją błędu (Fully error-corrected).",
+            "correct": 1
+        },
+        {
+            "text": "Zbudują komputer bez pełnej korekcji błędu.",
+            "correct": 0
+        },
+        {
+            "text": "Zbudują komputer z częściową korekcją błędu.",
+            "correct": 0
+        },
+        {
+            "text": "Zbudują komputer bez korekcji błędu.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są wymagania dotyczące implementacji operacji kwantowych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Skalowalny rzeczywisty, fizyczny system z dobrze zdefiniowanymi qubitami, możliwość inicjalizacji stanu qubitów do stanów początkowych, odpowiednio długie czasy dekoherencji, uniwersalny zbiór bramek kwantowych, zdolność pomiaru qubitów, możliwość konwertowania qubitów stacjonarnych i latających, możliwość wiernego przesyłania qubitów pomiędzy różnymi lokalizacjami.",
+            "correct": 1
+        },
+        {
+            "text": "Nieskalowalny rzeczywisty, fizyczny system z dobrze zdefiniowanymi qubitami, brak możliwości inicjalizacji stanu qubitów do stanów początkowych, krótkie czasy dekoherencji, uniwersalny zbiór bramek kwantowych, brak zdolności pomiaru qubitów, brak możliwości konwertowania qubitów stacjonarnych i latających, brak możliwości wiernego przesyłania qubitów pomiędzy różnymi lokalizacjami.",
+            "correct": 0
+        },
+        {
+            "text": "Skalowalny rzeczywisty, fizyczny system z dobrze zdefiniowanymi qubitami, brak możliwości inicjalizacji stanu qubitów do stanów początkowych, odpowiednio długie czasy dekoherencji, uniwersalny zbiór bramek kwantowych, zdolność pomiaru qubitów, brak możliwości konwertowania qubitów stacjonarnych i latających, brak możliwości wiernego przesyłania qubitów pomiędzy różnymi lokalizacjami.",
+            "correct": 0
+        },
+        {
+            "text": "Nieskalowalny rzeczywisty, fizyczny system z dobrze zdefiniowanymi qubitami, możliwość inicjalizacji stanu qubitów do stanów początkowych, krótkie czasy dekoherencji, uniwersalny zbiór bramek kwantowych, brak zdolności pomiaru qubitów, możliwość konwertowania qubitów stacjonarnych i latających, możliwość wiernego przesyłania qubitów pomiędzy różnymi lokalizacjami.", 
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co zapowiadają twórcy Google Quantum Computer na rok 2029?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Zbudują komputer z pełną korekcją błędu (Fully error-corrected).",
+            "correct": 1
+        },
+        {
+            "text": "Zbudują komputer bez pełnej korekcji błędu.",
+            "correct": 0
+        },
+        {
+            "text": "Zbudują komputer z częściową korekcją błędu.",
+            "correct": 0
+        },
+        {
+            "text": "Zbudują komputer bez korekcji błędu.", 
+            "correct": 0
+        }
+    ]
+},
 ]
