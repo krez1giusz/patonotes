@@ -1,1 +1,0 @@
-ave pjatk ave tak
