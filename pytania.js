@@ -6213,4 +6213,924 @@
             }
         ]
     },
+    {
+        "pytanie": "Jakie są dwa główne rodzaje chłodzenia komputera?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Chłodzenie pasywne i aktywne.",
+                "correct": 1
+            },
+            {
+                "text": "Chłodzenie wodne i powietrzne.",
+                "correct": 0
+            },
+            {
+                "text": "Chłodzenie cieczą i powietrzem.",
+                "correct": 0
+            },
+            {
+                "text": "Chłodzenie ciepłem i zimnem.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Na czym polega chłodzenie pasywne?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Na umieszczeniu wentylatora, który odbiera ciepło od źródła i oddaje do otoczenia.",
+                "correct": 1
+            },
+            {
+                "text": "Na umieszczeniu radiatora, który odbiera ciepło od źródła i oddaje do otoczenia.",
+                "correct": 0
+            },
+            {
+                "text": "Na umieszczeniu pompy ciepła, która odbiera ciepło od źródła i oddaje do otoczenia.",
+                "correct": 0
+            },
+            {
+                "text": "Na umieszczeniu kompresora, który odbiera ciepło od źródła i oddaje do otoczenia.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie elementy składają się na system chłodzenia wodnego?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Blok wodny, rury, pompa wodna, chłodnica.",
+                "correct": 1
+            },
+            {
+                "text": "Radiator, wentylator, pompa ciepła, chłodnica.",
+                "correct": 0
+            },
+            {
+                "text": "Blok wodny, rury, wentylator, chłodnica.",
+                "correct": 0
+            },
+            {
+                "text": "Radiator, rury, pompa wodna, chłodnica.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są metody chłodzenia aktywnego?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Chłodzenie powietrzne, wodne, pompą ciepła, kompresorowe, ciekłym azotem, alternatywne sposoby.",
+                "correct": 1
+            },
+            {
+                "text": "Chłodzenie powietrzne, wodne, pompą ciepła, kompresorowe, ciekłym azotem.",
+                "correct": 0
+            },
+            {
+                "text": "Chłodzenie powietrzne, wodne, pompą ciepła, kompresorowe.",
+                "correct": 0
+            },
+            {
+                "text": "Chłodzenie powietrzne, wodne, pompą ciepła.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest ogniwo Peltiera w kontekście chłodzenia komputerów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Element półprzewodnikowy wykorzystujący zjawisko pompy cieplnej do chłodzenia elementów do niskich temperatur.",
+                "correct": 1
+            },
+            {
+                "text": "Element półprzewodnikowy wykorzystujący zjawisko pompy cieplnej do podgrzewania elementów do wysokich temperatur.",
+                "correct": 0
+            },
+            {
+                "text": "Element półprzewodnikowy wykorzystujący zjawisko pompy cieplnej do utrzymania stałej temperatury elementów.",
+                "correct": 0
+            },
+            {
+                "text": "Element półprzewodnikowy wykorzystujący zjawisko pompy cieplnej do generowania energii elektrycznej.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są wady chłodzenia kompresorowego?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Hałas, duże rozmiary, oszranianie końcówki stycznej do procesora po wyłączeniu komputera.",
+                "correct": 1
+            },
+            {
+                "text": "Niska efektywność, duże rozmiary, konieczność częstej wymiany płynu chłodzącego.",
+                "correct": 0
+            },
+            {
+                "text": "Wysoka cena, hałas, niska efektywność.",
+                "correct": 0
+            },
+            {
+                "text": "Wysoka cena, trudność w instalacji, konieczność częstej wymiany płynu chłodzącego.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest chłodzenie ciekłym azotem?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Metoda chłodzenia ekstremalnego, używana najczęściej do bicia rekordów, a nie codziennej pracy.",
+                "correct": 1
+            },
+            {
+                "text": "Metoda chłodzenia ekstremalnego, używana najczęściej do codziennej pracy komputera.",
+                "correct": 0
+            },
+            {
+                "text": "Metoda chłodzenia ekstremalnego, używana najczęściej do chłodzenia procesorów w superkomputerach.",
+                "correct": 0
+            },
+            {
+                "text": "Metoda chłodzenia ekstremalnego, używana najczęściej do chłodzenia układów graficznych w komputerach do gier.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest chłodzenie ciekłym galem?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Metoda chłodzenia, w której układ pobiera ciepło z procesora, poprzez pompowanie ciekłego stopu galu w zestawie rurek.",
+                "correct": 1
+            },
+            {
+                "text": "Metoda chłodzenia, w której układ pobiera ciepło z procesora, poprzez pompowanie ciekłego stopu galu w zestawie wentylatorów.",
+                "correct": 0
+            },
+            {
+                "text": "Metoda chłodzenia, w której układ pobiera ciepło z procesora, poprzez pompowanie ciekłego stopu galu w zestawie kompresorów.",
+                "correct": 0
+            },
+            {
+                "text": "Metoda chłodzenia, w której układ pobiera ciepło z procesora, poprzez pompowanie ciekłego stopu galu w zestawie kondensatorów.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są różne typy wyświetlaczy, które możemy wyróżnić?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Wyświetlacz CRT, LCD, PDP, LED.",
+                "correct": 1
+            },
+            {
+                "text": "Wyświetlacz CRT, LED, AMOLED, Super AMOLED.",
+                "correct": 0
+            },
+            {
+                "text": "Wyświetlacz CRT, LCD, OLED, Super AMOLED.",
+                "correct": 0
+            },
+            {
+                "text": "Wyświetlacz CRT, LCD, LED, OLED.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest wyświetlacz CRT?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Wyświetlacz z lampą elektronową.",
+                "correct": 1
+            },
+            {
+                "text": "Wyświetlacz ciekłokrystaliczny.",
+                "correct": 0
+            },
+            {
+                "text": "Wyświetlacz plazmowy.",
+                "correct": 0
+            },
+            {
+                "text": "Wyświetlacz diodowy.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są podtypy wyświetlaczy LCD?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "TFT/IPS, LED, QLED.",
+                "correct": 1
+            },
+            {
+                "text": "LED, OLED, AMOLED.",
+                "correct": 0
+            },
+            {
+                "text": "PDP, LED, OLED.",
+                "correct": 0
+            },
+            {
+                "text": "CRT, PDP, LED.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są podtypy wyświetlaczy LED?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "LED, OLED, AMOLED, Super AMOLED.",
+                "correct": 1
+            },
+            {
+                "text": "LED, QLED, PDP, CRT.",
+                "correct": 0
+            },
+            {
+                "text": "LED, OLED, Super AMOLED, LCD.",
+                "correct": 0
+            },
+            {
+                "text": "LED, OLED, AMOLED, QLED.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jak działa monitor CRT?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Używa wiązki elektronów wystrzeliwanej z działa elektronowego, która odchylana magnetycznie pada na luminofor, powodując jego wzbudzenie do świecenia.",
+                "correct": 1
+            },
+            {
+                "text": "Używa ciekłych kryształów, które zmieniają swoje właściwości pod wpływem napięcia elektrycznego.",
+                "correct": 0
+            },
+            {
+                "text": "Używa diod LED do generowania obrazu.",
+                "correct": 0
+            },
+            {
+                "text": "Używa plazmy do generowania obrazu.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są wady monitorów CRT?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Duże rozmiary, duża waga, duży pobór energii, szkodliwe dla zdrowia z powodu generowania silnego pola elektromagnetycznego.",
+                "correct": 1
+            },
+            {
+                "text": "Niska jakość obrazu, mały kąt widzenia, duży pobór energii.",
+                "correct": 0
+            },
+            {
+                "text": "Duże rozmiary, niska jakość obrazu, mały kąt widzenia.",
+                "correct": 0
+            },
+            {
+                "text": "Duża waga, niska jakość obrazu, duży pobór energii.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest wyświetlanie z przeplotem w monitorach CRT?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Dzielenie obrazu na dwa obrazy, jeden ma linie parzyste, drugi ma linie nieparzyste. Przeplot pozwala na wyświetlenie dwa razy więcej linii na ekranie.",
+                "correct": 1
+            },
+            {
+                "text": "Wyświetlanie obrazu linię po linii, co powoduje migotanie obrazu.",
+                "correct": 0
+            },
+            {
+                "text": "Wyświetlanie obrazu za pomocą diod LED.",
+                "correct": 0
+            },
+            {
+                "text": "Wyświetlanie obrazu za pomocą ciekłych kryształów.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są zalety monitorów CRT?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Doskonałe nasycenie barw, optymalna jakość obrazu w różnych rozdzielczościach, kąt widzenia sięga do 180 stopni.",
+                "correct": 1
+            },
+            {
+                "text": "Niski pobór energii, lekka waga, małe rozmiary.",
+                "correct": 0
+            },
+            {
+                "text": "Niski pobór energii, doskonałe nasycenie barw, optymalna jakość obrazu w różnych rozdzielczościach.",
+                "correct": 0
+            },
+            {
+                "text": "Lekka waga, małe rozmiary, kąt widzenia sięga do 180 stopni.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są dwa podstawowe sposoby mieszania barw?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Sposób addytywny i substraktywny.",
+                "correct": 1
+            },
+            {
+                "text": "Sposób addytywny i multiplikatywny.",
+                "correct": 0
+            },
+            {
+                "text": "Sposób substraktywny i multiplikatywny.",
+                "correct": 0
+            },
+            {
+                "text": "Sposób addytywny i dywizyjny.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są barwy podstawowe w sposobie addytywnym?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "RGB (Red Green Blue).",
+                "correct": 1
+            },
+            {
+                "text": "CMYK (Cyan Magenta Yellow K (black)).",
+                "correct": 0
+            },
+            {
+                "text": "RGB (Red Green Black).",
+                "correct": 0
+            },
+            {
+                "text": "CMY (Cyan Magenta Yellow).", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są barwy podstawowe w sposobie substraktywnym?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "CMYK (Cyan Magenta Yellow K (black)).",
+                "correct": 1
+            },
+            {
+                "text": "RGB (Red Green Blue).",
+                "correct": 0
+            },
+            {
+                "text": "CMY (Cyan Magenta Yellow).",
+                "correct": 0
+            },
+            {
+                "text": "RGB (Red Green Black).", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są różne typy masek stosowanych w monitorach CRT?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Maska perforowana Delta, PIL (Precision In Line), Trinitron.",
+                "correct": 1
+            },
+            {
+                "text": "Maska perforowana Delta, PIL (Precision In Line), LED.",
+                "correct": 0
+            },
+            {
+                "text": "Maska perforowana Delta, OLED, Trinitron.",
+                "correct": 0
+            },
+            {
+                "text": "Maska perforowana Delta, PIL (Precision In Line), OLED.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest rozdzielczość w kontekście monitorów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Liczba pikseli, które możemy wyświetlić w poziomie i w pionie.",
+                "correct": 1
+            },
+            {
+                "text": "Liczba linii, które możemy wyświetlić w poziomie i w pionie.",
+                "correct": 0
+            },
+            {
+                "text": "Liczba pikseli, które możemy wyświetlić tylko w poziomie.",
+                "correct": 0
+            },
+            {
+                "text": "Liczba pikseli, które możemy wyświetlić tylko w pionie.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest częstotliwość pionowa w kontekście monitorów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Ile razy monitor jest w stanie odświeżyć ekran w czasie jednej sekundy.",
+                "correct": 1
+            },
+            {
+                "text": "Ile razy monitor jest w stanie odświeżyć ekran w ciągu minuty.",
+                "correct": 0
+            },
+            {
+                "text": "Ile razy monitor jest w stanie odświeżyć ekran w ciągu godziny.",
+                "correct": 0
+            },
+            {
+                "text": "Ile razy monitor jest w stanie odświeżyć ekran w ciągu dnia.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest częstotliwość pozioma w kontekście monitorów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Liczba linii ekranu rysowanych w ciągu jednej sekundy.",
+                "correct": 1
+            },
+            {
+                "text": "Liczba linii ekranu rysowanych w ciągu minuty.",
+                "correct": 0
+            },
+            {
+                "text": "Liczba linii ekranu rysowanych w ciągu godziny.",
+                "correct": 0
+            },
+            {
+                "text": "Liczba linii ekranu rysowanych w ciągu dnia.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest przekątna użytkowa w kontekście monitorów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Wielkość dostępnego obszaru dla użytkownika.",
+                "correct": 1
+            },
+            {
+                "text": "Wielkość ekranu obejmująca również te obszary kineskopu, które nie biorą udziału w efektywnym wyświetlaniu obrazu.",
+                "correct": 0
+            },
+            {
+                "text": "Wielkość ekranu bez uwzględnienia obszarów kineskopu, które nie biorą udziału w efektywnym wyświetlaniu obrazu.",
+                "correct": 0
+            },
+            {
+                "text": "Wielkość ekranu wraz z obszarami kineskopu, które nie biorą udziału w efektywnym wyświetlaniu obrazu.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie jest nasycenie kolorami dla 15bpp, 16bpp i 24bpp?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "32k kolorów dla 15bpp, 65k kolorów dla 16bpp, 16 milionów kolorów dla 24bpp.",
+                "correct": 1
+            },
+            {
+                "text": "16k kolorów dla 15bpp, 32k kolorów dla 16bpp, 65 milionów kolorów dla 24bpp.",
+                "correct": 0
+            },
+            {
+                "text": "65k kolorów dla 15bpp, 16 milionów kolorów dla 16bpp, 32k kolorów dla 24bpp.",
+                "correct": 0
+            },
+            {
+                "text": "16 milionów kolorów dla 15bpp, 32k kolorów dla 16bpp, 65k kolorów dla 24bpp.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Ile pamięci karty graficznej potrzebujemy, aby wyświetlić obraz FullHD w głębi 24-bitowej?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "6MB.",
+                "correct": 1
+            },
+            {
+                "text": "25.5MB.",
+                "correct": 0
+            },
+            {
+                "text": "3.6GiB.",
+                "correct": 0
+            },
+            {
+                "text": "6GB.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Ile pamięci karty graficznej potrzebujemy, aby wyświetlić obraz 4k w głębi 24-bitowej?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "25.5MB",
+                "correct": 1
+            },
+            {
+                "text": "6MB",
+                "correct": 0
+            },
+            {
+                "text": "3.6GiB.",
+                "correct": 0
+            },
+            {
+                "text": "6GB.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Ile pamięci karty graficznej potrzebujemy, aby wyświetlić jedną sekundę obrazu 4k w głębi 24-bitowej przy częstotliwości 144Hz?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "3.6GiB",
+                "correct": 1
+            },
+            {
+                "text": "25.5MB",
+                "correct": 0
+            },
+            {
+                "text": "6MB.",
+                "correct": 0
+            },
+            {
+                "text": "6GB.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jak działa monitor LCD?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Działa dzięki wykorzystaniu technologii ciekłych kryształów, umieszczonych pomiędzy dwoma filtrami polaryzacyjnymi obróconymi w stosunku do siebie o 90 stopni.",
+                "correct": 1
+            },
+            {
+                "text": "Działa dzięki wykorzystaniu technologii ciekłych kryształów, umieszczonych pomiędzy dwoma filtrami polaryzacyjnymi obróconymi w stosunku do siebie o 180 stopni.",
+                "correct": 0
+            },
+            {
+                "text": "Działa dzięki wykorzystaniu technologii ciekłych kryształów, umieszczonych pomiędzy dwoma filtrami polaryzacyjnymi obróconymi w stosunku do siebie o 45 stopni.",
+                "correct": 0
+            },
+            {
+                "text": "Działa dzięki wykorzystaniu technologii ciekłych kryształów, umieszczonych pomiędzy dwoma filtrami polaryzacyjnymi obróconymi w stosunku do siebie o 60 stopni.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest kontrast dynamiczny w monitorach LCD?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Stosunek jasności czerni przy minimalnej mocy lamp do jasności bieli przy maksymalnej mocy lamp.",
+                "correct": 1
+            },
+            {
+                "text": "Stosunek jasności bieli przy minimalnej mocy lamp do jasności czerni przy maksymalnej mocy lamp.",
+                "correct": 0
+            },
+            {
+                "text": "Stosunek jasności czerni przy maksymalnej mocy lamp do jasności bieli przy minimalnej mocy lamp.",
+                "correct": 0
+            },
+            {
+                "text": "Stosunek jasności bieli przy maksymalnej mocy lamp do jasności czerni przy minimalnej mocy lamp.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są różne technologie LCD?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "TN, TFT, MVA, PVA, IPS, Dual Scan Twisted Nematic.",
+                "correct": 1
+            },
+            {
+                "text": "TN, TFT, MVA, PVA, IPS, Single Scan Twisted Nematic.",
+                "correct": 0
+            },
+            {
+                "text": "TN, TFT, MVA, PVA, IPS, Triple Scan Twisted Nematic.",
+                "correct": 0
+            },
+            {
+                "text": "TN, TFT, MVA, PVA, IPS, Quad Scan Twisted Nematic.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest czas reakcji w monitorach LCD?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Czas przejścia pojedynczego piksela matrycy ciekłokrystalicznej ze stanu zapalonego (biały) do stanu zgaszonego (czarny) a następnie do stanu zapalonego (biały).",
+                "correct": 1
+            },
+            {
+                "text": "Czas przejścia pojedynczego piksela matrycy ciekłokrystalicznej ze stanu zgaszonego (czarny) do stanu zapalonego (biały) a następnie do stanu zgaszonego (czarny).",
+                "correct": 0
+            },
+            {
+                "text": "Czas przejścia pojedynczego piksela matrycy ciekłokrystalicznej ze stanu zapalonego (biały) do stanu zgaszonego (czarny).",
+                "correct": 0
+            },
+            {
+                "text": "Czas przejścia pojedynczego piksela matrycy ciekłokrystalicznej ze stanu zgaszonego (czarny) do stanu zapalonego (biały).", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest piksel w kontekście monitorów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Lampa fluorescencyjna, emitująca jedną barwę, składająca się z trzech identycznych mikroskopijnych otworów, zawierających ksenon i posiadających dwie elektrody – przednią i tylną..",
+                "correct": 1
+            },
+            {
+                "text": "Lampa fluorescencyjna, emitująca trzy barwy, składająca się z jednego mikroskopijnego otworu, zawierającego ksenon i posiadającego dwie elektrody – przednią i tylną.",
+                "correct": 0
+            },
+            {
+                "text": "Lampa fluorescencyjna, emitująca jedną barwę, składająca się z jednego mikroskopijnego otworu, zawierającego ksenon i posiadającego dwie elektrody – przednią i tylną.",
+                "correct": 0
+            },
+            {
+                "text": "Lampa fluorescencyjna, emitująca trzy barwy, składająca się z trzech identycznych mikroskopijnych otworów, zawierających ksenon i posiadających dwie elektrody – przednią i tylną.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są zalety monitorów z pikselami składającymi się z lamp fluorescencyjnych?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Znacznie większa gamma kolorów, lepsze kąty widzenia, stosunkowo małe rozmiary.",
+                "correct": 1
+            },
+            {
+                "text": "Niskie zużycie prądu, lekkie, mogą być przenoszone w dowolnej orientacji.",
+                "correct": 0
+            },
+            {
+                "text": "Znacznie większa gamma kolorów, niskie zużycie prądu, mogą być przenoszone w dowolnej orientacji.",
+                "correct": 0
+            },
+            {
+                "text": "Lepsze kąty widzenia, niskie zużycie prądu, lekkie.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są wady monitorów z pikselami składającymi się z lamp fluorescencyjnych?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Piksele potrzebują doładowań elektrycznych, są albo gaszone, albo odpalane, nie istnieje stan pośredni, zużycie prądu jest dużo wyższe, większa waga i muszą być przenoszone wyłącznie pionowo.",
+                "correct": 1
+            },
+            {
+                "text": "Niska gamma kolorów, ograniczone kąty widzenia, duże rozmiary.",
+                "correct": 0
+            },
+            {
+                "text": "Piksele nie potrzebują doładowań elektrycznych, są albo gaszone, albo odpalane, istnieje stan pośredni, zużycie prądu jest niskie, mała waga i mogą być przenoszone w dowolnej orientacji.",
+                "correct": 0
+            },
+            {
+                "text": "Wysoka gamma kolorów, szerokie kąty widzenia, małe rozmiary.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Czy piksele w monitorach z lampami fluorescencyjnymi potrzebują doładowań elektrycznych?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": " Tak, piksele potrzebują doładowań elektrycznych, są albo gaszone, albo odpalane, nie istnieje stan pośredni.",
+                "correct": 1
+            },
+            {
+                "text": "Nie, piksele nie potrzebują doładowań elektrycznych, są albo gaszone, albo odpalane, istnieje stan pośredni.",
+                "correct": 0
+            },
+            {
+                "text": "Tak, piksele potrzebują doładowań elektrycznych, są albo gaszone, albo odpalane, istnieje stan pośredni.",
+                "correct": 0
+            },
+            {
+                "text": "Nie, piksele nie potrzebują doładowań elektrycznych, są albo gaszone, albo odpalane, nie istnieje stan pośredni.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są różnice w działaniu matryc LED od zwykłych LCD?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Matryca jest podświetlana diodami LED, a nie lampą.",
+                "correct": 1
+            },
+            {
+                "text": "Matryca jest podświetlana lampą, a nie diodami LED.",
+                "correct": 0
+            },
+            {
+                "text": "Matryca jest podświetlana zarówno diodami LED, jak i lampą.",
+                "correct": 0
+            },
+            {
+                "text": "Matryca nie jest podświetlana ani diodami LED, ani lampą.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są zalety monitorów LED?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Głęboka czerń, równomierne podświetlenie, niski pobór energii, niewielka grubość.",
+                "correct": 1
+            },
+            {
+                "text": "Wysoki pobór energii, niewielka grubość, głęboka czerń, równomierne podświetlenie.",
+                "correct": 0
+            },
+            {
+                "text": "Głęboka czerń, nierównomierne podświetlenie, niski pobór energii, duża grubość.",
+                "correct": 0
+            },
+            {
+                "text": "Jasna czerń, równomierne podświetlenie, wysoki pobór energii, niewielka grubość.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są wady monitorów OLED?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Ograniczona żywotność materiałów organicznych, większe zużycie energii od ekranów LCD, duża wrażliwość na wilgoć, wysoki koszt rozwoju.",
+                "correct": 1
+            },
+            {
+                "text": "Nieograniczona żywotność materiałów organicznych, mniejsze zużycie energii od ekranów LCD, mała wrażliwość na wilgoć, niski koszt rozwoju.",
+                "correct": 0
+            },
+            {
+                "text": "Ograniczona żywotność materiałów organicznych, mniejsze zużycie energii od ekranów LCD, duża wrażliwość na wilgoć, wysoki koszt rozwoju.",
+                "correct": 0
+            },
+            {
+                "text": "Nieograniczona żywotność materiałów organicznych, większe zużycie energii od ekranów LCD, mała wrażliwość na wilgoć, niski koszt rozwoju.", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest AMOLED?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Ulepszona wersja diod OLED, która jest dużo cieńsza, oferuje dobrą jakość obrazu i nie wymaga podświetlenia, gdyż same diody świecą.",
+                "correct": 1
+            },
+            {
+                "text": "Ulepszona wersja diod OLED, która jest dużo grubsza, oferuje słabą jakość obrazu i wymaga podświetlenia, gdyż same diody nie świecą.",
+                "correct": 0
+            },
+            {
+                "text": "Ulepszona wersja diod OLED, która jest dużo cieńsza, oferuje słabą jakość obrazu i nie wymaga podświetlenia, gdyż same diody świecą.",
+                "correct": 0
+            },
+            {
+                "text": "Ulepszona wersja diod OLED, która jest dużo grubsza, oferuje dobrą jakość obrazu i wymaga podświetlenia, gdyż same diody nie świecą.", 
+                "correct": 0
+            }
+        ]
+    },
 ]
