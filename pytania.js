@@ -4389,5 +4389,1828 @@ const questions = [
             "correct": 0
         }
     ]
-},
+    },
+    {
+        "pytanie": "Na jakie sekcje można wydzielić mikroprocesor?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Sekcja układu sterowania",
+                "correct": 1
+            },
+            {
+                "text": "Sekcja zespołu rejestrów",
+                "correct": 1
+            },
+            {
+                "text": "Sekcja arytmometru ",
+                "correct": 1
+            },
+            {
+                "text": "Sekcja pamięci ", 
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie podzespoły znajdują się w sekcji układu sterowania?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Rejestr instrukcji wraz z kolejnymi rozkazami do wykonania ",
+                "correct": 1
+            },
+            {
+                "text": "Dekoder - dekoduje instrukcje, do mikroinstrukcji które CPU jest w stanie wykonać",
+                "correct": 1
+            },
+            {
+                "text": "Układ sterujący ( Wydaje odpowiednie polecenia poprzez magistrale sterujące)",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "pytanie": "Z czego składa się zespół rejestrów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Multiplekser",
+                "correct": 1
+            },
+            {
+                "text": "Zespół rejestrów ogólnego przeznaczenia",
+                "correct": 1
+            },
+            {
+                "text": "Licznik rozkazów",
+                "correct": 1
+            },
+            {
+                "text": "Układ inkrementacji/dekrementacji ", 
+                "correct": 1
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Z czego składa się sekcja arytmometru?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Akumulator ( Miejsce do chwilowego zapisania informacji, w celu dalszego przekazania do ALU)",
+                "correct": 1
+            },
+            {
+                "text": "ALU ( Pobiera dane z akumulatora/bezposrednio z magistrali danych)",
+                "correct": 1
+            },
+            {
+                "text": "Rejestr flagowy (Przechowuje informacje o aktualnej operacji)",
+                "correct": 1
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Do czego służy Arytmometr/ALU ?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przechowuje informacje o aktualnie wykonywanej operacji",
+                "correct": 0
+            },
+            {
+                "text": "Służy do wykonywania operacji arymetycznych i logicznych",
+                "correct": 1
+            },
+            {
+                "text": "amięta kod rozkazu pobranego z pamięci",
+                "correct": 0
+            },
+            {
+                "text": "Jest miejscem wpisu wyniku operacji", 
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to akumulator?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przechowuje informacje o aktualnie wykonywanej operacji",
+                "correct": 0
+            },
+            {
+                "text": "Służy do wykonywania operacji arymetycznych i logicznych",
+                "correct": 0
+            },
+            {
+                "text": "Pamięta kod rozkazu pobranego z pamięci ",
+                "correct": 0
+            },
+            {
+                "text": "Jest miejscem wpisu wyniku operacji(POPRAWNA)", 
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym jest Rejestr znaczników?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przechowuje informacje o aktualnie wykonywanej operacji",
+                "correct": 0
+            },
+            {
+                "text": "wpisywane są do niego informacje o przebiegu i wyniku operacji wkyonywanych przez arytmometr",
+                "correct": 1
+            },
+            {
+                "text": "Pamięta kod rozkazu pobranego z pamięci",
+                "correct": 0
+            },
+            {
+                "text": "Jest miejscem wpisu wyniku operacji", 
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym jest Rejestr znaczników?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przechowuje informacje o aktualnie wykonywanej operacji",
+                "correct": 0
+            },
+            {
+                "text": "wpisywane są do niego informacje o przebiegu i wyniku operacji wkyonywanych przez arytmometr",
+                "correct": 1
+            },
+            {
+                "text": "Pamięta kod rozkazu pobranego z pamięci",
+                "correct": 0
+            },
+            {
+                "text": "Jest miejscem wpisu wyniku operacji", 
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Do czego służy rejestr rozkazów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Zapamiętania kodu rozkazu pobranego z pamięci ",
+                "correct": 1
+            },
+            {
+                "text": "Dekodowanie rozkazu z rejestru rozkazów",
+                "correct": 0
+            },
+            {
+                "text": "Zapewnie właściwe uszeregowanie w czasie kolejnych zdarzeń w systemie",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Do czego służy Dekoder rozkazów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Zapamiętania kodu rozkazu pobranego z pamięci ",
+                "correct": 0
+            },
+            {
+                "text": "Dekodowanie rozkazu z rejestru rozkazów",
+                "correct": 1
+            },
+            {
+                "text": "Zapewnie właściwe uszeregowanie w czasie kolejnych zdarzeń w systemie",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Do czego służy Układ Sterowania ?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Zapamiętania kodu rozkazu pobranego z pamięci ",
+                "correct": 0
+            },
+            {
+                "text": "Dekodowanie rozkazu z rejestru rozkazów",
+                "correct": 0
+            },
+            {
+                "text": "Zapewnie właściwe uszeregowanie w czasie kolejnych zdarzeń w systemie",
+                "correct": 1
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Do czego służy Rejestr ogólnego przeznaczenia?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przechowuje często używane argumenty, do których dostęp powinien być możliwie szybki",
+                "correct": 1
+            },
+            {
+                "text": "Wskazuje gdzie w pamięci znajdują się kolejne rozkazy",
+                "correct": 0
+            },
+            {
+                "text": "Adresuje komórkę pamięci stosu",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Do czego służy Rejestr Wskaźnik stosu?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przechowuje często używane argumenty, do których dostęp powinien być możliwie szybki",
+                "correct": 0
+            },
+            {
+                "text": "Wskazuje gdzie w pamięci znajdują się kolejne rozkazy",
+                "correct": 0
+            },
+            {
+                "text": "Służy do adresowania komórki pamieci stosu",
+                "correct": 1
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym jest licznik rozkazów?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Adresuje komórki pamieci stosu",
+                "correct": 0
+            },
+            {
+                "text": "Przechowuje często używane argumenty, do których dostęp powinien być możliwie szybki",
+                "correct": 0
+            },
+            {
+                "text": "Wskazuje gdzie w pamięci znajdują się kolejne rozkazy",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym jest rejestr adresowy?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Wskazuje komórkę w pamięci z której odczytywany jest bajt rozkazu lub danej komórkę do której wpisuje się bajt danej",
+                "correct": 1
+            },
+            {
+                "text": "Wskazuje gdzie w pamięci znajdują się kolejne rozkazy",
+                "correct": 0
+            },
+            {
+                "text": "Służy do adresowania komórki pamieci stosu",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym jest BU (Bus Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym jest BU (Bus Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego. ",
+                "correct": 1
+            },
+            {
+                "text": "Służy do adresowania komórki pamieci stosu",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym jest IU (Instruction Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym jest EU (Execution Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Czym jest CU (Control Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za koordynowanie działania ALU.",
+                "correct": 1
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym jest FPU (Floating Point Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji na liczbach zmiennoprzecinkowych. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. .",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym jest AU (Addressing Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za generowanie i zarządzanie adresami w mikroprocesorze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym jest prefetch w kontekście mikroprocesora? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to proces, który umożliwia mikroprocesorowi przewidywanie, które dane będą potrzebne w przyszłości. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to proces, który umożliwia mikroprocesorowi komunikację z pamięcią RAM.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym jest ALU (Arithmetic Logic Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to proces, który umożliwia mikroprocesorowi przewidywanie, które dane będą potrzebne w przyszłości. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Czym jest MMU (Memory Management Unit) w mikroprocesorze? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to proces, który umożliwia mikroprocesorowi przewidywanie, które dane będą potrzebne w przyszłości.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Z czego składa się mikroprocesor?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "ALU",
+                "correct": 1
+            },
+            {
+                "text": "Pamięć ROM",
+                "correct": 0
+            },
+            {
+                "text": "MMU",
+                "correct": 1
+            },
+            {
+                "text": "UPS",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jaka jest poprawna kolejność rozkazów procesora?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Read, Decode, fetch, write, execute",
+                "correct": 0
+            },
+            {
+                "text": "Fetch, decode, read, execute, write",
+                "correct": 1
+            },
+            {
+                "text": "Decode, execute,read,fetch,write",
+                "correct": 1
+            },
+            {
+                "text": "Fetch, read, decode, write, execute",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czestotliwosc taktowania procesora - ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Definiuje ile operacji mozna wykonac w ramach jednej sekundy",
+                "correct": 1
+            },
+            {
+                "text": "Definiuje podstawową wydajność, ile bitów procesor jest w stanie przetworzyć w jedonstce czas",
+                "correct": 0
+            },
+            {
+                "text": "Jest to pamięć statyczna mająca dużo krótsze czasy dostępu niż pamięć operacyjna",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Rejestry wewnętrzne - ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Definiuje ile operacji mozna wykonac w ramach jednej sekundy",
+                "correct": 0
+            },
+            {
+                "text": "Definiuje podstawową wydajność, ile bitów procesor jest w stanie przetworzyć w jedonstce czasu",
+                "correct": 1
+            },
+            {
+                "text": "Jest to pamięć statyczna mająca dużo krótsze czasy dostępu niż pamięć operacyjna",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Pamięć cache - ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Definiuje ile operacji mozna wykonac w ramach jednej sekundy ",
+                "correct": 0
+            },
+            {
+                "text": "Definiuje podstawową wydajność, ile bitów procesor jest w stanie przetworzyć w jedonstce czasu",
+                "correct": 0
+            },
+            {
+                "text": "Jest to pamięć statyczna mająca dużo krótsze czasy dostępu niż pamięć operacyjna ",
+                "correct": 1
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Topologia look-aside - ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Pamięc cache dołączana jest równoległe do magistrali pamięciowej która komunikowała się do pamięci RAM",
+                "correct": 1
+            },
+            {
+                "text": "Poprzez magistralę pamięciową, pamięc cache połączona jest z pamięcią główną",
+                "correct": 0
+            },
+            {
+                "text": "Pamięc cache realizowana jest osobną magistralą pamięciową, podłączona bezpośrednio do procesora",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Topologia look-through - ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Pamięc cache dołączana jest równoległe do magistrali pamięciowej która komunikowała się do pamięci RAM",
+                "correct": 0
+            },
+            {
+                "text": "Poprzez magistralę pamięciową, pamięc cache połączona jest z pamięcią główną",
+                "correct": 1
+            },
+            {
+                "text": "Pamięc cache realizowana jest osobną magistralą pamięciową, podłączona bezpośrednio do procesora",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Topologia look-backside - ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Pamięc cache dołączana jest równoległe do magistrali pamięciowej która komunikowała się do pamięci RAM",
+                "correct": 0
+            },
+            {
+                "text": "Poprzez magistralę pamięciową, pamięc cache połączona jest z pamięcią główną",
+                "correct": 0
+            },
+            {
+                "text": "Pamięc cache realizowana jest osobną magistralą pamięciową, podłączona bezpośrednio do procesora",
+                "correct": 1
+            }
+        ]
+    },
+    {
+        "pytanie": "Która z poniżej wymienionych obudów procesora była pierwszą?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "DIP ( Dual in Package Line)",
+                "correct": 1
+            },
+            {
+                "text": "SEC ( Single Edge Cartridge )",
+                "correct": 0
+            },
+            {
+                "text": "PLCC ( Plastic Leaded chip Carrier )",
+                "correct": 0
+            },
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "W ramach jakiej obudowy został zrealizowany procesor jako karta rozszerzeń?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "DIP ( Dual in Package Line)",
+                "correct": 0
+            },
+            {
+                "text": "SEC ( Single Edge Cartridge )",
+                "correct": 1
+            },
+            {
+                "text": "PLCC ( Plastic Leaded chip Carrier )",
+                "correct": 0
+            },
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Która obudowa jest stosowana najczęściej w pamięciach Flash z BIOS'em na płytach głównych?        ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "DIP ( Dual in Package Line)",
+                "correct": 0
+            },
+            {
+                "text": "SEC ( Single Edge Cartridge )",
+                "correct": 0
+            },
+            {
+                "text": "PLCC ( Plastic Leaded chip Carrier )",
+                "correct": 1
+            },
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Układy z jaką obudową mozna montowac w gnieździe lub metodą powierzchniową?        ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "DIP ( Dual in Package Line)",
+                "correct": 0
+            },
+            {
+                "text": "SEC ( Single Edge Cartridge )",
+                "correct": 0
+            },
+            {
+                "text": "PLCC ( Plastic Leaded chip Carrier )",
+                "correct": 1
+            },
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Który układ obudowy procesora cechował się zestawem pinów pod spodem procesora w węzłach siatki kwadratowej?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 1
+            },
+            {
+                "text": "SPGA ( Staggered Pin Grid Array )",
+                "correct": 0
+            },
+            {
+                "text": "LGA ( Land Grid Array )",
+                "correct": 0
+            },
+            {
+                "text": "TCP ( Tape Carrier Package )",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Dla którego układu obudowy procesora została zastosowana modyfikacja w postaci dodatkowo umieszczonych oczek siatki kwadratowej?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "LGA",
+                "correct": 0
+            },
+            {
+                "text": "TCP",
+                "correct": 0
+            },
+            {
+                "text": "SPGA",
+                "correct": 1
+            },
+            {
+                "text": "PGA",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Jakie podstawki procesora są obecnie stosowane?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "ZIF ( Zero Insertion Force )",
+                "correct": 1
+            },
+            {
+                "text": "TCP ( Tape Carrier Package)",
+                "correct": 0
+            },
+            {
+                "text": "LGA ( Land Grid Array )",
+                "correct": 0
+            },
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Jaki typ obudowy charakteryzuje sie wyprowadzeniami w postaci kulek stopu lutowniczego, znajdujacymi się na całej powierzchni spodniej strony układu?",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "LGA ( Land Grid Array )",
+                "correct": 0
+            },
+            {
+                "text": "BGA ( Ball Grid Array )",
+                "correct": 1
+            },
+            {
+                "text": "TCP ( Tape Carrier Package )",
+                "correct": 0
+            },
+            {
+                "text": "PGA ( Pin Grid Array)",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Który typ obudowy charakteryzuje się zastosowanymi polami dotykowymi zamiast pinów?        ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "LGA ( Land Grid Array )",
+                "correct": 1
+            },
+            {
+                "text": "PGA ( Pin Grid Array)",
+                "correct": 0
+            },
+            {
+                "text": "SPGA ( Staggered Pin Grid Array)",
+                "correct": 0
+            },
+            {
+                "text": "BGA ( Ball Grid Array)",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Która obudowa charakteryzuje się obwodami elektronicznymi w postaci miedzy nakładanymi na elastyczny materiał foliowy?        ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "TCP ( Tape Carier Package )",
+                "correct": 1
+            },
+            {
+                "text": "LGA ( Land Grid Array )",
+                "correct": 0
+            },
+            {
+                "text": "PGA ( Pin Grid Array )",
+                "correct": 0
+            },
+            {
+                "text": "SPGA ( Staggered Pin Grid Array)",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest przetwarzanie potokowe? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to technika, która pozwala na wykonanie jednej instrukcji w jednym cyklu zegara poprzez podzielenie jej na kilka etapów.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to technika, która wymaga, aby każda instrukcja była wykonana w jednym cyklu zegara bez podziału na etapy.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to technika, która pozwala na wykonanie wielu instrukcji w jednym cyklu zegara. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to technika, która pozwala na wykonanie jednej instrukcji w wielu cyklach zegara.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co umożliwiają rozszerzenia MMX? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Umożliwiają one realizację dekodowania/ekodowania filmów, obrazków, grafiki dwuwymiarowej, trójwymiarowej, audio itd. tylko na liczbach całkowitych",
+                "correct": 1
+            },
+            {
+                "text": "Umożliwiają one realizację dekodowania/ekodowania tylko na liczbach zmiennoprzecinkowych. ",
+                "correct": 0
+            },
+            {
+                "text": "Umożliwiają one realizację dekodowania/ekodowania tylko na liczbach całkowitych. ",
+                "correct": 0
+            },
+            {
+                "text": "Umożliwiają one realizację dekodowania/ekodowania tylko na liczbach zespolonych.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie nowe funkcje wprowadza SSE? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "SSE wprowadza nowe typy danych i nowe rozkazy.",
+                "correct": 1
+            },
+            {
+                "text": "SSE wprowadza nowe typy danych, ale nie wprowadza nowych rozkazów. ",
+                "correct": 0
+            },
+            {
+                "text": "SSE wprowadza nowe rozkazy, ale nie wprowadza nowych typów danych.",
+                "correct": 0
+            },
+            {
+                "text": " SSE nie wprowadza ani nowych typów danych, ani nowych rozkazów.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Czym różni się SSE3 od SSSE3? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "SSE3 składa się z 13 instrukcji, podczas gdy SSSE3 wprowadza dodatkowe rozkazy wektorowe działające na liczbach całkowitych.",
+                "correct": 1
+            },
+            {
+                "text": "SSE3 i SSSE3 są identyczne i nie ma między nimi żadnej różnicy. ",
+                "correct": 0
+            },
+            {
+                "text": "SSE3 wprowadza dodatkowe rozkazy wektorowe działające na liczbach całkowitych, podczas gdy SSSE3 składa się z 13 instrukcji. ",
+                "correct": 0
+            },
+            {
+                "text": "SSE3 wprowadza dodatkowe rozkazy wektorowe działające na liczbach zmiennoprzecinkowych pojedynczej i podwójnej precyzji, podczas gdy SSSE3 wprowadza sprzętowe wspomaganie synchronizacji wątków.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co wprowadza Advanced Vector Extensions (AVX)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Dodaje nowe 256-bitowe rejestry i wprowadza sprzętowe wsparcie szyfrowania danych AES.",
+                "correct": 1
+            },
+            {
+                "text": "Dodaje nowe 128-bitowe rejestry i wprowadza sprzętowe wsparcie szyfrowania danych AES. ",
+                "correct": 0
+            },
+            {
+                "text": "Dodaje nowe 256-bitowe rejestry, ale nie wprowadza sprzętowego wsparcia szyfrowania danych AES.",
+                "correct": 0
+            },
+            {
+                "text": "Dodaje nowe 128-bitowe rejestry, ale nie wprowadza sprzętowego wsparcia szyfrowania danych AES.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest SMM (System Management Mode)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to tryb oszczędzania energii.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to tryb zarządzania pamięcią. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to tryb zarządzania procesorem. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to tryb zarządzania systemem operacyjnym.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest 3DNow! ? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": " Jest to zestaw dodatkowych rozkazów uzupełniających MMX.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to zestaw dodatkowych rozkazów uzupełniających SSE. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to zestaw dodatkowych rozkazów uzupełniających AVX. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to zestaw dodatkowych rozkazów uzupełniających SMM.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest Quad pumping? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": " Technologia ta powoduje czterokrotny wzrost częstotliwości przesyłania danych, co pozwala na czterokrotne zwiększenie przepustowości danych.",
+                "correct": 1
+            },
+            {
+                "text": "Technologia ta powoduje dwukrotny wzrost częstotliwości przesyłania danych, co pozwala na dwukrotne zwiększenie przepustowości danych.  ",
+                "correct": 0
+            },
+            {
+                "text": "Technologia ta powoduje czterokrotny wzrost częstotliwości przesyłania danych, ale nie zwiększa przepustowości danych. ",
+                "correct": 0
+            },
+            {
+                "text": "Technologia ta powoduje dwukrotny wzrost częstotliwości przesyłania danych, ale nie zwiększa przepustowości danych.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest Dynamiczne wykonywanie programów (Dynamic Execution)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": " Podczas realizowania operacji, przewidujemy co może być wykonywane jako kolejne rozgałęzienie.",
+                "correct": 1
+            },
+            {
+                "text": "Podczas realizowania operacji, przewidujemy co może być wykonywane jako kolejne instrukcje. ",
+                "correct": 0
+            },
+            {
+                "text": "Podczas realizowania operacji, przewidujemy co może być wykonywane jako kolejne operacje. ",
+                "correct": 0
+            },
+            {
+                "text": "Podczas realizowania operacji, przewidujemy co może być wykonywane jako kolejne zadania.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Jak szybki jest procesor z technologią Hyper-Threading w porównaniu do innych procesorów? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest szybszy niż zwykły procesor bez hyper-threadingu, ale nigdy nie będzie szybszy od procesora o dwóch jądrach, lub dwóch procesorów.",
+                "correct": 1
+            },
+            {
+                "text": "Jest wolniejszy niż zwykły procesor bez hyper-threadingu, ale zawsze będzie szybszy od procesora o dwóch jądrach, lub dwóch procesorów. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest zawsze szybszy niż zwykły procesor bez hyper-threadingu i procesor o dwóch jądrach, lub dwóch procesorów. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest zawsze wolniejszy niż zwykły procesor bez hyper-threadingu i procesor o dwóch jądrach, lub dwóch procesorów.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest płyta główna? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to laminowana płyta z odpowiednio poprowadzonymi ścieżkami oraz powierzchniowo lub wewnętrznie przylutowanymi komponentami elektronicznymi, układami scalonymi i gniazdami. ",
+                "correct": 1
+            },
+            {
+                "text": "Jest to płyta z tworzywa sztucznego, na której montuje się komponenty komputera.  ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to metalowa płyta, na której montuje się komponenty komputera. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to drewniana płyta, na której montuje się komponenty komputera.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Jakie są najważniejsze elementy płyty głównej? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Chipset, gniazdo mikroprocesora, regulator napięcia, gniazda RAM, złącza magistral I/O, BIOS ROM, porty I/O, kanały interfejsów pamięci masowych, piny konfiguracyjne i sygnalizacyjne. ",
+                "correct": 1
+            },
+            {
+                "text": "Procesor, pamięć RAM, dysk twardy, karta graficzna, zasilacz. ",
+                "correct": 0
+            },
+            {
+                "text": "Monitor, klawiatura, mysz, drukarka, skaner. ",
+                "correct": 0
+            },
+            {
+                "text": "System operacyjny, oprogramowanie, sterowniki, przeglądarka internetowa, programy antywirusowe.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Jakie są standardy płyt głównych?         ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "AT (full size AT, baby AT), ATX (Standard-ATX, micro-ATX), WTX (Workstation Technology extended), NLX (do obudów desktop, slimline), BTX (Balanced Technology Extended), ITX (Mini-ITX, Nano-ITX, Pico-ITX). ",
+                "correct": 1
+            },
+            {
+                "text": "USB, HDMI, VGA, DVI, DisplayPort. ",
+                "correct": 0
+            },
+            {
+                "text": " Windows, Linux, macOS, Android, iOS.",
+                "correct": 0
+            },
+            {
+                "text": "Intel, AMD, Nvidia, ARM, Qualcomm.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest chipset? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to jeden lub grupa specjalistycznych układów scalonych lub kart rozszerzeń przeznaczonych do wspólnej pracy, które organizują przepływ informacji pomiędzy poszczególnymi podzespołami jednostki centralnej.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to specjalistyczny układ scalony, który odpowiada za przetwarzanie danych w komputerze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to specjalistyczny układ scalony, który odpowiada za przechowywanie danych w komputerze. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to specjalistyczny układ scalony, który odpowiada za wyświetlanie danych na ekranie komputera.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Jakie są funkcje mostka północnego i mostka południowego w chipsecie? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Mostek północny odpowiada za wymianę danych pomiędzy pamięcią operacyjną a procesorem oraz steruje magistralą karty graficznej, a mostek południowy odpowiada za współpracę z urządzeniami wejścia wyjścia.",
+                "correct": 1
+            },
+            {
+                "text": "Mostek północny odpowiada za współpracę z urządzeniami wejścia wyjścia, a mostek południowy odpowiada za wymianę danych pomiędzy pamięcią operacyjną a procesorem oraz steruje magistralą karty graficznej. ",
+                "correct": 0
+            },
+            {
+                "text": "Mostek północny i mostek południowy odpowiadają za wymianę danych pomiędzy pamięcią operacyjną a procesorem oraz sterują magistralą karty graficznej. ",
+                "correct": 0
+            },
+            {
+                "text": "Mostek północny i mostek południowy odpowiadają za współpracę z urządzeniami wejścia wyjścia.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Jakie są podstawowe układy występujące w chipsecie? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Sterownik pamięci dynamicznych, sterownik CPU, sterownik pamięci RAM, sterownik pamięci cache, sterownik klawiatury, sterowniki magistral, dysków, interfejsów, układ zegara, układ zarządzania energią.",
+                "correct": 1
+            },
+            {
+                "text": "Procesor, pamięć RAM, dysk twardy, karta graficzna, zasilacz.",
+                "correct": 0
+            },
+            {
+                "text": "Monitor, klawiatura, mysz, drukarka, skaner. ",
+                "correct": 0
+            },
+            {
+                "text": "System operacyjny, oprogramowanie, sterowniki, przeglądarka internetowa, programy antywirusowe.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Jakie były praktyki firmy VIA w zakresie produkcji chipsetów? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Firma VIA trzymała się standardu układów z mostkiem północnym i południowym i produkowała chipsety dla własnych mikroprocesorów oraz dla Intel i AMD.",
+                "correct": 1
+            },
+            {
+                "text": "Firma VIA produkowała tylko chipsety dla własnych mikroprocesorów. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma VIA produkowała tylko chipsety dla Intel i AMD. ",
+                "correct": 0
+            },
+            {
+                "text": " Firma VIA nie produkowała chipsetów, ale skupiała się na produkcji mikroprocesorów.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Co zdecydowała firma AMD w kwestii pamięci operacyjnej? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Firma AMD zdecydowała podpiąć pamięć operacyjną bezpośrednio do procesora, wcześniej była na poziomie chipsetu.",
+                "correct": 1
+            },
+            {
+                "text": "Firma AMD zdecydowała podpiąć pamięć operacyjną bezpośrednio do chipsetu, wcześniej była na poziomie procesora. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma AMD zdecydowała podpiąć pamięć operacyjną bezpośrednio do dysku twardego, wcześniej była na poziomie chipsetu. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma AMD zdecydowała podpiąć pamięć operacyjną bezpośrednio do karty graficznej, wcześniej była na poziomie chipsetu.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Co zrobiły firmy Intel i AMD, gdy firma VIA przestała szeroko działać na ich rzecz? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Firmy Intel i AMD zdecydowały, że będą produkować własne chipsety samodzielnie.",
+                "correct": 1
+            },
+            {
+                "text": "Firmy Intel i AMD zdecydowały, że będą produkować własne mikroprocesory samodzielnie.",
+                "correct": 0
+            },
+            {
+                "text": "Firmy Intel i AMD zdecydowały, że będą produkować własne karty graficzne samodzielnie. ",
+                "correct": 0
+            },
+            {
+                "text": "Firmy Intel i AMD zdecydowały, że będą produkować własne dyski twarde samodzielnie.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Jakie były cechy chipsetów serii 9xx? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Były ciągle produkowane według standardu z mostkiem północnym i południowym (Intel je nazywał Memory Controller Hub i I/O Controller Hub). ",
+                "correct": 1
+            },
+            {
+                "text": "Były produkowane według standardu z jednym mostkiem. ",
+                "correct": 0
+            },
+            {
+                "text": "Były produkowane według standardu bez mostków. ",
+                "correct": 0
+            },
+            {
+                "text": "Były produkowane według standardu z mostkiem wschodnim i zachodnim.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co charakteryzowało chipsety X? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Zastosowano nowy interfejs QuickPath o przepustowości 25.6GB/s, przeniesiono obsługę pamięci operacyjnej z MCH do procesora, a mostek północny stał się jedynie pośrednikiem między procesorem a mostkiem południowym oraz pracował z kartą graficzną. Nazwę MCH zmieniono na Input Output Hub.",
+                "correct": 1
+            },
+            {
+                "text": "Zastosowano stary interfejs QuickPath, przeniesiono obsługę pamięci operacyjnej z procesora do MCH, a mostek południowy stał się jedynie pośrednikiem między procesorem a mostkiem północnym oraz pracował z kartą dźwiękową. ",
+                "correct": 0
+            },
+            {
+                "text": " Zastosowano nowy interfejs QuickPath o przepustowości 12.8GB/s, przeniesiono obsługę pamięci operacyjnej z MCH do procesora, a mostek południowy stał się jedynie pośrednikiem między procesorem a mostkiem północnym oraz pracował z kartą graficzną. ",
+                "correct": 0
+            },
+            {
+                "text": "Zastosowano stary interfejs QuickPath o przepustowości 25.6GB/s, przeniesiono obsługę pamięci operacyjnej z procesora do MCH, a mostek północny stał się jedynie pośrednikiem między procesorem a mostkiem południowym oraz pracował z kartą dźwiękową.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co zmieniło się w kolejnych chipsetach po chipsetach X? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Połączono IOH i ICH do jednego wspólnego chipsetu, a obsługę karty graficznej przeniesiono bezpośrednio do procesora.",
+                "correct": 1
+            },
+            {
+                "text": "Połączono IOH i ICH do dwóch oddzielnych chipsetów, a obsługę karty graficznej przeniesiono bezpośrednio do procesora. ",
+                "correct": 0
+            },
+            {
+                "text": "Połączono IOH i ICH do jednego wspólnego chipsetu, a obsługę karty graficznej przeniesiono bezpośrednio do MCH.",
+                "correct": 0
+            },
+            {
+                "text": "Połączono IOH i ICH do dwóch oddzielnych chipsetów, a obsługę karty graficznej przeniesiono bezpośrednio do MCH. ",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie decyzje podjęła firma AMD w zakresie obsługi pamięci operacyjnej? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Firma AMD zdecydowała się na przeniesienie obsługi pamięci operacyjnej z mostka północnego na poziom procesora.",
+                "correct": 1
+            },
+            {
+                "text": "Firma AMD zdecydowała się na przeniesienie obsługi pamięci operacyjnej z procesora na poziom mostka północnego. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma AMD zdecydowała się na przeniesienie obsługi pamięci operacyjnej z mostka południowego na poziom procesora. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma AMD zdecydowała się na przeniesienie obsługi pamięci operacyjnej z procesora na poziom mostka południowego.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie zmiany wprowadziła firma AMD w strukturze mostków w chipsetach?  ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Firma AMD zdecydowała się na połączenie mostka północnego i południowego w jeden.",
+                "correct": 1
+            },
+            {
+                "text": " Firma AMD zdecydowała się na rozdzielenie mostka północnego i południowego na dwa oddzielne. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma AMD zdecydowała się na zamianę miejscami mostka północnego i południowego. ",
+                "correct": 0
+            },
+            {
+                "text": "Firma AMD zdecydowała się na usunięcie mostka północnego i pozostawienie tylko mostka południowego.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jak przewiduje się przyszłość chipsetów? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Przewiduje się, że w ciągu najbliższych 5-10 lat, kompletnie zrezygnujemy z chipsetów jako takich, ewentualnie zostaną bardzo małe układy wspomagające, reszta elementów przejdzie na poziom procesora.",
+                "correct": 1
+            },
+            {
+                "text": " Przewiduje się, że w ciągu najbliższych 5-10 lat, chipsety staną się jeszcze większe i bardziej skomplikowane.",
+                "correct": 0
+            },
+            {
+                "text": "Przewiduje się, że w ciągu najbliższych 5-10 lat, chipsety zostaną zastąpione przez nowy typ układu scalonego.",
+                "correct": 0
+            },
+            {
+                "text": "Przewiduje się, że w ciągu najbliższych 5-10 lat, chipsety zostaną zastąpione przez technologię kwantową.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co umożliwia modułowa konstrukcja komputerów? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Umożliwia rozbudowę komputera w zależności od potrzeb użytkownika.",
+                "correct": 1
+            },
+            {
+                "text": "Umożliwia zmniejszenie rozmiaru komputera. ",
+                "correct": 0
+            },
+            {
+                "text": "Umożliwia zwiększenie prędkości procesora. ",
+                "correct": 0
+            },
+            {
+                "text": "Umożliwia zwiększenie pojemności dysku twardego.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Czym są urządzenia peryferyjne, których podstawowe sterowniki nie są wbudowane w płytę główną?         ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Są to urządzenia, które wymagają oddzielnych kart, instalowanych w gniazdach rozszerzeń na płycie głównej. ",
+                "correct": 1
+            },
+            {
+                "text": "Są to urządzenia, które są wbudowane bezpośrednio w płytę główną.",
+                "correct": 0
+            },
+            {
+                "text": "Są to urządzenia, które są zintegrowane z procesorem. ",
+                "correct": 0
+            },
+            {
+                "text": "Są to urządzenia, które są zintegrowane z kartą graficzną.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Jakie są dwa główne typy magistral rozszerzeń? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Magistrale zewnętrzne, które na swojej kartcie rozszerzeń posiadają osobny zegar taktowania, i magistrale lokalne, których częstotliwość wyznaczana jest przez zegar systemowy.",
+                "correct": 1
+            },
+            {
+                "text": "Magistrale zewnętrzne, które na swojej kartcie rozszerzeń posiadają osobny zegar taktowania, i magistrale wewnętrzne, których częstotliwość wyznaczana jest przez zegar systemowy. ",
+                "correct": 0
+            },
+            {
+                "text": "Magistrale lokalne, które na swojej kartcie rozszerzeń posiadają osobny zegar taktowania, i magistrale zewnętrzne, których częstotliwość wyznaczana jest przez zegar systemowy.",
+                "correct": 0
+            },
+            {
+                "text": "Magistrale lokalne, które na swojej kartcie rozszerzeń posiadają osobny zegar taktowania, i magistrale wewnętrzne, których częstotliwość wyznaczana jest przez zegar systemowy.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest Industry Standard Architecture (ISA)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to standard magistrali dla komputerów osobistych, wprowadzony w wersji ośmiobitowej i później rozszerzony do standardu 16-bitowego w komputerach IBM PC/AT wyposażonych w procesor Intel 80286.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to standard magistrali dla komputerów osobistych, wprowadzony w wersji 16-bitowej i później rozszerzony do standardu 32-bitowego w komputerach IBM PC/AT wyposażonych w procesor Intel 80286. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to standard magistrali dla komputerów osobistych, wprowadzony w wersji 32-bitowej i później rozszerzony do standardu 64-bitowego w komputerach IBM PC/AT wyposażonych w procesor Intel 80286.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to standard magistrali dla komputerów osobistych, wprowadzony w wersji 64-bitowej i później rozszerzony do standardu 128-bitowego w komputerach IBM PC/AT wyposażonych w procesor Intel 80286.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest EISA (Extended ISA)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to następca ISA, który mógł współpracować ze starszymi kartami ISA. EISA ma 32-bitowe magistrale danych i adresową, a także standard Plug&Play, dzięki czemu można było wpiąć kartę rozszerzeń, z której automatycznie zaciągało sterownik.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to następca ISA, który nie mógł współpracować ze starszymi kartami ISA. EISA ma 32-bitowe magistrale danych i adresową, a także standard Plug&Play, dzięki czemu można było wpiąć kartę rozszerzeń, z której automatycznie zaciągało sterownik. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to następca ISA, który mógł współpracować ze starszymi kartami ISA. EISA ma 64-bitowe magistrale danych i adresową, a także standard Plug&Play, dzięki czemu można było wpiąć kartę rozszerzeń, z której automatycznie zaciągało sterownik. ",
+                "correct": 0
+            },
+            {
+                "text": " Jest to następca ISA, który nie mógł współpracować ze starszymi kartami ISA. EISA ma 64-bitowe magistrale danych i adresową, a także standard Plug&Play, dzięki czemu można było wpiąć kartę rozszerzeń, z której automatycznie zaciągało sterownik.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest MCA (Micro Channel Architecture)?  ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": " Jest to 32-bitowa magistrala IBM, taktowana zegarem 10MHz, która nie jest kompatybilna z kartami typu ISA. Utraciła znaczenie, gdy wprowadzona została magistrala PCI",
+                "correct": 1
+            },
+            {
+                "text": "Jest to 32-bitowa magistrala IBM, taktowana zegarem 20MHz, która nie jest kompatybilna z kartami typu ISA. Utraciła znaczenie, gdy wprowadzona została magistrala PCI.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to 64-bitowa magistrala IBM, taktowana zegarem 10MHz, która nie jest kompatybilna z kartami typu ISA. Utraciła znaczenie, gdy wprowadzona została magistrala PCI. ",
+                "correct": 0
+            },
+            {
+                "text": " Jest to 64-bitowa magistrala IBM, taktowana zegarem 20MHz, która nie jest kompatybilna z kartami typu ISA. Utraciła znaczenie, gdy wprowadzona została magistrala PCI.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest VLB (VESA Local Bus)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to standard opracowany przez VESA, który nie był stricte lokalny, ale miał kompatybilność wsteczną z kartami ISA.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to standard opracowany przez VESA, który był stricte lokalny i nie miał kompatybilności wstecznej z kartami ISA. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to standard opracowany przez VESA, który był stricte lokalny i miał kompatybilność wsteczną z kartami ISA. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to standard opracowany przez VESA, który nie był stricte lokalny i nie miał kompatybilności wstecznej z kartami ISA.",
+                "correct": 0
+            }
+        ]
+    },
+
+    {
+        "pytanie": "Co to jest PCI (Peripheral Component Interconnect)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to magistrala komunikacyjna służąca do przyłączania urządzeń do płyty głównej w komputerach klasy PC. Karty dołączone do szyny PCI mogą się komunikować bez udziału procesora, dzięki czemu wzrasta efektywność użytkowania.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to magistrala komunikacyjna służąca do przyłączania urządzeń do płyty głównej w komputerach klasy PC. Karty dołączone do szyny PCI muszą komunikować się za pośrednictwem procesora, co obniża efektywność użytkowania. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to magistrala komunikacyjna służąca do przyłączania urządzeń do płyty głównej w komputerach klasy PC. Karty dołączone do szyny PCI mogą się komunikować bez udziału procesora, ale to obniża efektywność użytkowania.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to magistrala komunikacyjna służąca do przyłączania urządzeń do płyty głównej w komputerach klasy PC. Karty dołączone do szyny PCI muszą komunikować się za pośrednictwem procesora, co zwiększa efektywność użytkowania.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Co to jest AGP (Accelerated Graphics Port)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to rodzaj zmodyfikowanej magistrali PCI opracowanej przez firmę Intel, zoptymalizowanej do szybkiego przesyłania danych pomiędzy procesorem a układem graficznym.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to rodzaj zmodyfikowanej magistrali PCI opracowanej przez firmę Intel, zoptymalizowanej do wolnego przesyłania danych pomiędzy procesorem a układem graficznym. ",
+                "correct": 0
+            },
+            {
+                "text": " Jest to rodzaj zmodyfikowanej magistrali PCI opracowanej przez firmę Intel, zoptymalizowanej do szybkiego przesyłania danych pomiędzy procesorem a układem dźwiękowym. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to rodzaj zmodyfikowanej magistrali PCI opracowanej przez firmę Intel, zoptymalizowanej do wolnego przesyłania danych pomiędzy procesorem a układem dźwiękowym.",
+                "correct": 0
+            }
+        ]
+    },
+
+
+    {
+        "pytanie": "Co to jest PCI-X (PCI eXtended)? ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to rozszerzenie PCI, głównie używane w stacjach serwerowych, z przepustowością do 8GB/s.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to rozszerzenie PCI, głównie używane w komputerach osobistych, z przepustowością do 8GB/s. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to rozszerzenie PCI, głównie używane w stacjach serwerowych, z przepustowością do 4GB/s. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to rozszerzenie PCI, głównie używane w komputerach osobistych, z przepustowością do 4GB/s.",
+                "correct": 0
+            }
+        ]
+    },
+    {
+        "pytanie": "Co to jest PCI-E (PCI Express)?  ",
+        "alreadyGenerated": false,
+        "correctAnswers": 0,
+        "answers": [
+            {
+                "text": "Jest to standard znany również jako 3GIO (3rd Generation I/O), który stosuje szeregowy układ danych, co pozwala na wyższą częstotliwość zegara taktującego, która wynosi 2.5GHz. Umożliwia dwustronną, jednoczesną komunikację, taka sama przepustowość w obie strony.",
+                "correct": 1
+            },
+            {
+                "text": "Jest to standard znany również jako 3GIO (3rd Generation I/O), który stosuje równoległy układ danych, co pozwala na wyższą częstotliwość zegara taktującego, która wynosi 2.5GHz. Umożliwia dwustronną, jednoczesną komunikację, taka sama przepustowość w obie strony.",
+                "correct": 0
+            },
+            {
+                "text": "Jest to standard znany również jako 3GIO (3rd Generation I/O), który stosuje szeregowy układ danych, co pozwala na niższą częstotliwość zegara taktującego, która wynosi 2.5GHz. Umożliwia dwustronną, jednoczesną komunikację, taka sama przepustowość w obie strony. ",
+                "correct": 0
+            },
+            {
+                "text": "Jest to standard znany również jako 3GIO (3rd Generation I/O), który stosuje równoległy układ danych, co pozwala na niższą częstotliwość zegara taktującego, która wynosi 2.5GHz. Umożliwia dwustronną, jednoczesną komunikację, taka sama przepustowość w obie strony.",
+                "correct": 0
+            }
+        ]
+    },
 ]
