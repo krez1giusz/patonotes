@@ -2054,4 +2054,599 @@ const questions = [
     ]
 },
 
+{
+    "pytanie": "Jakie wyróżnia się magistrale w standardowym komputerze?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Magistrala danych, adresowa, sterująca",
+            "correct": 0
+        },
+        {
+            "text": "Magistrala adresowa, ochronna, pamięciowa.",
+            "correct": 0
+        },
+        {
+            "text": "Magistrala danych, sterująca, graficzna.",
+            "correct": 0
+        },
+        {
+            "text": "Magistrala adresowa, pamięciowa, optymalizująca.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Magistrala danych to:",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Specjalny typ oprogramowania, które pozwala na szybkie przetwarzanie i analizę dużych ilości danych.",
+            "correct": 0
+        },
+        {
+            "text": "Termin używany w sieciach komputerowych do opisania ścieżki, którą dane podróżują od źródła do celu.",
+            "correct": 0
+        },
+        {
+            "text": "Specjalny typ bazy danych zaprojektowany do przechowywania i zarządzania dużymi ilościami danych.",
+            "correct": 0
+        },
+        {
+            "text": "Służy do przesyłania danych pomiędzy procesorem, a pamięcią lub układami we/wy.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Magistrala adresowa to:",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Serwer, który jest używany do przechowywania adresów IP wszystkich urządzeń w sieci.",
+            "correct": 0
+        },
+        {
+            "text": "Specjalny typ kabla, który jest używany do przesyłania adresów IP między różnymi urządzeniami w sieci.",
+            "correct": 0
+        },
+        {
+            "text": "Oprogramowanie antywirusowe, które skanuje adresy IP w sieci w celu wykrycia potencjalnych zagrożeń.",
+            "correct": 0
+        },
+        {
+            "text": "Zbiór linii przenoszących informacje o adresie w pamięci lub układu we/wy, pod który są przesyłane dane lub spod którego dane są pobierane.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Czym powinny cechować się wzorcowe pamięci wewnętrzne stosowane w systemach mikrokomputerowych?:",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Dużą szybkością działania.",
+            "correct": 1
+        },
+        {
+            "text": "Małymi wymiarami.",
+            "correct": 1
+        },
+        {
+            "text": "Czasem dostępu.",
+            "correct": 1
+        },
+        {
+            "text": "Pojemnością.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Typ pamięci, której zawartość można skasować przez naświetlenie promieniami ultrafioletowymi to:",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "PROM.",
+            "correct": 0
+        },
+        {
+            "text": "EPROM.",
+            "correct": 1
+        },
+        {
+            "text": "EEPROM.",
+            "correct": 0
+        },
+        {
+            "text": "Żadna z powyższych.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Który typ pamięci obejmuje pamięci FLASH?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "RAM.",
+            "correct": 0
+        },
+        {
+            "text": "EPROM.",
+            "correct": 0
+        },
+        {
+            "text": "EEPROM.",
+            "correct": 1
+        },
+        {
+            "text": "PROM.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest?",
+    "imgPath": "img/mikroprocesor/DRAM.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Komórka pamięci ROM.",
+            "correct": 0
+        },
+        {
+            "text": "Komórka pamięci EPROM.",
+            "correct": 0
+        },
+        {
+            "text": "Komórka pamięci DRAM.",
+            "correct": 1
+        },
+        {
+            "text": "Komórka pamięci SRAM.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co to jest?",
+    "imgPath": "img/mikroprocesor/SRAM.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Komórka pamięci ROM.",
+            "correct": 0
+        },
+        {
+            "text": "Komórka pamięci EPROM.",
+            "correct": 0
+        },
+        {
+            "text": "Komórka pamięci DRAM.",
+            "correct": 0
+        },
+        {
+            "text": "Komórka pamięci SRAM.",
+            "correct": 1
+        }
+    ]
+},
+{
+    "pytanie": "Która pamięć RAM ma tendencję do rozładowywania się i wymaga okresowego odświeżenia?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "SRAM - Static Random Access Memory.",
+            "correct": 0
+        },
+        {
+            "text": "DRAM - Dynamic Random Access Memory.",
+            "correct": 1
+        },
+        {
+            "text": "ROM - Read Only Memory.",
+            "correct": 0
+        },
+        {
+            "text": "EPROM - Erasable Programmable Read-Only Memory.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest główna różnica między DRAM a SRAM pod względem struktury?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "DRAM jest budowany z tranzystorów sterujących; SRAM z kondensatorów i tranzystorów przełączających.",
+            "correct": 0
+        },
+        {
+            "text": "DRAM jest budowany z kondensatorów i tranzystorów; SRAM z tranzystorów sterujących i przełączników.",
+            "correct": 1
+        },
+        {
+            "text": "DRAM skupia się na przechowywaniu obrazu; SRAM na przechowywaniu danych systemowych.",
+            "correct": 0
+        },
+        {
+            "text": "DRAM używa energii elektrycznej do magazynowania danych; SRam używa magnetyzmu.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakiego typu pamięć RAM jest stosowana jako szybka pamięć systemów mikrokomputerowych i urządzeń?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "SRAM - Static Random Access Memory.",
+            "correct": 1
+        },
+        {
+            "text": "DRAM - Dynamic Random Access Memory.",
+            "correct": 0
+        },
+        {
+            "text": "ROM - Read Only Memory.",
+            "correct": 0
+        },
+        {
+            "text": "EPROM - Erasable Programmable Read-Only Memory.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką cechę ma EDO (Extended Data Output)?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Ma uproszczony mechanizm adresowania pracujący z częstotliwościami do 66MHz, jak FPM Fast Page Mode.",
+            "correct": 0
+        },
+        {
+            "text": "Nie przyjął się z powodu niewydolności, jak BEDO Burst Extended Data Output.",
+            "correct": 0
+        },
+        {
+            "text": "EDO jest wyposażony w mechanizm pozwalający ustawić inny adres podczas odczytu danych, skracając czas dostępu.",
+            "correct": 1
+        },
+        {
+            "text": "Polega na oddzielnym adresowaniu wiersza i kolumny dla każdego cyklu, jak Tryb konwencjonalny Page Mode.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "W czym specjalizuje się FPM Fast Page Mode?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Specjalizuje się w oddzielnym adresowaniu dla każdego cyklu, podobnie jak Tryb konwencjonalny Page Mode.",
+            "correct": 0
+        },
+        {
+            "text": "Uproszcza mechanizm adresowania i pracuje z częstotliwościami do 66 MHz, co czyniło go popularnym w czasach procesorów 486 i Pentium.",
+            "correct": 1
+        },
+        {
+            "text": "Jest wyposażony w mechanizm, który pozwala podczas odczytu danych ustawić inny adres na magistrali adresowej.",
+            "correct": 0
+        },
+        {
+            "text": "Nie przyjął się, jak BEDO Burst Extended Data Output.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są główne typy modułów pamięci stosowanych w komputerach osobistych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie SIMM, DIMM i RIMM.",
+            "correct": 1
+        },
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie DIP, SIP i ZIP.",
+            "correct": 0
+        },
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie DDR, SDRAM i SRAM.",
+            "correct": 0
+        },
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie ROM, PROM i EPROM.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są ograniczenia pamięci RAM w różnych typach procesorów?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Procesory 8088 i 8086 mogą obsługiwać maksymalnie 1 MB pamięci RAM, procesory 286 i 386SX - 16 MB, procesory 386DX, 486, Pentium, Pentium MMX i Pentium Pro - 4 GB, a procesory Pentium II/III, Pentium 4, AMD Athlon i Duron - 64 GB. Procesor Itanium może obsługiwać aż 16 TB pamięci RAM",
+            "correct": 1
+        },
+        {
+            "text": "Wszystkie procesory mogą obsługiwać maksymalnie 4 GB pamięci RAM.",
+            "correct": 0
+        },
+        {
+            "text": "Wszystkie procesory mogą obsługiwać maksymalnie 64 GB pamięci RAM.",
+            "correct": 0
+        },
+        {
+            "text": "Wszystkie procesory mogą obsługiwać maksymalnie 16 TB pamięci RAM.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Czym są moduły pamięci?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Moduły pamięci, znane również jako pamięć RAM, to kluczowy komponent komputera, który przechowuje dane i instrukcje procesora. Są one niezbędne do szybkiego przetwarzania informacji, ponieważ umożliwiają procesorowi dostęp do danych bez konieczności odczytywania ich z wolniejszego dysku twardego. Moduły pamięci są zazwyczaj umieszczone na specjalnych gniazdach na płycie głównej komputera.",
+            "correct": 1
+        },
+        {
+            "text": "Moduły pamięci to specjalne urządzenia wejścia/wyjścia, które umożliwiają komputerowi komunikację z innymi urządzeniami, takimi jak drukarki, skanery czy myszki komputerowe. Bez nich komputer nie byłby w stanie przetwarzać informacji zewnętrznych.",
+            "correct": 0
+        },
+        {
+            "text": "Moduły pamięci to rodzaj kabla używanego do łączenia różnych komponentów komputera. Są one niezbędne do przesyłania danych między procesorem a innymi elementami systemu, takimi jak dysk twardy czy karta graficzna.",
+            "correct": 0
+        },
+        {
+            "text": "Moduły pamięci to specjalne kody programowania, które są używane do tworzenia gier komputerowych. Są one integralną częścią silników gier, które umożliwiają twórcom gier manipulowanie danymi i zasobami w grze.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są główne typy modułów pamięci stosowanych w komputerach osobistych?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie SIMM, DIMM i RIMM.",
+            "correct": 1
+        },
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie DIP, SIP i ZIP.",
+            "correct": 0
+        },
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie DDR, SDRAM i SRAM.",
+            "correct": 0
+        },
+        {
+            "text": "Moduły pamięci w komputerach osobistych to głównie ROM, PROM i EPROM.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką architekturę i kontrolę parzystości ma moduł pamięci SIMM 30-pin Single In-Line Memory Module?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Architektura 32-bitowa z kontrolą parzystości.",
+            "correct": 0
+        },
+        {
+            "text": "Architektura 64-bitowa bez kontroli parzystości.",
+            "correct": 1
+        },
+        {
+            "text": "Architektura 16-bitowa bez kontroli parzystości.",
+            "correct": 0
+        },
+        {
+            "text": "Architektura 8-bitowa z kontrolą parzystości.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Ile pinów ma moduł pamięci SIMM PS/2?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "72 piny.",
+            "correct": 1
+        },
+        {
+            "text": "168 pinów.",
+            "correct": 0
+        },
+        {
+            "text": "240 pinów.",
+            "correct": 0
+        },
+        {
+            "text": "30 pinów.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Która cecha jest specyficzna dla modułów pamięci DIMM Dual In-Line Memory Module w porównaniu do innych typów?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Obecność małej pamięci (256 B) dla SPD Serial Presence Detect",
+            "correct": 1
+        },
+        {
+            "text": "Produkowane w wersjach takich jak 4 MB lub 64 MB",
+            "correct": 0
+        },
+        {
+            "text": "Czas dostępu wynoszący około -70 ns lub -60 ns",
+            "correct": 0
+        },
+        {
+            "text": "Szerokość magistrali adresowej ograniczona do -11 bitów lub -12 bitów",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaka jest szerokość magistrali danych dla modułu pamięci SIMM?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "64 bity",
+            "correct": 0
+        },
+        {
+            "text": "32 bity + 32 bity",
+            "correct": 0
+        },
+        {
+            "text": "32 bity",
+            "correct": 1
+        },
+        {
+            "text": "128 bitów",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co oznacza technologia dual-channel w kontekście pamięci RAM?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Umożliwia ona podwojenie przepustowości przesyłu danych przez magistralę łączącą pamięć RAM z mostkiem północnym, co zwiększa wydajność systemu.",
+            "correct": 1
+        },
+        {
+            "text": "Oznacza to, że pamięć RAM może być używana tylko w komputerach z dwurdzeniowymi procesorami.",
+            "correct": 0
+        },
+        {
+            "text": "Jest to technologia, która pozwala na instalację pamięci RAM tylko od jednego producenta.",
+            "correct": 0
+        },
+        {
+            "text": "Oznacza to, że komputer może obsługiwać tylko dwa moduły pamięci RAM jednocześnie.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jaką rolę pełni kontroler pamięci w architekturze dual-channel?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Kontroluje on proces instalacji systemu operacyjnego na dysku twardym.",
+            "correct": 0
+        },
+        {
+            "text": "Pełni rolę interfejsu użytkownika dla zarządzania ustawieniami BIOS.",
+            "correct": 0
+        },
+        {
+            "text": "Kontroluje on przepływ danych między pamięcią RAM a procesorem, zapewniając efektywność i stabilność pracy systemu.",
+            "correct": 1
+        },
+        {
+            "text": "Jest odpowiedzialny za zarządzanie energią dostarczaną do poszczególnych komponentów komputera.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Jakie są wymagania dotyczące kości pamięci używanych w konfiguracji dual-channel?",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Kości muszą być identyczne pod względem producenta i modelu oraz muszą być zamontowane w slotach o tej samej kolorystyce.",
+            "correct": 0
+        },
+        {
+            "text": "Kości mogą być różnych producentów i modeli, ale muszą mieć taki sam rozmiar i architekturę oraz być sparowane i umieszczone w skorelowanych ze sobą gniazdach.",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/mikroprocesor/SDRAM.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Przesyłanie danych przez SDRAM",
+            "correct": 1
+        },
+        {
+            "text": "Przesyłanie danych przez DDR SDRAM",
+            "correct": 0
+        },
+        {
+            "text": "Przesyłanie danych przez EPROM",
+            "correct": 0
+        },
+        {
+            "text": "Przesyłanie danych przez EEPROM",
+            "correct": 0
+        }
+    ]
+},
+{
+    "pytanie": "Co przedstawia poniższe zdjęcie?",
+    "imgPath": "img/mikroprocesor/DDR SDRAM.png",
+    "alreadyGenerated": false,
+    "correctAnswers": 0,
+    "answers": [
+        {
+            "text": "Przesyłanie danych przez SDRAM",
+            "correct": 0
+        },
+        {
+            "text": "Przesyłanie danych przez DDR SDRAM",
+            "correct": 1
+        },
+        {
+            "text": "Przesyłanie danych przez DIMM",
+            "correct": 0
+        },
+        {
+            "text": "Przesyłanie danych przez SIMM",
+            "correct": 0
+        }
+    ]
+},
+
 ]
