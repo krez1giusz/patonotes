@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
-    background-color:rgba(0,0,0,1);
+    background-color:rgb(0, 0, 0);
     color: white;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
@@ -10,7 +10,7 @@ body{
 .mainBox{
     display:flex;
     margin:0 auto;
-    max-height: 800px;
+    max-height: 1190px;
     width: 680px;    
     background: rgba(0,0,0,0.6);
     flex-direction: column;
