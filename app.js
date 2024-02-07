@@ -18,10 +18,12 @@ function generateQuestion() {
         console.log("All questions have been asked.");
         return;
     }
+
     let question;
     do {
         question = questions[Math.floor(Math.random() * questions.length)];
     } while (askedQuestions.has(question));
+
     askedQuestions.add(question);
     return question;
 }
@@ -39,15 +41,21 @@ function startExam(){
     mainBox.className = "mainBox";
     questionsAmount  = document.querySelector("#questionamount").value;
     
+
     console.log(questionsAmount,questions.length)
+
     if(questionsAmount > questions.length){
         questionsAmount = questions.length
     }
     
+
     for(var i = 0; i < questionsAmount; i++){
+
         const generatedQuestion = generateQuestion();
+
         const singleQuestion = document.createElement("div");
         singleQuestion.className = "singleQuestion";
+
         const questionSpan = document.createElement("span");
         questionSpan.className = "question";
         questionSpan.innerText = generatedQuestion.pytanie;
@@ -55,23 +63,34 @@ function startExam(){
   
         const answersContainer = document.createElement("div");
         answersContainer.className = "questions";
+
         if(generatedQuestion.imgPath != undefined){
             const image = document.createElement('img')
             image.src = generatedQuestion.imgPath;
             singleQuestion.appendChild(image)
         }
+
+
         
+
         for (const odpowiedz of shuffleArray(generatedQuestion.answers)) {
             const answer = createAnswer(odpowiedz.text, odpowiedz.correct)
             answersContainer.appendChild(answer)
         }
+
         singleQuestion.appendChild(answersContainer);
   
         mainBox.appendChild(singleQuestion);
+
+
     
     }
+
+
     document.body.appendChild(mainBox);
 }
+
+
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
@@ -79,7 +98,9 @@ function shuffleArray(array) {
     }
     return array;
 }
+
 function clearObjects(){
+
     const mainBox = document.querySelector('.mainBox')
     if(mainBox == null){
         return
@@ -113,20 +134,30 @@ function clearObjects(){
         input.remove();
     })
 }
+
+
 function createAnswer(text, isCorrect) {
     const answerDiv = document.createElement("div");
     answerDiv.className = "odpowiedz";
+
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.dataset.correct = isCorrect;
+
     const span = document.createElement("span");
     span.innerText = text;
+
     answerDiv.appendChild(checkbox);
     answerDiv.appendChild(span);
+
     return answerDiv;
 }
+
+
+
 function checkQuestions(){
     let totalCorrectAnswers = 0
+
     const ans = document.querySelectorAll(".questions");
     ans.forEach(function(question){
         let correctForAnswer = 0;
@@ -139,9 +170,12 @@ function checkQuestions(){
             if(input.dataset.correct == "1"){
                 correctForAnswer++;
             }
+
             if(input.checked && input.dataset.correct == "1"){
                 checkedCorrectAnswers++;
             }
+
+
             if(input.checked){
                 if(input.dataset.correct == "1"){
                     span.style.color = "#03A062"
@@ -154,11 +188,16 @@ function checkQuestions(){
                     span.style.color = "purple"
                 }
             }
+
         })
         if(checkedCorrectAnswers == correctForAnswer && correctForAnswer != 0){
             totalCorrectAnswers++
         }
 
+
     })
+
     alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+(totalCorrectAnswers*100/questionsAmount)+"%)")
 }
+
+
