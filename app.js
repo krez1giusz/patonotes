@@ -1,12 +1,18 @@
-
 var questionsAmount = 1;
 let askedQuestions = new Set();
-function generateQuestion() {
+var selectedSubject;
+let questions
+function selectSubject(subject){    
+    questions = (subject == "tak" ? tak_questions : wsi_questions)
+    selectedSubject = subject
+
+}
+
+   function generateQuestion() {
 
     if (questions.length === askedQuestions.size) {
-        console.log("All questions have been asked.");
-        return;
-    }
+@@ -18,6 +29,12 @@ function generateQuestion() {
+}
 
     let question;
     do {
@@ -18,18 +24,15 @@ function generateQuestion() {
 }
 
 function startExam(){
+    console.log(selectedSubject)
+    if(selectedSubject == undefined){
+        console.log("NIE WYBRALES PRZEDMIOTU")
+        alert("NIE WYBRAŁEŚ PRZEDMIOTU !")
+        return;
+    }
     askedQuestions.clear()
     clearObjects()
     const mainBox = document.createElement("div");
-    mainBox.className = "mainBox";
-    questionsAmount  = document.querySelector("#questionamount").value;
-    
-
-    console.log(questionsAmount,questions.length)
-
-    if(questionsAmount > questions.length){
-        questionsAmount = questions.length
-    }
     
 
     for(var i = 0; i < questionsAmount; i++){
@@ -178,9 +181,9 @@ function checkQuestions(){
         }
 
 
-    })
+ })
 
     alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+((totalCorrectAnswers*100/questionsAmount).toFixed(1))+"%)");
+    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+(totalCorrectAnswers*100/questionsAmount)+"%)")
 }
-
 
