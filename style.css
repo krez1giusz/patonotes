@@ -1,110 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
-body{
-    background-color:rgb(0, 0, 0);
+body {
+    background-color: rgb(0, 0, 0);
     color: white;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
 
-.mainBox{
-    display:flex;
-    margin:0 auto;
-    max-height: 725px;
-    width: 680px;    
-    background: rgba(0,0,0,0.6);
+.mainBox {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px; /* Set a maximum width for responsiveness */
+    background: rgba(0, 0, 0, 0.6);
     flex-direction: column;
     border-radius: 8px;
-    gap:25px;
-    padding:35px 15px;
-    overflow:auto;
+    gap: 25px;
+    padding: 35px 15px;
+    overflow: auto;
+    overflow-x:hidden;
     align-items: center;
 
+    
 }
 
-
-
-.singleQuestion{
-    width: 600px;;
-    display:flex;
+.singleQuestion {
+    width: 100%; /* Adjust to full width */
+    display: flex;
     flex-direction: column;
-    justify-content: center;
 
+    justify-content: center;
 }
 
-
-.question{
-    width:600px;
+.question {
+    width: 100%; /* Adjust to full width */
     font-size: 32px;
     border: 2px dashed #03A062;
     padding: 15px;
 }
 
-
-
-.questions{
-    margin-top:2%;
-    display:flex;
+.questions {
+    margin-top: 2%;
+    display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size:22px;
-    color:gray;
-    float:left;
+    font-size: 22px;
+    color: gray;
+    float: left;
 }
 
-.controlPanel{
-    display:flex;
+.controlPanel {
+    position:fixed;
+    display: flex;
+    align-items: center;
     flex-direction: column;
-    gap:15px;
-    border:2px dashed #03A062;
-    padding:15px;
-}
+    gap: 15px;
+    border: 2px dashed #03A062;
+    padding: 15px;
 
-.trash{
-    position:absolute;
-}
-
-.controlBtn{
-    width: fit-content;
-    background-color: #03A062;
-    border:none;
-    &:hover{
-        cursor:pointer;
-        transform: scale(1.05);
-    }
 }
 
 
-
-.fractionNumbers{
-    display:flex;
+.fractionNumbers {
+    display: flex;
     flex-direction: column;
-    margin-top:10%;
+    margin-top: 10%;
     width: fit-content;
     height: fit-content;
     border: 2px dashed #03A062;
     align-items: center;
-    gap:10px;
-    padding:15px;
+    gap: 10px;
+    padding: 15px;
 }
 
-.mantysa{
-    width: 85px;
-    height: fit-content;
-}
-img{
-    width:220px;
-    height: 120px;
-    padding:10px;
+img {
+    width: 100%; /* Adjust to full width */
+    max-width: 220px; /* Set a maximum width for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    padding: 10px;
     margin: 0 auto;
 }
 
+/* Scrollbar styles */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 1);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -115,25 +97,108 @@ img{
     background: #555;
 }
 
-/* Dla przeglądarki Internet Explorer */
+/* For Internet Explorer */
 body {
     scrollbar-face-color: #03A062;
     scrollbar-track-color: #f1f1f1;
 }
 
-
-footer{
+footer {
     font-weight: bold;
-    color:#03A062;
+    color: #03A062;
     padding: 5px;
-    position:fixed;
-    bottom:0;
+    position: fixed;
+    bottom: 0;
+    display:flex;
+    width: 100%;;
+    flex-direction: row;
+    gap:15px;
 }
 
-.checkBox{
-    width:24px;
+.copyright{
+    float:left;
+    opacity: 0.45;
+}
+
+.check{
+    position: absolute;
+    right:50%;
+    bottom:100%;
+    float:right
+}
+
+.checkBox {
+    width: 24px;
     height: 24px;
 }
-.checkBox:checked{
+
+.checkBox:checked {
     accent-color: #03A062;
+}
+
+button{ 
+    width: fit-content;
+    color:white;
+    background-color: #03A062;;
+    border:none;
+    padding:6px;
+    border-radius: 2%;
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    &:active{
+        background-color: #26d38e;;
+    }
+}
+
+#questionamount{
+    display:block;
+    width: fit-content;
+    text-align:center;
+}
+.chooseSubject{
+    text-align: center;
+}
+input[type="checkbox"] {
+    transform: scale(1.35);
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .controlPanel{
+        position:relative;
+        width: fit-content;
+        margin: 0 auto;
+        display:flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .question{
+        font-size:22px;
+    }
+    .questions {
+        font-size:20px
+    }
+
+    .subject{
+        width:48px;
+        height: 48px;;
+        border-radius: 8%;
+    }
+
+
+
+    p{
+        text-align: center;
+    }
+     input[type="checkbox"] {
+        transform: scale(1.75);
+    
+    }
+
+    
+    
 }
