@@ -10,7 +10,7 @@ body{
 .mainBox{
     display:flex;
     margin:0 auto;
-    max-height: 1190px;
+    max-height: 725px;
     width: 680px;    
     background: rgba(0,0,0,0.6);
     flex-direction: column;
@@ -19,6 +19,7 @@ body{
     padding:35px 15px;
     overflow:auto;
     align-items: center;
+
 }
 
 
@@ -73,12 +74,7 @@ body{
     }
 }
 
-.checkBtn{
-}
 
-.boxText{
-
-}
 
 .fractionNumbers{
     display:flex;
@@ -125,3 +121,19 @@ body {
     scrollbar-track-color: #f1f1f1;
 }
 
+
+footer{
+    font-weight: bold;
+    color:#03A062;
+    padding: 5px;
+    position:fixed;
+    bottom:0;
+}
+
+.checkBox{
+    width:24px;
+    height: 24px;
+}
+.checkBox:checked{
+    accent-color: #03A062;
+}
