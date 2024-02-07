@@ -197,7 +197,7 @@ function checkQuestions(){
 
     })
 
-    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+(totalCorrectAnswers*100/questionsAmount)+"%)")
+    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+((totalCorrectAnswers*100/questionsAmount).toFixed(1))+"%)");
 }
 
 
