@@ -180,7 +180,7 @@ function checkQuestions(){
 
     })
 
-    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount)
+    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+(totalCorrectAnswers*100/questionsAmount)+"%)")
 }
 
 
