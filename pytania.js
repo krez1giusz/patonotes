@@ -3060,15 +3060,15 @@
     "correctAnswers": 0,
     "answers": [
         {
-            "text": "CENTRONICS",
+            "text": "CENTRONICS ( IEE 1284 )",
             "correct": 1
         },
         {
-            "text": "VGA",
+            "text": "VGA ( Video Graphic Array )",
             "correct": 0
         },
         {
-            "text": "USB",
+            "text": "USB ( Universal Serial Bus )",
             "correct": 0
         },
         {
@@ -4518,7 +4518,7 @@
                 "correct": 0
             },
             {
-                "text": "Jest miejscem wpisu wyniku operacji(POPRAWNA)", 
+                "text": "Jest miejscem wpisu wyniku operacji", 
                 "correct": 1
             }
         ]
