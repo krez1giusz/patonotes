@@ -1,17 +1,6 @@
 
 var questionsAmount = 1;
 let askedQuestions = new Set();
-var selectedSubject;
-let questions
-function selectSubject(subject){    
-    questions = (subject == "tak" ? tak_questions : wsi_questions)
-    selectedSubject = subject
-
-}
-
-
-
-
 function generateQuestion() {
 
     if (questions.length === askedQuestions.size) {
@@ -29,12 +18,6 @@ function generateQuestion() {
 }
 
 function startExam(){
-    console.log(selectedSubject)
-    if(selectedSubject == undefined){
-        console.log("NIE WYBRALES PRZEDMIOTU")
-        alert("NIE WYBRAŁEŚ PRZEDMIOTU !")
-        return;
-    }
     askedQuestions.clear()
     clearObjects()
     const mainBox = document.createElement("div");
@@ -197,7 +180,7 @@ function checkQuestions(){
 
     })
 
-    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+(totalCorrectAnswers*100/questionsAmount)+"%)")
+    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+((totalCorrectAnswers*100/questionsAmount).toFixed(1))+"%)");
 }
 
 
