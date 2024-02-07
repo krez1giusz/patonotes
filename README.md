@@ -1,1 +1,1 @@
-ave pjatk ave tak
+ave polskojaponska ave tak
