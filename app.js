@@ -190,7 +190,7 @@ function checkQuestions(){
             }
 
         })
-        if(checkedCorrectAnswers == correctForAnswer && correctForAnswer != 0){
+        if(checkedCorrectAnswers == correctForAnswer){
             totalCorrectAnswers++
         }
 
