@@ -14,7 +14,7 @@ function selectSubject(subject){
         questions = wsi_questions;
         break;
     default:
-        console.log("Nie ma takiego przedmiotu");
+        console.log("Error");
 }
 selectedSubject = subject;
 
