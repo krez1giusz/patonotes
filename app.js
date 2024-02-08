@@ -3,9 +3,20 @@ var questionsAmount = 1;
 let askedQuestions = new Set();
 var selectedSubject;
 let questions
-function selectSubject(subject){    
-    questions = (subject == "tak" ? tak_questions : wsi_questions)
-    selectedSubject = subject
+
+function selectSubject(subject){ 
+
+    switch (subject) {
+    case "tak":
+        questions = tak_questions;
+        break;
+    case "wsi":
+        questions = wsi_questions;
+        break;
+    default:
+        console.log("Nie ma takiego przedmiotu");
+}
+selectedSubject = subject;
 
 }
 
