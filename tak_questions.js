@@ -4727,29 +4727,6 @@
                 "correct": 1
             },
             {
-                "text": "Jest to jednostka odpowiedzialna za dekodowanie instrukcji w mikroprocesorze.",
-                "correct": 0
-            }
-        ]
-    },
-    {
-        "pytanie": "Czym jest BU (Bus Unit) w mikroprocesorze? ",
-        "alreadyGenerated": false,
-        "correctAnswers": 0,
-        "answers": [
-            {
-                "text": "Jest to jednostka odpowiedzialna za zarządzanie pamięcią w mikroprocesorze. ",
-                "correct": 0
-            },
-            {
-                "text": "Jest to jednostka odpowiedzialna za wykonywanie operacji arytmetycznych i logicznych.",
-                "correct": 0
-            },
-            {
-                "text": "Jest to jednostka odpowiedzialna za komunikację z innymi elementami systemu komputerowego. ",
-                "correct": 1
-            },
-            {
                 "text": "Służy do adresowania komórki pamieci stosu",
                 "correct": 0
             }
