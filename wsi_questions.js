@@ -2,6 +2,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych to modele baz danych?",
         "alreadyGenerated": false,
+        "correctAnswers": 0,
         "answers": [
             {
                 "text": "Model Bohra",
@@ -24,6 +25,7 @@ const wsi_questions = [
     {
         "pytanie": "Inżynieria oprogramowania to nauka:",
         "alreadyGenerated": false,
+         "correctAnswers": 0,
         "answers": [
             {
                 "text": "Empiryczna",
@@ -37,7 +39,9 @@ const wsi_questions = [
     },
     {
         "pytanie": "Do obowiązku Scrum Mastera należy między innymi:",
+        "correctAnswers": 0,
         "alreadyGenerated": false,
+        "correctAnswers": 0,
         "answers": [
             {
                 "text": "Zapewnienie zysku z przedsięwzięcia",
@@ -60,6 +64,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych atrybutów można umieścić w encji Student w modelu relacyjnym:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "PESEL",
@@ -82,6 +87,7 @@ const wsi_questions = [
     {
         "pytanie": "Spiralny model cyklu życia oprogramowania:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Utrudnia klientowi walidacje produktu na etapie wytwarzania",
@@ -104,6 +110,7 @@ const wsi_questions = [
     {
         "pytanie": "Wskaż atrybuty bezpieczeństwa informacji:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Niezniszczalność",
@@ -126,6 +133,7 @@ const wsi_questions = [
     {
         "pytanie": "Testy jednostkowe to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Zazwyczaj zautomatyzowane",
@@ -148,6 +156,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych modeli sa modelami danych:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Model sieciowy",
@@ -170,6 +179,7 @@ const wsi_questions = [
     {
         "pytanie": "Etapy analizy otwartych źródeł informacji i jej wynik to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Open Source Secure Data",
@@ -188,6 +198,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń jest prawdziwe:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "NULL = NULL ma wartość logiczną NULL",
@@ -210,6 +221,7 @@ const wsi_questions = [
     {
         "pytanie": "Testy BlackBox to testy:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Szukamy błedów w kodzie bez uruchamiania go",
@@ -232,6 +244,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych elementów powinno zawierać minimalne user story w Scrum?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "opis funkcjonalności, wartość biznesowa",
@@ -254,6 +267,7 @@ const wsi_questions = [
     {
         "pytanie": "W architekturze klient-serwer do głównych ról klienta należy:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "przetwarzanie zapytań SQL",
@@ -272,6 +286,7 @@ const wsi_questions = [
     {
         "pytanie": "Kto jest odpowiedzialny za projektowanie User Stories:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Scrum Master",
@@ -294,6 +309,7 @@ const wsi_questions = [
     {
         "pytanie": "Instrukcja SELECT służy do:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "sprowadzania rekordów z bazy danych",
@@ -316,6 +332,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych atrybutów mozna umieścić w encji Uczeń w modelu relacyjnym? Pamiętaj, ze każda encja w modelu relacyjnym musi być w pierwszej postaci normalnej :",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "PESEL",
@@ -338,6 +355,7 @@ const wsi_questions = [
     {
         "pytanie": "Kto jest twórcą relacyjnego modelu danych:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Edgar Codd",
@@ -360,6 +378,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne stwierdzenia dotyczęce kopii zapasowych w serwerach baz danych:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "kopia pełna zawiera wszystkie dane bazy danych",
@@ -382,6 +401,7 @@ const wsi_questions = [
     {
         "pytanie": "Stereotyp <<include>> oznacza ze:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "jeden przypadek użycia jest obowiązkową częścią innego",
@@ -404,6 +424,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne stwierdzenia dotyczące architektury klient-serwer:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Klientem może bać przeglądarka internetowa",
@@ -426,6 +447,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne stwierdzenia dotyczęce indeksów w serwerach baz danych:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Programista musi zaznaczyć w zapytaniu SQL, że indeks ma zostać użyty",
@@ -448,6 +470,7 @@ const wsi_questions = [
     {
         "pytanie": "Cykl życia oprogramowania Code-and-Fix nadaje się do stosowania",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Tylko w dużym projekcie",
@@ -470,6 +493,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Instrukcja INSERT języka SQL służy do usunięcia danych z bazy danych",
@@ -492,6 +516,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne stwierdzenia dotyczące kopii zapasowej dziennika transkacji",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Jest bezużyteczna, jeśli nie dysponujemy kopią pełną",
@@ -514,6 +539,7 @@ const wsi_questions = [
     {
         "pytanie": "Celem spotkania Daily Scrum(Stand up meeting) jest",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Wybór User Stories do realizacji w następnym Sprincie",
@@ -536,6 +562,7 @@ const wsi_questions = [
     {
         "pytanie": "Celem budowy modeli analitycznych systemów informatycznych jest",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Lepsze zrozumienie działania systemu",
@@ -554,6 +581,7 @@ const wsi_questions = [
     {
         "pytanie": "Czy może istnieć system informacyjny bez komputerów",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Tak",
@@ -568,6 +596,7 @@ const wsi_questions = [
     {
         "pytanie": "Z poniższej listy wybierz własności charakteryzujące przypadki Użycia",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Może być wykorzystywany przez dokładnie jednego Aktora",
@@ -590,6 +619,7 @@ const wsi_questions = [
     {
         "pytanie": "Reprezentowana w relacyjnej bazie danych jako tabela jest",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Podzbiorem iloczynu kartezjańskiego",
@@ -608,6 +638,7 @@ const wsi_questions = [
     {
         "pytanie": "Zbieranie i analiza wymagań( requirements capture and analysis) jest fazą procesu wytwarzania oprogramowania:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "której produkty mogą stanowić podstawę do przygotowania testów modułów na zasadzie „szklanej skrzynki”",
@@ -626,6 +657,7 @@ const wsi_questions = [
     {
         "pytanie": "Do obowiązków Product Ownera należy między innymi:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Pilnowanie przestrzegania procesów Scrum",
@@ -648,6 +680,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne stwierdzenia",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Serwer baz danych używa bufora w pamięci RAM",
@@ -666,6 +699,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych atrybutów można umieścić w encji AlbumMuzyczny w modelu relacyjnym? Pamiętaj, ze każda encja w modelu relacyjnym musi być w pierwszej postaci normalnej:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "KodAlbumu",
@@ -688,6 +722,7 @@ const wsi_questions = [
     {
         "pytanie": "Testy jednoskowe, to testy:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Sprawdzające wynik otrzymany z oczekiwanym",
@@ -710,6 +745,7 @@ const wsi_questions = [
     {
         "pytanie": "Logiczna strukturą danych w relacyjnym modelu danych jest:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Struktura tabel",
@@ -732,6 +768,7 @@ const wsi_questions = [
     {
         "pytanie": "Relacja jest:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "reprezentowana w relacyjnej bazie danych jako tabela",
@@ -754,6 +791,7 @@ const wsi_questions = [
     {
         "pytanie": "Stereotyp <<extend>> oznacza ze:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Aktor może używać przypadków użycia innego aktora",
@@ -776,6 +814,7 @@ const wsi_questions = [
     {
         "pytanie": "Dziedziczenie to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "relacja pomiędzy klasami, łącząca klasę bardziej ogólną z bardziej wyspecjalizowaną",
@@ -798,6 +837,7 @@ const wsi_questions = [
     {
         "pytanie": "Asocjacja to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "uogólnienie zbioru połączeń pomiędzy obiektami",
@@ -820,6 +860,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawną odpowiedź",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "TRUE AND NULL = NULL",
@@ -842,6 +883,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne zdania dotyczącze dziennika transakcji w serwarach baz danych",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "dziennik transakcji pozwala zachować spójność danych",
@@ -864,6 +906,7 @@ const wsi_questions = [
     {
         "pytanie": "Do obowiązków Scrum Mastera należą między innymi",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Pihowanie przestrzegania procesów Scrum",
@@ -886,6 +929,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z tych zespołów są ofensywne?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Red Team",
@@ -908,6 +952,7 @@ const wsi_questions = [
     {
         "pytanie": "White hats:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Blue Team members, Pentesters, Red Team members",
@@ -930,6 +975,7 @@ const wsi_questions = [
     {
         "pytanie": "Red Teaming to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Ataki fizyczne",
@@ -952,6 +998,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Instrukcja DELET języka SQL, służy do modyfikacji danych w bazie danych",
@@ -974,6 +1021,7 @@ const wsi_questions = [
     {
         "pytanie": "W zagadnieniach związanych z bezpieczeństwem informacji - role defensywne to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Architekt",
@@ -992,6 +1040,7 @@ const wsi_questions = [
     {
         "pytanie": "Role pentestera:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Eksploitacja",
@@ -1010,6 +1059,7 @@ const wsi_questions = [
     {
         "pytanie": "Kto ustala priorytety User Stories?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Scrum Master",
@@ -1032,6 +1082,7 @@ const wsi_questions = [
     {
         "pytanie": "Arsenał broni do walki z fałszowaniem wiadomości",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "SPF",
@@ -1050,6 +1101,7 @@ const wsi_questions = [
     {
         "pytanie": "Jak zabezpieczysz się przed atakiem hakerskim na poczte",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "SPF",
@@ -1068,6 +1120,7 @@ const wsi_questions = [
     {
         "pytanie": "Wymagania: uczeń należy do jednej klasy, jedna klasa ma wielu uczniów. Jak zdefiniować tabele w modelu relacyjnym? (to jest pytania z rysunkami)",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Tabela Uczen: idUcznia, imię, nazwisko\nTabela Klasa: idKlasy, PoziomKlasy\nTabela [coś tam]: idKlasy, idUcznia",
@@ -1090,6 +1143,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne odpowiedzi:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "NOT NULL= TRUE",
@@ -1112,6 +1166,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Klauzula WHERE instrukcji SELECT w języku SQL określa warunki, jakie muszą spełniać odczytywane wiersze",
@@ -1134,6 +1189,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych problemów mogą być rezultatem długu technicznego?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Żadne z powyższych, dług techniczny to sposób naciągania zleceniodawcy",
@@ -1156,6 +1212,7 @@ const wsi_questions = [
     {
         "pytanie": "Zadania Blue Team to:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Detekcja i analiza zagrożeń",
@@ -1178,6 +1235,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz poprawne odpowiedzi:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "TRUE and NULL = NULL",
@@ -1200,6 +1258,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe w modelu relacyjnym bazy danych?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "klucz obcy to jednoznaczy intentyfikator wiersza w tabeli",
@@ -1222,6 +1281,7 @@ const wsi_questions = [
     {
         "pytanie": "Z poniższej listy wybierz własności, jakie charakteryzują Aktora przypadków użycia:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "takie pojęcie nie istnieje",
@@ -1244,6 +1304,7 @@ const wsi_questions = [
     {
         "pytanie": "Niebezpieczne oprogramowanie - zabezpieczenia organizacyjne - wskaż prawidłowe odpowiedzi:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Dystrybycja informacji na temat nowych rodzajów niebezpiecznego oprogramowania i oznak jego obecności",
@@ -1270,6 +1331,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz elementy Bezpieczeństwa IT (z wersji szescioelementowej)",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "poufność",
@@ -1296,6 +1358,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych atrybutów można umieścić w encji Uczeń w modelu relacyjnym? Pamiętaj, ze każda encja w modelu relacyjnym musi być w pierwszej postaci normalnej :",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Przedmioty ucznia",
@@ -1318,6 +1381,7 @@ const wsi_questions = [
     {
         "pytanie": "Zaznacz prawidłową odpowiedz:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "FALSE AND NULL = FALSE",
@@ -1340,6 +1404,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych twierdzeń są prawdziwe?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Klauzura ORDER BY instrukcji SELECT w języku SQL określa sposób sortowania odczytywanych z bazy wierszy",
@@ -1362,6 +1427,7 @@ const wsi_questions = [
     {
         "pytanie": "Do stworzenia oprogramowania wysokiej jakości można użyć",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Modelu wodospadowego",
@@ -1384,6 +1450,7 @@ const wsi_questions = [
     {
         "pytanie": "Czym różni się podejście Kanban od Scrum?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Inny sposób oceny wagi zadan",
@@ -1406,6 +1473,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych modeli tworzenia oprogramowania są odpowiednie przy tworzeniu oprogramowania.",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "model wodospadowy",
@@ -1428,6 +1496,7 @@ const wsi_questions = [
     {
         "pytanie": "Które zadania typowo należą do roli klienta w architekturze klient-serwer?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "wstępna walidacja danych",
@@ -1450,6 +1519,7 @@ const wsi_questions = [
     {
         "pytanie": "Najpopularniejsze rodzaje phishingu mailowego to",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Spear phishing",
@@ -1476,6 +1546,7 @@ const wsi_questions = [
     {
         "pytanie": "Funkcje i zalety MTD:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Wykrywanie OS exploits podatności zmiany konfiguracji urządzeń jailbroken rooted w sposób wyrafinowany",
@@ -1502,6 +1573,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "NULL <> NULL ma wartość logiczną NULL",
@@ -1524,6 +1596,7 @@ const wsi_questions = [
     {
         "pytanie": "Product Owner odpowiada w projekcie zwinnym za:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Usuwanie przeszkód stojących na drodze zespołu",
@@ -1542,6 +1615,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych modeli są modelami danych:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Model kartotekowy",
@@ -1564,6 +1638,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe w modelu relacyjnym danych",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "klucz główny to jednoznaczny identyfikator wiersza w tabelami",
@@ -1586,6 +1661,7 @@ const wsi_questions = [
     {
         "pytanie": "Wskaż cechy, charakteryzujące metodyki klasyczne",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Nacisk na ciągły kontakt z klientem",
@@ -1608,6 +1684,7 @@ const wsi_questions = [
     {
         "pytanie": "Jakie są zalety tworzenia klientów WWW w architekturze klient-serwer?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "łatwiejsza konserwacja systemu",
@@ -1626,6 +1703,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych stwierdzeń są prawdziwe w modelu relacyjnym danych:",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Perspektywa to logiczna struktura przechowywania danych",
@@ -1648,6 +1726,7 @@ const wsi_questions = [
     {
         "pytanie": "Z poniższej listy wybierz własności, jakie charakteryzują Aktora przypadku Użycia",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "może być specjalnym przypadkiem innego aktora",
@@ -1670,6 +1749,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z poniższych zdań są prawdziwe",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Instrukcja UPDATE służy do modyfikacji danych w bazie danych",
@@ -1692,6 +1772,7 @@ const wsi_questions = [
     {
         "pytanie": "Wyzwania związane z mobilnością to",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Skala Kardaszowa",
@@ -1710,6 +1791,7 @@ const wsi_questions = [
     {
         "pytanie": "Do ekosystemu rozwiązań bezpieczeństwa urządzeń mobilnych należą",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "MAM Mobile Application Management",
@@ -1736,6 +1818,7 @@ const wsi_questions = [
     {
         "pytanie": "Czy instrukcja SELECT dokonuje jakichkolwiek zmian w strukturze danych",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Nie",
@@ -1750,6 +1833,7 @@ const wsi_questions = [
     {
         "pytanie": "Które z niżej wymienionych instrukcji mogą dokonać zmian w danych zapisanych w bazie",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "SELECT",
@@ -1776,6 +1860,7 @@ const wsi_questions = [
     {
         "pytanie": "W której z poniższych klauzul definiowane są źródła danych (tabele), z których dane odczytuje instrukcja SELECT",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "SELECT",
@@ -1798,6 +1883,7 @@ const wsi_questions = [
     {
         "pytanie": "Ile razy w poleceniu SELECT może pojawić się klauzula ORDER BY",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Musi się pojawić dokładnie jeden raz",
@@ -1816,6 +1902,7 @@ const wsi_questions = [
     {
         "pytanie": "Ile rekordów bedzie wynikiem polecenia: SELECT * FROM T1, T2; (gdzie T1 i T2 to nazwy tabel, zawierające odpowiednio 5 i 3 rekordy)",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "0",
@@ -1838,6 +1925,7 @@ const wsi_questions = [
     {
         "pytanie": "Co będzie wynikiem wykonania polecenia: SELECT ename FROM emp WHERE 1=1",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Zbiór pusty",
@@ -1852,6 +1940,7 @@ const wsi_questions = [
     {
         "pytanie": "Co będzie wynikiem wykonania polecenia: SELECT dname FROM dept WHERE deptno = deptno",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Nazwy wszystkich departamentów odczytane z tabeli DEPT",
@@ -1870,6 +1959,7 @@ const wsi_questions = [
     {
         "pytanie": "Jeżeli w poleceniu SELECT w klauzuli FROM wymienione jest kilka tabel (więcej niz jedna), to",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Polecenie jest niepoprawne składniowo",
@@ -1884,6 +1974,7 @@ const wsi_questions = [
     {
         "pytanie": "Polecenie ALTER TABLE służy do",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Usunięcia z bazy istniejącej tabeli",
@@ -1910,6 +2001,7 @@ const wsi_questions = [
     {
         "pytanie": "Słowo CONSTRAINT w instrukcji CREATE TABLE",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "jest opcjonalne",
@@ -1932,6 +2024,7 @@ const wsi_questions = [
     {
         "pytanie": "W Bazie są dwie tabele T1 i T2. Tabela T1 posiada kolumnę t2 będącą kluczem obcym z tabeli T2. W tabeli T1 istnieją wiersze, w których w kolumnie t2 są wpisane wartości znaczące. Co Będzie wynikiem polecenia: DROP TABLE T2",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Tabela T2 zostanie usunięta",
@@ -1950,6 +2043,7 @@ const wsi_questions = [
     {
         "pytanie": "Czy wykonanie polecenia: INSERT INTO emp(ename, sal, job) VALUEES('PINK',1200,'ROBBER'); powiedzie sie?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Nie, bo firma nie zatrudnia przestępców",
@@ -1968,6 +2062,7 @@ const wsi_questions = [
     {
         "pytanie": "Czy dla naszego przykładu z tabelami EMP, DEPT polecenie: DELETE FROM dept; powiedzie sie?",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "Tak, zostaną usunięte wszystkie rekordy z tabeli DEPT",
@@ -1982,6 +2077,7 @@ const wsi_questions = [
     {
         "pytanie": "Tabela SALESGRADE zawiera 5 wierszy identyfikowanych wartościami 1-5 w kolumnie GRADE. W ilu wierszach zostaną zmienione wartości poleceniem: UPDATE salesgrade SET Losal = Losal + 50 WHERE grade != 10",
         "alreadyGenerated": false,
+"correctAnswers": 0,
         "answers": [
             {
                 "text": "We wszystkich",
