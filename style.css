@@ -1,130 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+}
+
 body {
     background-color: rgb(0, 0, 0);
     color: white;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.controlPanel {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px dashed #03A062;
 }
 
 .mainBox {
     display: flex;
-    margin: 0 auto;
-    max-width: 800px; /* Set a maximum width for responsiveness */
-    background: rgba(0, 0, 0, 0.6);
     flex-direction: column;
-    border-radius: 8px;
-    gap: 25px;
-    padding: 35px 15px;
-    overflow: auto;
-    overflow-x:hidden;
     align-items: center;
-
-    
-}
-
-.singleQuestion {
-    width: 100%; /* Adjust to full width */
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-}
-
-.question {
-    width: 100%; /* Adjust to full width */
-    font-size: 32px;
-    border: 2px dashed #03A062;
-    padding: 15px;
-}
-
-.questions {
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
+    justify-content: flex-start; 
     gap: 20px;
-    font-size: 22px;
-    color: gray;
-    float: left;
-}
-
-.controlPanel {
-    position:fixed;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-    border: 2px dashed #03A062;
-    padding: 15px;
-
-}
-
-
-.fractionNumbers {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10%;
-    width: fit-content;
-    height: fit-content;
-    border: 2px dashed #03A062;
-    align-items: center;
-    gap: 10px;
-    padding: 15px;
-}
-
-img {
-    width: 100%; /* Adjust to full width */
-    max-width: 220px; /* Set a maximum width for responsiveness */
-    height: auto; /* Maintain aspect ratio */
-    padding: 10px;
-    margin: 0 auto;
-}
-
-/* Scrollbar styles */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 1);
-}
-
-::-webkit-scrollbar-thumb {
-    background: #03A062;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-/* For Internet Explorer */
-body {
-    scrollbar-face-color: #03A062;
-    scrollbar-track-color: #f1f1f1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 45%;
+    flex: 1; 
+    margin: 20px auto;
+    border: 1px dashed #03A062;
+    overflow-x:hidden;
+    overflow-y: auto; 
 }
 
 footer {
     font-weight: bold;
     color: #03A062;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
-    display:flex;
-    width: 100%;;
-    flex-direction: row;
-    gap:15px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8); 
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-shrink: 0; 
+    position:fixed;
+    bottom:0;
 }
 
-.copyright{
-    float:left;
+
+.singleQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    margin:20px;
+    gap:5px;
+    border: 1px dashed #03A062;
+    border-radius: 5px;
+
+    margin-bottom: 15px;
+    width:90%;
+    height: fit-content;
+}
+
+.question {
+    font-size: 24px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    border: 2px dashed #03A062;
+    padding: 15px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.questionImage {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+.copyright {
+    float: left;
     opacity: 0.45;
 }
 
-.check{
+.check {
     position: absolute;
-    right:50%;
-    bottom:100%;
-    float:right
+    right: 50%;
+    bottom: 100%;
+    float: right;
 }
 
 .checkBox {
@@ -136,69 +119,77 @@ footer {
     accent-color: #03A062;
 }
 
-button{ 
+button { 
     width: fit-content;
-    color:white;
-    background-color: #03A062;;
-    border:none;
-    padding:6px;
-    border-radius: 2%;
-    &:hover{
-        cursor: pointer;
-        transform: scale(1.1);
-    }
-    &:active{
-        background-color: #26d38e;;
-    }
+    color: white;
+    background-color: #03A062;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
-#questionamount{
-    display:block;
-    width: fit-content;
-    text-align:center;
+button:hover {
+    transform: scale(1.05);
 }
-.chooseSubject{
+
+button:active {
+    background-color: #26d38e;
+}
+
+#questionamount {
+    display: block;
+    width: 60px;
     text-align: center;
 }
+
+.chooseSubject {
+    text-align: center;
+}
+
 input[type="checkbox"] {
     transform: scale(1.35);
-
-
 }
 
 @media only screen and (max-width: 600px) {
-    .controlPanel{
-        position:relative;
+    .controlPanel {
+        position: relative;
         width: fit-content;
         margin: 0 auto;
-        display:flex;
+        display: flex;
         flex-direction: row;
         gap: 25px;
     }
 
-    .question{
-        font-size:22px;
-    }
-    .questions {
-        font-size:20px
+    .mainBox {
+        width: 90%;
+        padding: 15px;
     }
 
-    .subject{
-        width:48px;
-        height: 48px;;
+    .singleQuestion {
+        min-height: 150px;
+    }
+
+    .question {
+        font-size: 20px;
+    }
+
+    .answers {
+        gap: 8px;
+    }
+
+    .subject {
+        width: 48px;
+        height: 48px;
         border-radius: 8%;
     }
 
-
-
-    p{
+    p {
         text-align: center;
     }
-     input[type="checkbox"] {
-        transform: scale(1.75);
-    
-    }
 
-    
-    
+    input[type="checkbox"] {
+        transform: scale(1.75);
+    }
 }

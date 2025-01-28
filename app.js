@@ -1,33 +1,42 @@
-
-var questionsAmount = 1;
+let questionsAmount = 1;
 let askedQuestions = new Set();
-var selectedSubject;
-let questions
+let selectedSubject;
+let questions;
 
-function selectSubject(subject){ 
 
+const totalQuestionsDisplay = document.getElementById("totalQuestions");
+
+function selectSubject(subject) { 
     switch (subject) {
-    case "tak":
-        questions = tak_questions;
-        break;
-    case "wsi":
-        questions = wsi_questions;
-        break;
-    default:
-        console.log("Error");
+        case "tak":
+            questions = tak_questions;
+            break;
+        case "wsi":
+            questions = wsi_questions;
+            break;
+        case "skj":
+            questions = skj_questions;
+            break;
+        default:
+            console.error("Invalid subject selected");
+            return;
+    }
+    selectedSubject = subject;
+    updateTotalQuestions();
 }
-selectedSubject = subject;
 
+function updateTotalQuestions() {
+    if (selectedSubject && questions) {
+        totalQuestionsDisplay.innerText = `Ilość pytań: ${questions.length}`;
+    } else {
+        totalQuestionsDisplay.innerText = '';
+    }
 }
-
-
-
 
 function generateQuestion() {
-
     if (questions.length === askedQuestions.size) {
         console.log("All questions have been asked.");
-        return;
+        return null;
     }
 
     let question;
@@ -39,113 +48,78 @@ function generateQuestion() {
     return question;
 }
 
-function startExam(){
-    console.log(selectedSubject)
-    if(selectedSubject == undefined){
-        console.log("NIE WYBRALES PRZEDMIOTU")
-        alert("NIE WYBRAŁEŚ PRZEDMIOTU !")
+function startExam() {
+    if (!selectedSubject) {
+        console.warn("No subject selected");
+        alert("NIE WYBRAŁEŚ PRZEDMIOTU!");
         return;
     }
-    askedQuestions.clear()
-    clearObjects()
+
+    askedQuestions.clear();
+    clearObjects();
+
     const mainBox = document.createElement("div");
     mainBox.className = "mainBox";
-    questionsAmount  = document.querySelector("#questionamount").value;
-    
 
-    console.log(questionsAmount,questions.length)
+    const questionInput = document.querySelector("#questionamount");
+    questionsAmount = parseInt(questionInput.value, 10) || 1;
 
-    if(questionsAmount > questions.length){
-        questionsAmount = questions.length
+    console.log(`Requested Questions: ${questionsAmount}, Available: ${questions.length}`);
+
+    if (questionsAmount > questions.length) {
+        questionsAmount = questions.length;
+        alert(`Żądasz więcej pytań niż dostępnych. Ustawiono ilość na ${questionsAmount}.`);
     }
-    
 
-    for(var i = 0; i < questionsAmount; i++){
-
+    for (let i = 0; i < questionsAmount; i++) {
         const generatedQuestion = generateQuestion();
+        if (!generatedQuestion) break; 
 
         const singleQuestion = document.createElement("div");
         singleQuestion.className = "singleQuestion";
 
         const questionSpan = document.createElement("span");
         questionSpan.className = "question";
-        questionSpan.innerText = generatedQuestion.pytanie;
+        questionSpan.innerText = `${i + 1}. ${generatedQuestion.pytanie}`;
         singleQuestion.appendChild(questionSpan);
-  
+      
         const answersContainer = document.createElement("div");
-        answersContainer.className = "questions";
+        answersContainer.className = "answers";
 
-        if(generatedQuestion.imgPath != undefined){
-            const image = document.createElement('img')
+        if (generatedQuestion.imgPath) {
+            const image = document.createElement('img');
             image.src = generatedQuestion.imgPath;
-            singleQuestion.appendChild(image)
+            image.alt = "Question Image";
+            image.className = "questionImage";
+            singleQuestion.appendChild(image);
         }
 
-
-        
-
-        for (const odpowiedz of shuffleArray(generatedQuestion.answers)) {
-            const answer = createAnswer(odpowiedz.text, odpowiedz.correct)
-            answersContainer.appendChild(answer)
+        for (const odpowiedz of shuffleArray([...generatedQuestion.answers])) {
+            const answer = createAnswer(odpowiedz.text, odpowiedz.correct);
+            answersContainer.appendChild(answer);
         }
 
         singleQuestion.appendChild(answersContainer);
-  
         mainBox.appendChild(singleQuestion);
-
-
-    
     }
-
 
     document.body.appendChild(mainBox);
 }
 
-
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
+        const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
 }
 
 function clearObjects(){
-
-    const mainBox = document.querySelector('.mainBox')
-    if(mainBox == null){
-        return
+    const mainBox = document.querySelector('.mainBox');
+    if(mainBox){
+        mainBox.remove();
     }
-    mainBox.remove();
-    const singleQuestion = document.querySelector('.singleQuestion')
-    if(singleQuestion == null){
-        return
-    }
-    singleQuestion.remove();
-    const question = document.querySelector('.question')
-    if(question == null){
-        return
-    }
-    question.remove();
-    const questions = document.querySelector('.questions')
-    if(questions == null){
-        return
-    }
-    questions.remove();
-    const answer = document.querySelector('.odpowiedz')
-    if(answer == null){
-        return
-    }
-    answer.remove();
-    const inputs = document.querySelectorAll('input')
-    if(inputs == null){
-        return
-    }
-    inputs.forEach(function (input){
-        input.remove();
-    })
 }
-
 
 function createAnswer(text, isCorrect) {
     const answerDiv = document.createElement("div");
@@ -164,51 +138,39 @@ function createAnswer(text, isCorrect) {
     return answerDiv;
 }
 
-
-
 function checkQuestions(){
-    let totalCorrectAnswers = 0
+    let totalCorrectAnswers = 0;
 
-    const ans = document.querySelectorAll(".questions");
-    ans.forEach(function(question){
+    const questionsElements = document.querySelectorAll(".singleQuestion");
+    questionsElements.forEach(function(questionElem, index){
+        const answers = questionElem.querySelectorAll('input');
         let correctForAnswer = 0;
         let checkedCorrectAnswers = 0;
-        const inputs = question.querySelectorAll('input')
-        inputs.forEach(function(input){
-            
+
+        answers.forEach(function(input){
             const span = input.nextElementSibling;
         
-            if(input.dataset.correct == "1"){
+            if(input.dataset.correct === "1"){
                 correctForAnswer++;
             }
 
-            if(input.checked && input.dataset.correct == "1"){
+            if(input.checked && input.dataset.correct === "1"){
                 checkedCorrectAnswers++;
             }
 
-
             if(input.checked){
-                if(input.dataset.correct == "1"){
-                    span.style.color = "#03A062"
-                } else{
-                    span.style.color = "red";
-                    
-                }
-            }else{
-                if(input.dataset.correct == "1"){
-                    span.style.color = "purple"
+                span.style.color = input.dataset.correct === "1" ? "#03A062" : "red";
+            } else {
+                if(input.dataset.correct === "1"){
+                    span.style.color = "purple";
                 }
             }
+        });
 
-        })
-        if(checkedCorrectAnswers == correctForAnswer){
-            totalCorrectAnswers++
+        if(checkedCorrectAnswers === correctForAnswer){
+            totalCorrectAnswers++;
         }
+    });
 
-
-    })
-
-    alert("LICZBA POPRAWNYCH ODPOWIEDZI: "+totalCorrectAnswers+"/"+questionsAmount+"("+(totalCorrectAnswers*100/questionsAmount).toFixed(1)+"%)")
+    alert(`LICZBA POPRAWNYCH ODPOWIEDZI: ${totalCorrectAnswers}/${questionsAmount} (${((totalCorrectAnswers / questionsAmount) * 100).toFixed(1)}%)`);
 }
-
-
