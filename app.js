@@ -3,6 +3,14 @@ let askedQuestions = new Set();
 let selectedSubject;
 let questions;
 
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('toggleControlPanel');
+    const controlPanel = document.querySelector('.controlPanel');
+
+    toggleButton.addEventListener('click', function() {
+        controlPanel.classList.toggle('hidden');
+    });
+});
 
 const totalQuestionsDisplay = document.getElementById("totalQuestions");
 

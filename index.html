@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="/img/marcin.jpg">
-    <!-- Ensure scripts are loaded in order with 'defer' -->
+
     <script src="tak_questions.js" defer></script>
     <script src="wsi_questions.js" defer></script>
     <script src="skj_questions.js" defer></script>
@@ -16,6 +16,9 @@
     <script src="app.js" defer></script>
 </head>
 <body>
+
+    <div id="toggleControlPanel" class="toggleButton">☰</div>
+    
     <div class="controlPanel">
         <div class="col">
             <p>
@@ -33,7 +36,7 @@
             <button class="subject" onclick="selectSubject('rbd')">RBD (2r)</button>
         </div>
 
-        <!-- Total Questions Display -->
+
         <div id="totalQuestions" class="totalQuestions"></div>
     </div>
 
