@@ -17,6 +17,9 @@ function selectSubject(subject) {
         case "skj":
             questions = skj_questions;
             break;
+        case "rbd":
+            questions = rbd_questions;
+            break;
         default:
             console.error("Invalid subject selected");
             return;
