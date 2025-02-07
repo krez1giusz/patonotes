@@ -467,7 +467,7 @@ const rbd_questions = [
           },
           {
             "text": "klucz obcy",
-            "correct": 0
+            "correct": 1
           },
           {
             "text": "indeks w tabeli",
@@ -621,7 +621,7 @@ const rbd_questions = [
           },
           {
             "text": "związek jednoznaczny reprezentuje się przy pomocy klucza obcego",
-            "correct": 0
+            "correct": 1
           },
           {
             "text": "związek wieloznaczny reprezentuje się przy pomocy klucza obcego",
@@ -661,11 +661,11 @@ const rbd_questions = [
         "answers": [
           {
             "text": "klucz obcy nie może być częścią klucza głównego",
-            "correct": 1
+            "correct": 0
           },
           {
             "text": "klucz główny nie może być częścią klucza obcego",
-            "correct": 1
+            "correct": 0
           },
           {
             "text": "wartości klucza głównego nie mogą się powtarzać",
@@ -1130,12 +1130,12 @@ const rbd_questions = [
             "correct": 0
           },
           {
-            "text": "Studenci(id_studenta, imię, nazwisko, adres)\nPomysły(id_pomysłu, rzecz, opis, id_studenta)\nKoledzy(id_pomysłu, id_kolegi)",
-            "correct": 0
+            "text": "Studenci(id_studenta, imię, nazwisko, adres)\nPomysły(id_pomysłu, rzecz, opis, id_studenta)\nKoledzy(id_kolegi, imię, nazwisko, id_studenta, id_pomysłu)",
+            "correct": 1
           },
           {
             "text": "Studenci(id_studenta, imię, nazwisko, adres)\nPomysły(id_pomysłu, rzecz, opis, id_studenta, id_kolegi)",
-            "correct": 1
+            "correct": 0
           }
         ]
       },
@@ -2105,11 +2105,11 @@ const rbd_questions = [
             "correct": 1
           },
           {
-            "text": "II postaci normalnej",
+            "text": "II postać normalna",
             "correct": 0
           },
           {
-            "text": "I postaci normalnej",
+            "text": "I postać normalna",
             "correct": 0
           },
           {
