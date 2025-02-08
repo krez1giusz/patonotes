@@ -280,3 +280,117 @@ input[type="checkbox"] {
         padding: 15px;
     }
 }
+
+
+
+.flashcard, .flashcard-test {
+    border: 1px dashed #03A062;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .flashcard-question, .flashcard-test-question {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .flashcard-answer, .flashcard-test-answer {
+    font-size: 18px;
+    margin-bottom: 10px;
+    white-space: pre-line;
+  }
+
+
+
+  /* ===============================
+   Style dla kontenera trybu BULLET
+   =============================== */
+#bulletQuestionContainer {
+    width: 45%;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9); /* ciemniejsze tło */
+    border-radius: 10px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(3, 160, 98, 0.5);
+  }
+  
+  /* ===============================
+     Style dla fiszek (nauka i quiz)
+     =============================== */
+  .flashcard,
+  .flashcard-test {
+    border: 1px solid #03A062;  /* mocniejsza ramka */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1); /* lekko kontrastowe tło */
+  }
+  
+  /* ===============================
+     Style dla pytań
+     =============================== */
+  .flashcard-question,
+  .flashcard-test-question {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffffff; /* jasny tekst na ciemnym tle */
+    font-weight: bold;
+  }
+  
+  /* ===============================
+     Style dla odpowiedzi
+     =============================== */
+  .flashcard-answer,
+  .flashcard-test-answer {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #cccccc;  /* szary, ale czytelny kolor */
+    white-space: pre-line;
+  }
+  
+  /* ===============================
+     Style dla formularza i opcji quizowych
+     =============================== */
+  form label {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    display: inline-block;
+    color: #ffffff;
+  }
+  
+  form input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+  }
+  
+  /* ===============================
+     Uniwersalne style dla przycisków
+     =============================== */
+  button {
+    color: #ffffff;
+    background-color: #03A062;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    margin: 5px;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    background-color: #026d50;
+  }
+  
+  /* ===============================
+     Dodatkowe poprawki odstępów
+     =============================== */
+  #bulletQuestionContainer p {
+    line-height: 1.5;
+    margin: 0 0 10px;
+  }
+  
