@@ -172,7 +172,7 @@ input[type="checkbox"] {
     z-index: 20;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .controlPanel {
         width: 100%; 
@@ -253,5 +253,34 @@ input[type="checkbox"] {
         position: fixed;
         bottom: 10px;
         right: 10px;
+    }
+}
+
+
+/* Style dla sekcji trybu BULLET w panelu */
+.bulletModeControl {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dashed #03A062;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Opcjonalnie: dostosowanie kontenera dla pytania bullet */
+#bulletQuestionContainer {
+    width: 45%;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px dashed #03A062;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+/* W media queries możesz ewentualnie rozszerzyć style, aby lepiej wyglądały na mniejszych ekranach */
+@media only screen and (max-width: 800px) {
+    #bulletQuestionContainer {
+        width: 95%;
+        padding: 15px;
     }
 }

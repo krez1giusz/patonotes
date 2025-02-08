@@ -14,9 +14,10 @@
     <script src="skj_questions.js" defer></script>
     <script src="rbd_questions.js" defer></script>
     <script src="app.js" defer></script>
+    <script src="bullet.js" defer></script>
+
 </head>
 <body>
-
     <div id="toggleControlPanel" class="toggleButton">☰</div>
     
     <div class="controlPanel">
@@ -36,10 +37,22 @@
             <button class="subject" onclick="selectSubject('rbd')">RBD (2r)</button>
         </div>
 
-
         <div id="totalQuestions" class="totalQuestions"></div>
+        
+        <!-- Nowa sekcja dla trybu BULLET -->
+        <div class="bulletModeControl">
+            <p>TRYB BULLET</p>
+            <button onclick="startBulletMode()">START BULLET MODE</button>
+            <button onclick="stopBulletMode()">ZAKOŃCZ BULLET MODE</button>
+            <div id="bulletFeedback"></div>
+            <div id="learnedStats"></div>
+            <button onclick="resetLearnedQuestions()">RESET NAUCZONYCH PYTAŃ</button>
+        </div>
     </div>
 
+    <!-- Kontener dla pytań w trybie BULLET -->
+    <div id="bulletQuestionContainer"></div>
+    
     <footer>
         <div class="copyright">&copy; 2024 | Bartłomiej Seroka, Wojciech Budnik</div>
         <div class="check">
