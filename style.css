@@ -305,7 +305,7 @@ input[type="checkbox"] {
    Style dla kontenera trybu BULLET
    =============================== */
 #bulletQuestionContainer {
-    width: 45%;
+    width: 80%;
     margin: 20px auto;
     padding: 20px;
     background: rgba(0, 0, 0, 0.9); /* ciemniejsze tło */

@@ -16,7 +16,7 @@ let totalTestQuestions = 0;
 // Dla przykładu – poniżej przykładowe dane (możesz zastąpić je zawartością z flashcards.json):
 let lectureFlashcards = [];
 
-lectureFlashcards = flash_cards
+
   
 /**
  * Czyści zawartość kontenera (element o id "bulletQuestionContainer")
@@ -38,6 +38,14 @@ function startBulletMode() {
   }
   bulletModeActive = true;
   clearBulletContainer();
+  
+  switch(selectedSubject){
+    case "skj":
+      lectureFlashcards = flash_cards_skj
+    case "rbd":
+      lectureFlashcards = flash_cards_rbd
+  }
+
   
   // Pobierz liczbę fiszek wpisaną przez użytkownika
   let numFlashcards = parseInt(document.getElementById("questionamount").value, 10);
