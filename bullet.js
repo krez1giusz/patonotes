@@ -1,26 +1,15 @@
-/***********************************
- * Zmodyfikowany kod trybu BULLET
- * (wersja z quizem wielokrotnego wyboru)
- ***********************************/
 
-// Globalne zmienne dla trybu nauki i testu
 let bulletModeActive = false;
-let learningFlashcards = [];  // Fiszki wybrane do nauki (ładowane z JSON lub osadzone)
-let testFlashcards = [];      // Pula fiszek do testu (losowo wybrana z nauki – połowa)
+let learningFlashcards = [];  
+let testFlashcards = [];     
 let currentTestIndex = 0;
 let testScore = 0;
 let totalTestQuestions = 0;
 
-// Załóżmy, że fiszki ładujesz z pliku JSON lub masz je w zmiennej globalnej.
-// Możesz np. wczytać plik JSON przy użyciu fetch(), lub osadzić je tutaj.
-// Dla przykładu – poniżej przykładowe dane (możesz zastąpić je zawartością z flashcards.json):
 let lectureFlashcards = [];
 
 
-  
-/**
- * Czyści zawartość kontenera (element o id "bulletQuestionContainer")
- */
+
 function clearBulletContainer() {
   const container = document.getElementById("bulletQuestionContainer");
   if (container) {
@@ -28,9 +17,7 @@ function clearBulletContainer() {
   }
 }
 
-/**
- * Faza nauki: użytkownik wpisuje liczbę fiszek i przegląda je.
- */
+
 function startBulletMode() {
   if (!selectedSubject) {
     alert("Najpierw wybierz przedmiot!");
@@ -47,7 +34,7 @@ function startBulletMode() {
   }
 
   
-  // Pobierz liczbę fiszek wpisaną przez użytkownika
+
   let numFlashcards = parseInt(document.getElementById("questionamount").value, 10);
   if (!numFlashcards || numFlashcards < 1) {
     alert("Wprowadź prawidłową liczbę fiszek!");
@@ -58,18 +45,13 @@ function startBulletMode() {
     alert(`Maksymalna liczba dostępnych fiszek to ${lectureFlashcards.length}.`);
   }
   
-  // Wybieramy losowo fiszki z pełnej puli
   learningFlashcards = shuffleArray([...lectureFlashcards]).slice(0, numFlashcards);
   
-  // Wyświetlamy fiszki do nauki
+
   displayLearningFlashcards();
 }
 
-/**
- * Wyświetla wszystkie fiszki do nauki.
- * Każda fiszka pokazuje pytanie i przycisk "Pokaż odpowiedź".
- * Na końcu pojawia się przycisk "Nauka skończona", który przełącza do fazy testu.
- */
+
 function displayLearningFlashcards() {
   const container = document.getElementById("bulletQuestionContainer");
   container.innerHTML = "";
@@ -112,10 +94,8 @@ function displayLearningFlashcards() {
   container.appendChild(finishBtn);
 }
 
-/**
- * Faza testu – losowo wybieramy połowę z nauczonych fiszek.
- * Następnie dla każdego pytania generowany jest quiz wielokrotnego wyboru.
- */
+
+
 function startBulletTest() {
   if (learningFlashcards.length < 2) {
     alert("Za mało fiszek do przeprowadzenia testu.");
@@ -132,14 +112,10 @@ function startBulletTest() {
   loadBulletTestQuestion();
 }
 
-/**
- * Generuje opcje odpowiedzi dla danego pytania.
- * W tablicy opcji znajduje się poprawna odpowiedź oraz trzy losowo dobrane niepoprawne.
- */
 function generateOptions(card) {
   const correct = card.odpowiedz;
   let pool = [];
-  // Zbieramy odpowiedzi z pełnej puli, pomijając poprawną
+
   lectureFlashcards.forEach(c => {
     if (c.odpowiedz !== correct) {
       pool.push(c.odpowiedz);
@@ -147,7 +123,7 @@ function generateOptions(card) {
   });
   pool = shuffleArray([...pool]);
   let distractors = pool.slice(0, 3);
-  // Jeśli nie ma wystarczająco, uzupełniamy przykładowymi tekstami
+
   while (distractors.length < 3) {
     distractors.push("Niepoprawna odpowiedź " + (distractors.length + 1));
   }
@@ -156,15 +132,12 @@ function generateOptions(card) {
   return options;
 }
 
-/**
- * Wyświetla kolejne pytanie testowe w formie quizu wielokrotnego wyboru.
- */
+
 function loadBulletTestQuestion() {
   const container = document.getElementById("bulletQuestionContainer");
   container.innerHTML = "";
   
   if (currentTestIndex >= totalTestQuestions) {
-    // Koniec testu – wyświetl wynik
     const resultEl = document.createElement("p");
     resultEl.innerText = `Test zakończony: ${testScore} poprawnych odpowiedzi na ${totalTestQuestions} pytań.`;
     container.appendChild(resultEl);
@@ -185,10 +158,8 @@ function loadBulletTestQuestion() {
   questionEl.innerText = `${currentTestIndex + 1}. ${card.pytanie}`;
   container.appendChild(questionEl);
   
-  // Wygeneruj opcje odpowiedzi
   const options = generateOptions(card);
   
-  // Utwórz formularz z radiobuttonami
   const form = document.createElement("form");
   options.forEach((option, idx) => {
     const label = document.createElement("label");
@@ -221,7 +192,6 @@ function loadBulletTestQuestion() {
     }
     container.appendChild(feedback);
     
-    // Blokujemy formularz
     form.querySelectorAll("input[name='option']").forEach(radio => radio.disabled = true);
     checkBtn.disabled = true;
     
